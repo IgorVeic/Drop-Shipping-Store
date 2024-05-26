@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Sony",
+    "name": "Sony WH-1000XM4",
+    "description": "Wireless noise-canceling over-ear headphones.",
+    "img": "./images/headphones/headphones-1.jpg",
+    "specifications": {
+      "dimensions": "196 x 174 x 78 mm",
+      "weight": "254g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "4 Hz-40 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+    },
+    "price": "349",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "2",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Bose",
+    "name": "Bose QuietComfort 35 II",
+    "description": "Wireless noise-canceling over-ear headphones with Alexa voice control.",
+    "img": "./images/headphones/headphones-2.jpg",
+    "specifications": {
+      "dimensions": "180 x 170 x 81 mm",
+      "weight": "235g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "10 Hz-22 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "20 hours",
+      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+    },
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "3",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Sennheiser",
+    "name": "Sennheiser HD 660 S",
+    "description": "High-end open-back headphones for audiophiles.",
+    "img": "./images/headphones/headphones-3.jpg",
+    "specifications": {
+      "dimensions": "260 x 215 x 110 mm",
+      "weight": "260g",
+      "cableLength": "3m",
+      "interface": "3.5mm",
+      "frequencyResponse": "10 Hz-41 kHz",
+      "type": "Over-Ear",
+      "impedance": "150 ohms",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "499",
+    "warranty": "24 months",
+    "availability": 8
+  },
+  {
+    "id": "4",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Audio-Technica",
+    "name": "Audio-Technica ATH-M50x",
+    "description": "Professional studio monitor headphones.",
+    "img": "./images/headphones/headphones-4.jpg",
+    "specifications": {
+      "dimensions": "290 x 250 x 100 mm",
+      "weight": "285g",
+      "cableLength": "1.2m, 3m, 3m (detachable)",
+      "interface": "3.5mm",
+      "frequencyResponse": "15 Hz-28 kHz",
+      "type": "Over-Ear",
+      "impedance": "38 ohms",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "149",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "5",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Beats",
+    "name": "Beats Solo3 Wireless",
+    "description": "On-ear headphones with Apple W1 chip and 40 hours of listening time.",
+    "img": "./images/headphones/headphones-5.jpg",
+    "specifications": {
+      "dimensions": "198 x 215 x 44 mm",
+      "weight": "215g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "On-Ear",
+      "batteryLife": "40 hours",
+      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "6",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Jabra",
+    "name": "Jabra Elite 85h",
+    "description": "Wireless noise-canceling headphones with SmartSound.",
+    "img": "./images/headphones/headphones-6.jpg",
+    "specifications": {
+      "dimensions": "195 x 82 x 225 mm",
+      "weight": "296g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "10 Hz-20 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "36 hours",
+      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+    },
+    "price": "249",
+    "warranty": "24 months",
+    "availability": 18
+  },
+  {
+    "id": "7",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "AKG",
+    "name": "AKG K240 Studio",
+    "description": "Semi-open studio headphones for professional use.",
+    "img": "./images/headphones/headphones-7.jpg",
+    "specifications": {
+      "dimensions": "190 x 175 x 95 mm",
+      "weight": "240g",
+      "cableLength": "3m",
+      "interface": "3.5mm",
+      "frequencyResponse": "15 Hz-25 kHz",
+      "type": "Over-Ear",
+      "impedance": "55 ohms",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "79",
+    "warranty": "12 months",
+    "availability": 25
+  },
+  {
+    "id": "8",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic DT 770 PRO",
+    "description": "Closed-back studio headphones for professional mixing, mastering, and monitoring.",
+    "img": "./images/headphones/headphones-8.jpg",
+    "specifications": {
+      "dimensions": "220 x 180 x 100 mm",
+      "weight": "270g",
+      "cableLength": "3m",
+      "interface": "3.5mm",
+      "frequencyResponse": "5 Hz-35 kHz",
+      "type": "Over-Ear",
+      "impedance": "250 ohms",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "159",
+    "warranty": "24 months",
+    "availability": 22
+  },
+  {
+    "id": "9",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Apple",
+    "name": "Apple AirPods Pro",
+    "description": "Active noise cancellation for immersive sound. Transparency mode for hearing the world around you.",
+    "img": "./images/headphones/headphones-9.jpg",
+    "specifications": {
+      "dimensions": "30.9 x 21.8 x 24 mm (each)",
+      "weight": "5.4g (each)",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "In-Ear",
+      "batteryLife": "4.5 hours (24 hours with charging case)",
+      "systemRequirements": ["iOS", "macOS", "Windows 10"]
+    },
+    "price": "249",
+    "warranty": "12 months",
+    "availability": 30
+  },
+  {
+    "id": "10",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Sennheiser",
+    "name": "Sennheiser Momentum True Wireless 2",
+    "description": "In-ear wireless earbuds with active noise cancellation.",
+    "img": "./images/headphones/headphones-10.jpg",
+    "specifications": {
+      "dimensions": "76.8 x 43.8 x 34.7 mm (charging case)",
+      "weight": "70g (total)",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "frequencyResponse": "5 Hz-21 kHz",
+      "type": "In-Ear",
+      "batteryLife": "7 hours (28 hours with charging case)",
+      "systemRequirements": ["iOS", "macOS", "Windows 10", "Android"]
+    },
+    "price": "299",
+    "warranty": "24 months",
+    "availability": 12
+  }
+]

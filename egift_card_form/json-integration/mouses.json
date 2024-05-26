@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Logitech",
+    "name": "Logitech MX Master 3",
+    "description": "Advanced wireless mouse with ergonomic design.",
+    "img": "./images/mouses/mouse-1.jpg",
+    "specifications": {
+      "dimensions": "124.9 x 84.3 x 51 mm",
+      "weight": "141g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/USB",
+      "dpi": "4000",
+      "type": "Wireless",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "2",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Razer",
+    "name": "Razer DeathAdder V2",
+    "description": "High-precision wired gaming mouse.",
+    "img": "./images/mouses/mouse-2.jpg",
+    "specifications": {
+      "dimensions": "127 x 61.7 x 42.7 mm",
+      "weight": "82g",
+      "cableLength": "2.1m",
+      "interface": "USB",
+      "dpi": "20000",
+      "type": "Wired",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "69",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "3",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Corsair",
+    "name": "Corsair Dark Core RGB Pro",
+    "description": "Wireless gaming mouse with customizable RGB lighting.",
+    "img": "./images/mouses/mouse-3.jpg",
+    "specifications": {
+      "dimensions": "127 x 89 x 43 mm",
+      "weight": "133g",
+      "cableLength": "1.8m",
+      "interface": "Bluetooth/USB",
+      "dpi": "18000",
+      "type": "Wireless",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "89",
+    "warranty": "12 months",
+    "availability": 8
+  },
+  {
+    "id": "4",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Rival 600",
+    "description": "Wired gaming mouse with dual sensor system.",
+    "img": "./images/mouses/mouse-4.jpg",
+    "specifications": {
+      "dimensions": "131 x 69 x 43 mm",
+      "weight": "96g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "dpi": "12000",
+      "type": "Wired",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "79",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "5",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Microsoft",
+    "name": "Microsoft Arc Mouse",
+    "description": "Slim and portable wireless mouse.",
+    "img": "./images/mouses/mouse-5.jpg",
+    "specifications": {
+      "dimensions": "131 x 55 x 14 mm",
+      "weight": "82g",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "dpi": "1000",
+      "type": "Wireless",
+      "systemRequirements": ["Windows 10"]
+    },
+    "price": "59",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "6",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "HP",
+    "name": "HP X500",
+    "description": "Affordable wired mouse with smooth tracking.",
+    "img": "./images/mouses/mouse-6.jpg",
+    "specifications": {
+      "dimensions": "115 x 63 x 36 mm",
+      "weight": "80g",
+      "cableLength": "1.5m",
+      "interface": "USB",
+      "dpi": "1000",
+      "type": "Wired",
+      "systemRequirements": ["Windows 10", "Windows 8"]
+    },
+    "price": "12",
+    "warranty": "12 months",
+    "availability": 25
+  },
+  {
+    "id": "7",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Logitech",
+    "name": "Logitech M185",
+    "description": "Compact and reliable wireless mouse.",
+    "img": "./images/mouses/mouse-7.jpg",
+    "specifications": {
+      "dimensions": "99 x 60 x 39 mm",
+      "weight": "75.2g",
+      "cableLength": "0m",
+      "interface": "USB",
+      "dpi": "1000",
+      "type": "Wireless",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "15",
+    "warranty": "12 months",
+    "availability": 30
+  },
+  {
+    "id": "8",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Dell",
+    "name": "Dell WM126",
+    "description": "Compact wireless mouse with long battery life.",
+    "img": "./images/mouses/mouse-8.jpg",
+    "specifications": {
+      "dimensions": "58 x 37 x 103 mm",
+      "weight": "56.6g",
+      "cableLength": "0m",
+      "interface": "USB",
+      "dpi": "1000",
+      "type": "Wireless",
+      "systemRequirements": ["Windows 10", "Linux"]
+    },
+    "price": "25",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "9",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Lenovo",
+    "name": "Lenovo 300",
+    "description": "Affordable wired mouse with comfortable grip.",
+    "img": "./images/mouses/mouse-9.jpg",
+    "specifications": {
+      "dimensions": "111 x 62 x 31 mm",
+      "weight": "56g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "1600",
+      "type": "Wired",
+      "systemRequirements": ["Windows 10", "Linux"]
+    },
+    "price": "9",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "10",
+    "category": "Accessories",
+    "subcategory": "Mouse",
+    "brand": "Acer",
+    "name": "Acer OMR010",
+    "description": "Ergonomic wired mouse with high precision.",
+    "img": "./images/mouses/mouse-10.jpg",
+    "specifications": {
+      "dimensions": "112 x 62 x 35 mm",
+      "weight": "90g",
+      "cableLength": "1.5m",
+      "interface": "USB",
+      "dpi": "1200",
+      "type": "Wired",
+      "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "14",
+    "warranty": "12 months",
+    "availability": 22
+  }
+]

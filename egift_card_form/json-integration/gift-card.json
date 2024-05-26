@@ -1,0 +1,18 @@
+{
+  "id": "1",
+  "category": "eGift Cards",
+  "brand": "Qintronics",
+  "name": "Qintronics eGift Card",
+  "description": "Qintronics eGift Card that can be used to purchase millions of items.",
+  "message": "",
+  "img": "",
+  "specifications": {
+    "amount": "",
+    "currency": "",
+    "expiryDate": "",
+    "redeemableAt": ["Qintronics.com"]
+  },
+  "price": "",
+  "warranty": "N/A",
+  "availability": 100
+}
