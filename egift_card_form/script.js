@@ -87,14 +87,14 @@ inputs.forEach((input) => {
 
 // PREVIEW IMAGES
 function openPreview(previewDiv) {
-  var imageSrc = previewDiv.getAttribute("data-preview-src");
+  let imageSrc = previewDiv.getAttribute("data-preview-src");
 
   // Create a new div for the preview
-  var previewPopup = document.createElement("div");
+  let previewPopup = document.createElement("div");
   previewPopup.className = "preview-popup";
 
   // Create an img element for the preview image
-  var previewImg = document.createElement("img");
+  let previewImg = document.createElement("img");
   previewImg.src = imageSrc;
   previewPopup.appendChild(previewImg);
 
@@ -106,3 +106,34 @@ function openPreview(previewDiv) {
     document.body.removeChild(previewPopup);
   });
 }
+
+// SELECT BUTTONS
+document.querySelectorAll(".select-btn").forEach(function (button) {
+  button.addEventListener("click", function () {
+    // Reset all buttons
+    document.querySelectorAll(".select-btn").forEach(function (btn) {
+      btn.classList.remove("selected");
+    });
+
+    // Style the clicked button
+    this.classList.add("selected");
+  });
+});
+
+// INPUT FIELDS NAME AND RECIPIENT NAME
+document.querySelectorAll(".form-group input").forEach(function (input) {
+  input.addEventListener("focus", function () {
+    this.nextElementSibling.textContent = this.placeholder;
+    this.placeholder =
+      this.id === "from"
+        ? "Please enter your name"
+        : "Please enter the recipient's name";
+  });
+
+  input.addEventListener("blur", function () {
+    if (!this.value) {
+      this.placeholder = this.nextElementSibling.textContent;
+      this.nextElementSibling.textContent = "";
+    }
+  });
+});
