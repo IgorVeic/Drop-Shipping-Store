@@ -1,0 +1,182 @@
+[
+    {
+        "id": "mp1",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Genesis",
+        "name": "Genesis Carbon 500 XL",
+        "description": "High-quality cloth mouse pad with optimized surface for tracking accuracy.",
+        "img": "./images/mouse-pads/mouse-pads-1.jpg",
+        "specifications": {
+            "dimensions": "450 x 400 x 3 mm",
+            "weight": "300g",
+            "material": "Cloth",
+            "features": ["Non-slip rubber base", "Durable"]
+        },
+        "price": "19",
+        "warranty": "12 months",
+        "availability": 100
+    },
+    {
+        "id": "mp2",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Razer",
+        "name": "Razer Goliathus Chroma",
+        "description": "Soft gaming mouse pad with RGB lighting and micro-textured cloth surface.",
+        "img": "./images/mouse-pads/mouse-pads-2.jpg",
+        "specifications": {
+            "dimensions": "255 x 355 x 3 mm",
+            "weight": "230g",
+            "material": "Cloth",
+            "features": ["RGB lighting", "Non-slip rubber base"]
+        },
+        "price": "39",
+        "warranty": "24 months",
+        "availability": 75
+    },
+    {
+        "id": "mp3",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Sharkoon",
+        "name": "Sharkoon 1337 RGB",
+        "description": "RGB gaming mouse pad with a smooth surface and customizable lighting.",
+        "img": "./images/mouse-pads/mouse-pads-3.jpg",
+        "specifications": {
+            "dimensions": "355 x 255 x 3 mm",
+            "weight": "260g",
+            "material": "Cloth",
+            "features": ["RGB lighting", "Non-slip rubber base"]
+        },
+        "price": "29",
+        "warranty": "12 months",
+        "availability": 50
+    },
+    {
+        "id": "mp4",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Gaming MP-GAMEPRO",
+        "name": "Gaming MP-GAMEPRO XL",
+        "description": "Extended gaming mouse pad with smooth cloth surface and anti-fray edges.",
+        "img": "./images/mouse-pads/mouse-pads-4.jpg",
+        "specifications": {
+            "dimensions": "900 x 400 x 4 mm",
+            "weight": "400g",
+            "material": "Cloth",
+            "features": ["Anti-fray stitching", "Non-slip rubber base"]
+        },
+        "price": "25",
+        "warranty": "24 months",
+        "availability": 80
+    },
+    {
+        "id": "mp5",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "SteelSeries",
+        "name": "SteelSeries QcK",
+        "description": "High-quality cloth mouse pad with optimized surface for tracking accuracy.",
+        "img": "./images/mouse-pads/mouse-pads-5.jpg",
+        "specifications": {
+            "dimensions": "320 x 270 x 2 mm",
+            "weight": "170g",
+            "material": "Cloth",
+            "features": ["Non-slip rubber base", "Durable"]
+        },
+        "price": "15",
+        "warranty": "12 months",
+        "availability": 100
+    },
+    {
+        "id": "mp6",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Genesis",
+        "name": "Genesis M12 Maxi",
+        "description": "Large gaming mouse pad with a smooth cloth surface and anti-fray stitching.",
+        "img": "./images/mouse-pads/mouse-pads-6.jpg",
+        "specifications": {
+            "dimensions": "800 x 300 x 3 mm",
+            "weight": "450g",
+            "material": "Cloth",
+            "features": ["Anti-fray stitching", "Non-slip rubber base"]
+        },
+        "price": "18",
+        "warranty": "12 months",
+        "availability": 90
+    },
+    {
+        "id": "mp7",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Razer",
+        "name": "Razer Sphex V2",
+        "description": "Ultra-thin gaming mouse mat with polycarbonate surface for enhanced tracking.",
+        "img": "./images/mouse-pads/mouse-pads-7.jpg",
+        "specifications": {
+            "dimensions": "270 x 215 x 0.5 mm",
+            "weight": "51g",
+            "material": "Polycarbonate",
+            "features": ["Ultra-thin", "Adhesive base"]
+        },
+        "price": "15",
+        "warranty": "24 months",
+        "availability": 60
+    },
+    {
+        "id": "mp8",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Sharkoon",
+        "name": "Sharkoon Skiller SGP1",
+        "description": "Large cloth gaming mouse pad with stitched edges and non-slip rubber base.",
+        "img": "./images/mouse-pads/mouse-pads-8.jpg",
+        "specifications": {
+            "dimensions": "900 x 400 x 3 mm",
+            "weight": "500g",
+            "material": "Cloth",
+            "features": ["Stitched edges", "Non-slip rubber base"]
+        },
+        "price": "22",
+        "warranty": "12 months",
+        "availability": 70
+    },
+    {
+        "id": "mp9",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "Gaming MP-GAMEPRO",
+        "name": "Gaming MP-GAMEPRO XXL",
+        "description": "Extra-large gaming mouse pad with smooth surface and anti-fray stitching.",
+        "img": "./images/mouse-pads/mouse-pads-9.jpg",
+        "specifications": {
+            "dimensions": "1000 x 500 x 3 mm",
+            "weight": "700g",
+            "material": "Cloth",
+            "features": ["Anti-fray stitching", "Non-slip rubber base"]
+        },
+        "price": "35",
+        "warranty": "24 months",
+        "availability": 40
+    },
+    {
+        "id": "mp10",
+        "category": "Accessories",
+        "subcategory": "Mouse Pads",
+        "brand": "SteelSeries",
+        "name": "SteelSeries QcK Prism",
+        "description": "Dual-surface RGB gaming mouse pad with customizable lighting.",
+        "img": "./images/mouse-pads/mouse-pads-10.jpg",
+        "specifications": {
+            "dimensions": "320 x 270 x 4 mm",
+            "weight": "300g",
+            "material": "Cloth/Hard",
+            "features": ["RGB lighting", "Dual-surface", "Non-slip rubber base"]
+        },
+        "price": "59",
+        "warranty": "12 months",
+        "availability": 55
+    }
+]

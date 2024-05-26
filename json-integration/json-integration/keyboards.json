@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "key1",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Logitech",
@@ -21,7 +21,7 @@
     "availability": 10
   },
   {
-    "id": "2",
+    "id": "key2",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Razer",
@@ -42,7 +42,7 @@
     "availability": 15
   },
   {
-    "id": "3",
+    "id": "key3",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Corsair",
@@ -63,7 +63,7 @@
     "availability": 8
   },
   {
-    "id": "4",
+    "id": "key4",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "SteelSeries",
@@ -84,7 +84,7 @@
     "availability": 12
   },
   {
-    "id": "5",
+    "id": "key5",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Microsoft",
@@ -105,7 +105,7 @@
     "availability": 20
   },
   {
-    "id": "6",
+    "id": "key6",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "HP",
@@ -126,7 +126,7 @@
     "availability": 25
   },
   {
-    "id": "7",
+    "id": "key7",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Logitech",
@@ -147,7 +147,7 @@
     "availability": 30
   },
   {
-    "id": "8",
+    "id": "key8",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Dell",
@@ -168,7 +168,7 @@
     "availability": 18
   },
   {
-    "id": "9",
+    "id": "key9",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Lenovo",
@@ -189,7 +189,7 @@
     "availability": 20
   },
   {
-    "id": "10",
+    "id": "key10",
     "category": "Accessories",
     "subcategory": "Keyboard",
     "brand": "Acer",

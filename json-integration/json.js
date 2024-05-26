@@ -3,6 +3,8 @@ const containerKeyboards = document.getElementById("containerKeyboards");
 const containerMicrophones = document.getElementById("containerMicrophones");
 const containerGraphicCards = document.getElementById("containerGraphicCards");
 const containerHeadphones = document.getElementById("containerHeadphones");
+const containerWebCameras = document.getElementById("containerWebCameras");
+const containerMousePads = document.getElementById("containerMousePads");
 
 async function fetchData(link) {
   const res = await fetch(link);
@@ -66,8 +68,43 @@ async function handleMicrophonesData() {
   });
 }
 
+async function handleWebCamerasData() {
+  const webCameras = await fetchData("../json-integration/web-cameras.json");
+  webCameras.forEach((webCamera) => {
+    containerWebCameras.innerHTML += `
+        <div>
+          <p>${webCamera.name}</p>
+          <img src="${webCamera.img}" width="150" />
+        </div>`;
+  });
+}
+
+async function handleWebCamerasData() {
+  const webCameras = await fetchData("../json-integration/web-cameras.json");
+  webCameras.forEach((webCamera) => {
+    containerWebCameras.innerHTML += `
+        <div>
+          <p>${webCamera.name}</p>
+          <img src="${webCamera.img}" width="150" />
+        </div>`;
+  });
+}
+
+async function handleMousePadsData() {
+  const mousePads = await fetchData("../json-integration/mouse-pads.json");
+  mousePads.forEach((mousePad) => {
+    containerMousePads.innerHTML += `
+        <div>
+          <p>${mousePad.name}</p>
+          <img src="${mousePad.img}" width="150" />
+        </div>`;
+  });
+}
+
 handleGraphicCardsData();
 handleHeadphonesData();
 handleKeyboardsData();
 handleMousesData();
 handleMicrophonesData();
+handleWebCamerasData();
+handleMousePadsData();

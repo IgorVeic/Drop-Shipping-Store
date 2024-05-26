@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "gc1",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "NVIDIA",
@@ -22,7 +22,7 @@
     "availability": 10
   },
   {
-    "id": "2",
+    "id": "gc2",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "AMD",
@@ -44,7 +44,7 @@
     "availability": 8
   },
   {
-    "id": "3",
+    "id": "gc3",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "NVIDIA",
@@ -66,7 +66,7 @@
     "availability": 15
   },
   {
-    "id": "4",
+    "id": "gc4",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "AMD",
@@ -88,7 +88,7 @@
     "availability": 12
   },
   {
-    "id": "5",
+    "id": "gc5",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "NVIDIA",
@@ -110,7 +110,7 @@
     "availability": 5
   },
   {
-    "id": "6",
+    "id": "gc6",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "AMD",
@@ -132,7 +132,7 @@
     "availability": 18
   },
   {
-    "id": "7",
+    "id": "gc7",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "NVIDIA",
@@ -154,7 +154,7 @@
     "availability": 25
   },
   {
-    "id": "8",
+    "id": "gc8",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "AMD",
@@ -176,7 +176,7 @@
     "availability": 20
   },
   {
-    "id": "9",
+    "id": "gc9",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "NVIDIA",
@@ -198,7 +198,7 @@
     "availability": 12
   },
   {
-    "id": "10",
+    "id": "gc10",
     "category": "Accessories",
     "subcategory": "Graphic Cards",
     "brand": "AMD",
