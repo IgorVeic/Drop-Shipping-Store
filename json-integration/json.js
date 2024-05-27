@@ -5,6 +5,7 @@ const containerGraphicCards = document.getElementById("containerGraphicCards");
 const containerHeadphones = document.getElementById("containerHeadphones");
 const containerWebCameras = document.getElementById("containerWebCameras");
 const containerMousePads = document.getElementById("containerMousePads");
+const containerGamingChairs = document.getElementById("containerGamingChairs");
 
 async function fetchData(link) {
   const res = await fetch(link);
@@ -101,6 +102,19 @@ async function handleMousePadsData() {
   });
 }
 
+async function handleGamingChairsData() {
+  const gamingChairs = await fetchData(
+    "../json-integration/gaming-chairs.json"
+  );
+  gamingChairs.forEach((gamingChair) => {
+    containerGamingChairs.innerHTML += `
+        <div>
+          <p>${gamingChair.name}</p>
+          <img src="${gamingChair.img}" width="150" />
+        </div>`;
+  });
+}
+
 handleGraphicCardsData();
 handleHeadphonesData();
 handleKeyboardsData();
@@ -108,3 +122,4 @@ handleMousesData();
 handleMicrophonesData();
 handleWebCamerasData();
 handleMousePadsData();
+handleGamingChairsData();
