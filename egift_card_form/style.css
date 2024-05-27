@@ -1,6 +1,8 @@
 /* Set the font for the entire document */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Averia Serif Libre", serif;
 }
 
 /* Style the h1 elements */
@@ -388,18 +390,20 @@ button[type="submit"]:hover {
 
 /* Steps for ordering eGift Card */
 .guide {
-  background-color: #cbedee;
+  background-color: #23b3b6;
   padding: 20px;
 }
 
 #title {
   margin-bottom: 70px;
+  color: white;
 }
 
 .steps {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  color: white;
 }
 
 .step {
