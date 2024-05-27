@@ -1,8 +1,8 @@
 /* Set the font for the entire document */
-@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
-  font-family: "Averia Serif Libre", serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /* Style the h1 elements */
@@ -17,7 +17,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 40%;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
