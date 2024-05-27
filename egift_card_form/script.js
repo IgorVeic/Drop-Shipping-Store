@@ -137,3 +137,19 @@ document.querySelectorAll(".form-group input").forEach(function (input) {
     }
   });
 });
+
+// SELECT A CARD BEFORE YOU SUBMIT THE FORM
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  // Check if a card is selected
+  const selectedCard = document.querySelector(".selected");
+
+  if (!selectedCard) {
+    // Prevent form from submitting
+    e.preventDefault();
+
+    // Alert the user
+    alert("Please select a card before submitting the form.");
+  }
+});

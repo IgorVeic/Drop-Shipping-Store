@@ -17,7 +17,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  max-width: 40%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -76,7 +76,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  border-color: #102e62; /* Change border color when selected */
+  border-color: #000; /* Change border color when selected */
 }
 
 input[type="radio"]:checked:after {
@@ -87,7 +87,7 @@ input[type="radio"]:checked:after {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #102e62;
+  background-color: #23b3b6;
   transform: translate(-50%, -50%);
 }
 
@@ -96,7 +96,7 @@ button[type="submit"] {
   margin-top: 20px;
   padding: 10px 20px;
   border: none;
-  background-color: #df6954;
+  background-color: #102e62;
   color: white;
   cursor: pointer;
   border-radius: 2px;
@@ -109,8 +109,8 @@ button[type="submit"] {
 /* Change the style of the submit button on hover */
 button[type="submit"]:hover {
   background-color: transparent;
-  color: #df6954;
-  border: 1px solid #df6954;
+  color: #102e62;
+  border: 1px solid #102e62;
 }
 /* Style the email inputs container */
 .email-inputs {
@@ -330,15 +330,15 @@ button[type="submit"]:hover {
 }
 
 .card.selected {
-  outline: 2px solid #df6954;
+  outline: 2px solid #102e62;
   outline-offset: 10px; /* Adjust this value to change the space around the card */
   margin: 15px; /* Increase margin when card is selected */
 }
 
 .select-btn {
   background-color: transparent;
-  color: #df6954;
-  border: 1px solid #df6954;
+  color: #102e62;
+  border: 1px solid #102e62;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
@@ -348,12 +348,12 @@ button[type="submit"]:hover {
 }
 
 .select-btn.selected {
-  background-color: #df6954;
+  background-color: #102e62;
   color: white;
 }
 
 .select-btn:hover {
-  background-color: #df6954;
+  background-color: #102e62;
   color: white;
 }
 
