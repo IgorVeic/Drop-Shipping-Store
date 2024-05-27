@@ -15,7 +15,12 @@
       "frequencyResponse": "4 Hz-40 kHz",
       "type": "Over-Ear",
       "batteryLife": "30 hours",
-      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
     },
     "price": "349",
     "warranty": "12 months",
@@ -37,7 +42,12 @@
       "frequencyResponse": "10 Hz-22 kHz",
       "type": "Over-Ear",
       "batteryLife": "20 hours",
-      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
     },
     "price": "299",
     "warranty": "12 months",
@@ -59,7 +69,10 @@
       "frequencyResponse": "10 Hz-41 kHz",
       "type": "Over-Ear",
       "impedance": "150 ohms",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "499",
     "warranty": "24 months",
@@ -81,7 +94,10 @@
       "frequencyResponse": "15 Hz-28 kHz",
       "type": "Over-Ear",
       "impedance": "38 ohms",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "149",
     "warranty": "12 months",
@@ -103,7 +119,12 @@
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "On-Ear",
       "batteryLife": "40 hours",
-      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
     },
     "price": "199",
     "warranty": "12 months",
@@ -125,7 +146,12 @@
       "frequencyResponse": "10 Hz-20 kHz",
       "type": "Over-Ear",
       "batteryLife": "36 hours",
-      "systemRequirements": ["Windows 10", "macOS", "iOS", "Android"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
     },
     "price": "249",
     "warranty": "24 months",
@@ -147,7 +173,10 @@
       "frequencyResponse": "15 Hz-25 kHz",
       "type": "Over-Ear",
       "impedance": "55 ohms",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
@@ -169,7 +198,10 @@
       "frequencyResponse": "5 Hz-35 kHz",
       "type": "Over-Ear",
       "impedance": "250 ohms",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "159",
     "warranty": "24 months",
@@ -191,7 +223,11 @@
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "In-Ear",
       "batteryLife": "4.5 hours (24 hours with charging case)",
-      "systemRequirements": ["iOS", "macOS", "Windows 10"]
+      "systemRequirements": [
+        "iOS",
+        "macOS",
+        "Windows 10"
+      ]
     },
     "price": "249",
     "warranty": "12 months",
@@ -213,10 +249,283 @@
       "frequencyResponse": "5 Hz-21 kHz",
       "type": "In-Ear",
       "batteryLife": "7 hours (28 hours with charging case)",
-      "systemRequirements": ["iOS", "macOS", "Windows 10", "Android"]
+      "systemRequirements": [
+        "iOS",
+        "macOS",
+        "Windows 10",
+        "Android"
+      ]
     },
     "price": "299",
     "warranty": "24 months",
     "availability": 12
+  },
+  {
+    "id": "hp11",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Sony",
+    "name": "Sony WH-CH710N",
+    "description": "Wireless noise-canceling over-ear headphones.",
+    "img": "./images/headphones/headphones-11.jpg",
+    "specifications": {
+      "dimensions": "220 x 170 x 60 mm",
+      "weight": "223g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "7 Hz-20 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "35 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "hp12",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Bose",
+    "name": "Bose SoundSport Free",
+    "description": "True wireless in-ear headphones for an active lifestyle.",
+    "img": "./images/headphones/headphones-12.jpg",
+    "specifications": {
+      "dimensions": "37 x 25 x 30 mm (each)",
+      "weight": "14g (each)",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "frequencyResponse": "10 Hz-20 kHz",
+      "type": "In-Ear",
+      "batteryLife": "5 hours (10 hours with charging case)",
+      "systemRequirements": [
+        "iOS",
+        "macOS",
+        "Windows 10",
+        "Android"
+      ]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 25
+  },
+  {
+    "id": "hp13",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "JBL",
+    "name": "JBL Live 650BTNC",
+    "description": "Wireless over-ear headphones with noise-canceling technology.",
+    "img": "./images/headphones/headphones-13.jpg",
+    "specifications": {
+      "dimensions": "200 x 175 x 78 mm",
+      "weight": "260g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "hp14",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Sennheiser",
+    "name": "Sennheiser PXC 550-II",
+    "description": "Wireless noise-canceling headphones with touch-sensitive control.",
+    "img": "./images/headphones/headphones-14.jpg",
+    "specifications": {
+      "dimensions": "190 x 170 x 50 mm",
+      "weight": "227g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "17 Hz-23 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "349",
+    "warranty": "24 months",
+    "availability": 14
+  },
+  {
+    "id": "hp15",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic Amiron Wireless",
+    "description": "High-end wireless over-ear headphones with Tesla technology.",
+    "img": "./images/headphones/headphones-15.jpg",
+    "specifications": {
+      "dimensions": "200 x 180 x 70 mm",
+      "weight": "380g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "5 Hz-40 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "699",
+    "warranty": "24 months",
+    "availability": 10
+  },
+  {
+    "id": "hp16",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Grado",
+    "name": "Grado SR80e",
+    "description": "Open-back on-ear headphones for high-fidelity sound.",
+    "img": "./images/headphones/headphones-16.jpg",
+    "specifications": {
+      "dimensions": "200 x 220 x 90 mm",
+      "weight": "240g",
+      "cableLength": "2m",
+      "interface": "3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "On-Ear",
+      "impedance": "32 ohms",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "hp17",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "AKG",
+    "name": "AKG N60NC Wireless",
+    "description": "Noise-canceling on-ear headphones with wireless connectivity.",
+    "img": "./images/headphones/headphones-17.jpg",
+    "specifications": {
+      "dimensions": "190 x 160 x 70 mm",
+      "weight": "199g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "10 Hz-22 kHz",
+      "type": "On-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "249",
+    "warranty": "12 months",
+    "availability": 16
+  },
+  {
+    "id": "hp18",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Plantronics",
+    "name": "Plantronics BackBeat Pro 2",
+    "description": "Wireless noise-canceling over-ear headphones with immersive audio.",
+    "img": "./images/headphones/headphones-18.jpg",
+    "specifications": {
+      "dimensions": "203 x 180 x 52 mm",
+      "weight": "289g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "24 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 22
+  },
+  {
+    "id": "hp19",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Marshall",
+    "name": "Marshall Major III",
+    "description": "On-ear Bluetooth headphones with classic Marshall design.",
+    "img": "./images/headphones/headphones-19.jpg",
+    "specifications": {
+      "dimensions": "160 x 160 x 70 mm",
+      "weight": "178g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "On-Ear",
+      "batteryLife": "30 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "149",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "hp20",
+    "category": "Accessories",
+    "subcategory": "Headphones",
+    "brand": "Skullcandy",
+    "name": "Skullcandy Crusher Wireless",
+    "description": "Over-ear headphones with adjustable bass and wireless connectivity.",
+    "img": "./images/headphones/headphones-20.jpg",
+    "specifications": {
+      "dimensions": "170 x 180 x 70 mm",
+      "weight": "275g",
+      "cableLength": "1.2m",
+      "interface": "Bluetooth/3.5mm",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Over-Ear",
+      "batteryLife": "40 hours",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "iOS",
+        "Android"
+      ]
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 18
   }
 ]

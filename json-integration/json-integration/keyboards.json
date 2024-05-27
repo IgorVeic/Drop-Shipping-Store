@@ -14,7 +14,10 @@
       "interface": "USB",
       "keys": 87,
       "type": "Mechanical",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "129",
     "warranty": "12 months",
@@ -35,7 +38,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Mechanical",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "139",
     "warranty": "12 months",
@@ -56,7 +62,10 @@
       "interface": "USB",
       "keys": 110,
       "type": "Mechanical",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "199",
     "warranty": "12 months",
@@ -77,7 +86,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Mechanical",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "199",
     "warranty": "12 months",
@@ -98,7 +110,9 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10"]
+      "systemRequirements": [
+        "Windows 10"
+      ]
     },
     "price": "59",
     "warranty": "12 months",
@@ -119,7 +133,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10", "Windows 8"]
+      "systemRequirements": [
+        "Windows 10",
+        "Windows 8"
+      ]
     },
     "price": "19",
     "warranty": "12 months",
@@ -140,7 +157,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "15",
     "warranty": "12 months",
@@ -161,7 +181,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10", "Linux"]
+      "systemRequirements": [
+        "Windows 10",
+        "Linux"
+      ]
     },
     "price": "25",
     "warranty": "12 months",
@@ -182,7 +205,10 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10", "Linux"]
+      "systemRequirements": [
+        "Windows 10",
+        "Linux"
+      ]
     },
     "price": "29",
     "warranty": "12 months",
@@ -203,9 +229,251 @@
       "interface": "USB",
       "keys": 104,
       "type": "Membrane",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "20",
+    "warranty": "12 months",
+    "availability": 22
+  },
+  {
+    "id": "key11",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Logitech",
+    "name": "Logitech G915 TKL",
+    "description": "Wireless mechanical gaming keyboard with low-profile switches.",
+    "img": "./images/keyboards/keyboard-11.jpg",
+    "specifications": {
+      "dimensions": "368 x 150 x 22 mm",
+      "weight": "810g",
+      "cableLength": "1.8m",
+      "interface": "USB/Bluetooth",
+      "keys": 87,
+      "type": "Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "229",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "key12",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Razer",
+    "name": "Razer Huntsman Mini",
+    "description": "60% mechanical gaming keyboard with RGB lighting.",
+    "img": "./images/keyboards/keyboard-12.jpg",
+    "specifications": {
+      "dimensions": "293 x 103 x 36 mm",
+      "weight": "506g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "keys": 61,
+      "type": "Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "119",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "key13",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Corsair",
+    "name": "Corsair K70 RGB MK.2",
+    "description": "Mechanical gaming keyboard with per-key RGB backlighting.",
+    "img": "./images/keyboards/keyboard-13.jpg",
+    "specifications": {
+      "dimensions": "438 x 166 x 40 mm",
+      "weight": "1250g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "keys": 104,
+      "type": "Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "159",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "key14",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Apex 5",
+    "description": "Hybrid mechanical gaming keyboard with RGB lighting.",
+    "img": "./images/keyboards/keyboard-14.jpg",
+    "specifications": {
+      "dimensions": "442 x 140 x 40 mm",
+      "weight": "930g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "keys": 104,
+      "type": "Hybrid Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "key15",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Microsoft",
+    "name": "Microsoft Surface Keyboard",
+    "description": "Slim and elegant wireless keyboard for Surface devices.",
+    "img": "./images/keyboards/keyboard-15.jpg",
+    "specifications": {
+      "dimensions": "420 x 112 x 19 mm",
+      "weight": "419g",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "keys": 104,
+      "type": "Membrane",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "key16",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "HP",
+    "name": "HP Omen Sequencer",
+    "description": "Mechanical gaming keyboard with optical switches.",
+    "img": "./images/keyboards/keyboard-16.jpg",
+    "specifications": {
+      "dimensions": "454 x 170 x 40 mm",
+      "weight": "1410g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "keys": 104,
+      "type": "Optical Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "179",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "key17",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Dell",
+    "name": "Dell Alienware Pro Gaming Keyboard",
+    "description": "Mechanical gaming keyboard with customizable lighting.",
+    "img": "./images/keyboards/keyboard-17.jpg",
+    "specifications": {
+      "dimensions": "467 x 156 x 36 mm",
+      "weight": "1460g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "keys": 104,
+      "type": "Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "159",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "key18",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Lenovo",
+    "name": "Lenovo ThinkPad TrackPoint Keyboard II",
+    "description": "Compact wireless keyboard with TrackPoint.",
+    "img": "./images/keyboards/keyboard-18.jpg",
+    "specifications": {
+      "dimensions": "305 x 164 x 13.7 mm",
+      "weight": "460g",
+      "cableLength": "0m",
+      "interface": "Bluetooth/USB",
+      "keys": 84,
+      "type": "Membrane",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "key19",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Acer",
+    "name": "Acer Predator Aethon 500",
+    "description": "Mechanical gaming keyboard with RGB backlighting.",
+    "img": "./images/keyboards/keyboard-19.jpg",
+    "specifications": {
+      "dimensions": "455 x 161 x 35 mm",
+      "weight": "1200g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "keys": 104,
+      "type": "Mechanical",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "139",
+    "warranty": "12 months",
+    "availability": 14
+  },
+  {
+    "id": "key20",
+    "category": "Accessories",
+    "subcategory": "Keyboard",
+    "brand": "Apple",
+    "name": "Apple Magic Keyboard",
+    "description": "Compact and lightweight wireless keyboard with scissor mechanism.",
+    "img": "./images/keyboards/keyboard-20.jpg",
+    "specifications": {
+      "dimensions": "279 x 114 x 11 mm",
+      "weight": "231g",
+      "cableLength": "0m",
+      "interface": "Bluetooth",
+      "keys": 78,
+      "type": "Scissor Mechanism",
+      "systemRequirements": [
+        "macOS"
+      ]
+    },
+    "price": "99",
     "warranty": "12 months",
     "availability": 22
   }

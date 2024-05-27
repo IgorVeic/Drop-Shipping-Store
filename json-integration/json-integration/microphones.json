@@ -208,5 +208,216 @@
     "price": "149",
     "warranty": "12 months",
     "availability": 18
-  }
+  },
+  {
+    "id": "mic11",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Neewer",
+    "name": "Neewer NW-700",
+    "description": "Professional studio broadcasting condenser microphone kit.",
+    "img": "./images/microphones/microphone-11.jpg",
+    "specifications": {
+        "dimensions": "150 x 45 x 45 mm",
+        "weight": "280g",
+        "cableLength": "3m",
+        "interface": "XLR",
+        "frequencyResponse": "20 Hz-16 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Audio Interface"]
+    },
+    "price": "45",
+    "warranty": "12 months",
+    "availability": 30
+},
+{
+    "id": "mic12",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Sennheiser",
+    "name": "Sennheiser e835",
+    "description": "Dynamic cardioid vocal microphone for performance and speech.",
+    "img": "./images/microphones/microphone-12.jpg",
+    "specifications": {
+        "dimensions": "48 x 180 mm",
+        "weight": "330g",
+        "cableLength": "3m",
+        "interface": "XLR",
+        "frequencyResponse": "40 Hz-16 kHz",
+        "type": "Dynamic",
+        "systemRequirements": ["Audio Interface"]
+    },
+    "price": "99",
+    "warranty": "24 months",
+    "availability": 25
+},
+{
+    "id": "mic13",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Beyerdynamic",
+    "name": "Beyerdynamic FOX",
+    "description": "Professional USB studio microphone for recording and streaming.",
+    "img": "./images/microphones/microphone-13.jpg",
+    "specifications": {
+        "dimensions": "190 x 56 x 56 mm",
+        "weight": "220g",
+        "cableLength": "2m",
+        "interface": "USB",
+        "frequencyResponse": "20 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "149",
+    "warranty": "24 months",
+    "availability": 20
+},
+{
+    "id": "mic14",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Turtle Beach",
+    "name": "Turtle Beach Stream Mic",
+    "description": "Universal digital USB microphone for streaming on PC and console.",
+    "img": "./images/microphones/microphone-14.jpg",
+    "specifications": {
+        "dimensions": "240 x 90 x 50 mm",
+        "weight": "420g",
+        "cableLength": "3m",
+        "interface": "USB",
+        "frequencyResponse": "20 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS", "PS4", "Xbox One"]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 25
+},
+{
+    "id": "mic15",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Razer",
+    "name": "Razer Seiren X",
+    "description": "Compact USB streaming microphone with supercardioid pickup pattern.",
+    "img": "./images/microphones/microphone-15.jpg",
+    "specifications": {
+        "dimensions": "184 x 50 x 50 mm",
+        "weight": "383g",
+        "cableLength": "1.8m",
+        "interface": "USB",
+        "frequencyResponse": "20 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 28
+},
+{
+    "id": "mic16",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Fifine",
+    "name": "Fifine K669B",
+    "description": "Affordable USB condenser microphone for recording and streaming.",
+    "img": "./images/microphones/microphone-16.jpg",
+    "specifications": {
+        "dimensions": "150 x 45 x 45 mm",
+        "weight": "400g",
+        "cableLength": "1.5m",
+        "interface": "USB",
+        "frequencyResponse": "20 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "59",
+    "warranty": "12 months",
+    "availability": 35
+},
+{
+    "id": "mic17",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Tonor",
+    "name": "Tonor TC-777",
+    "description": "USB condenser microphone kit for podcasting and streaming.",
+    "img": "./images/microphones/microphone-17.jpg",
+    "specifications": {
+        "dimensions": "155 x 50 x 50 mm",
+        "weight": "300g",
+        "cableLength": "1.5m",
+        "interface": "USB",
+        "frequencyResponse": "100 Hz-16 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "49",
+    "warranty": "12 months",
+    "availability": 40
+},
+{
+    "id": "mic18",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "MXL",
+    "name": "MXL 990",
+    "description": "Condenser microphone with vintage body style and modern performance.",
+    "img": "./images/microphones/microphone-18.jpg",
+    "specifications": {
+        "dimensions": "60 x 130 mm",
+        "weight": "544g",
+        "cableLength": "3m",
+        "interface": "XLR",
+        "frequencyResponse": "30 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Audio Interface"]
+    },
+    "price": "79",
+    "warranty": "12 months",
+    "availability": 22
+},
+{
+    "id": "mic19",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Heil",
+    "name": "Heil PR40",
+    "description": "Professional dynamic studio recording microphone.",
+    "img": "./images/microphones/microphone-19.jpg",
+    "specifications": {
+        "dimensions": "54 x 190 mm",
+        "weight": "384g",
+        "cableLength": "3m",
+        "interface": "XLR",
+        "frequencyResponse": "28 Hz-18 kHz",
+        "type": "Dynamic",
+        "systemRequirements": ["Audio Interface"]
+    },
+    "price": "329",
+    "warranty": "24 months",
+    "availability": 10
+},
+{
+    "id": "mic20",
+    "category": "Accessories",
+    "subcategory": "Microphones",
+    "brand": "Samson",
+    "name": "Samson Meteor Mic",
+    "description": "Portable USB studio microphone for computer-based recording.",
+    "img": "./images/microphones/microphone-20.jpg",
+    "specifications": {
+        "dimensions": "100 x 49 x 49 mm",
+        "weight": "263g",
+        "cableLength": "1m",
+        "interface": "USB",
+        "frequencyResponse": "20 Hz-20 kHz",
+        "type": "Condenser",
+        "systemRequirements": ["Windows 10", "macOS"]
+    },
+    "price": "69",
+    "warranty": "12 months",
+    "availability": 30
+}
+
 ]
