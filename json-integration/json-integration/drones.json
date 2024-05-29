@@ -1,0 +1,501 @@
+[
+  {
+    "id": "dron1",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Mavic Air 2",
+    "description": "Foldable drone with 48MP camera and 4K video recording.",
+    "img": "./images/drones/drone-1.jpg",
+    "specifications": {
+      "dimensions": "183 x 253 x 77 mm",
+      "weight": "570g",
+      "cameraResolution": "48 MP",
+      "videoResolution": "4K",
+      "flightTime": "34 minutes",
+      "range": "10 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "799",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "dron2",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Parrot",
+    "name": "Parrot Anafi",
+    "description": "Compact drone with 21MP camera and 4K HDR video recording.",
+    "img": "./images/drones/drone-2.jpg",
+    "specifications": {
+      "dimensions": "175 x 240 x 65 mm",
+      "weight": "320g",
+      "cameraResolution": "21 MP",
+      "videoResolution": "4K HDR",
+      "flightTime": "25 minutes",
+      "range": "4 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "699",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "dron3",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Autel Robotics",
+    "name": "Autel EVO II",
+    "description": "Foldable drone with 8K camera and 48MP stills.",
+    "img": "./images/drones/drone-3.jpg",
+    "specifications": {
+      "dimensions": "226 x 110 x 105 mm",
+      "weight": "1127g",
+      "cameraResolution": "48 MP",
+      "videoResolution": "8K",
+      "flightTime": "40 minutes",
+      "range": "9 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "1499",
+    "warranty": "12 months",
+    "availability": 7
+  },
+  {
+    "id": "dron4",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Phantom 4 Pro V2.0",
+    "description": "Professional drone with 20MP camera and 4K video recording.",
+    "img": "./images/drones/drone-4.jpg",
+    "specifications": {
+      "dimensions": "251 x 251 x 196 mm",
+      "weight": "1375g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "4K",
+      "flightTime": "30 minutes",
+      "range": "7 km",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi"
+      ]
+    },
+    "price": "1599",
+    "warranty": "24 months",
+    "availability": 5
+  },
+  {
+    "id": "dron5",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Yuneec",
+    "name": "Yuneec Typhoon H Pro",
+    "description": "Hexacopter drone with 12MP camera and 4K video recording.",
+    "img": "./images/drones/drone-5.jpg",
+    "specifications": {
+      "dimensions": "520 x 457 x 310 mm",
+      "weight": "1950g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "flightTime": "25 minutes",
+      "range": "1.6 km",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi"
+      ]
+    },
+    "price": "899",
+    "warranty": "12 months",
+    "availability": 8
+  },
+  {
+    "id": "dron6",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Mini 2",
+    "description": "Lightweight drone with 12MP camera and 4K video recording.",
+    "img": "./images/drones/drone-6.jpg",
+    "specifications": {
+      "dimensions": "159 x 203 x 56 mm",
+      "weight": "249g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "flightTime": "31 minutes",
+      "range": "10 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "449",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "dron7",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Hubsan",
+    "name": "Hubsan Zino Pro",
+    "description": "Affordable drone with 4K camera and 3-axis gimbal.",
+    "img": "./images/drones/drone-7.jpg",
+    "specifications": {
+      "dimensions": "304 x 252 x 90 mm",
+      "weight": "700g",
+      "cameraResolution": "4K",
+      "videoResolution": "4K",
+      "flightTime": "23 minutes",
+      "range": "4 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "399",
+    "warranty": "6 months",
+    "availability": 25
+  },
+  {
+    "id": "dron8",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Skydio",
+    "name": "Skydio 2",
+    "description": "Autonomous drone with 12MP camera and 4K HDR video recording.",
+    "img": "./images/drones/drone-8.jpg",
+    "specifications": {
+      "dimensions": "229 x 274 x 110 mm",
+      "weight": "775g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K HDR",
+      "flightTime": "23 minutes",
+      "range": "3.5 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "999",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "dron9",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Inspire 2",
+    "description": "Professional drone with 20.8MP camera and 5.2K video recording.",
+    "img": "./images/drones/drone-9.jpg",
+    "specifications": {
+      "dimensions": "605 x 605 x 404 mm",
+      "weight": "3440g",
+      "cameraResolution": "20.8 MP",
+      "videoResolution": "5.2K",
+      "flightTime": "27 minutes",
+      "range": "7 km",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi"
+      ]
+    },
+    "price": "2999",
+    "warranty": "24 months",
+    "availability": 3
+  },
+  {
+    "id": "dron10",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Parrot",
+    "name": "Parrot Bebop 2",
+    "description": "Compact drone with 14MP camera and Full HD video recording.",
+    "img": "./images/drones/drone-10.jpg",
+    "specifications": {
+      "dimensions": "328 x 382 x 89 mm",
+      "weight": "500g",
+      "cameraResolution": "14 MP",
+      "videoResolution": "1080p",
+      "flightTime": "25 minutes",
+      "range": "2 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "dron11",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Holy Stone",
+    "name": "Holy Stone HS720",
+    "description": "Foldable drone with 2K camera and GPS assisted flight.",
+    "img": "./images/drones/drone-11.jpg",
+    "specifications": {
+      "dimensions": "173 x 104 x 58 mm",
+      "weight": "460g",
+      "cameraResolution": "2K",
+      "videoResolution": "2K",
+      "flightTime": "26 minutes",
+      "range": "1 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "dron12",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Mavic 2 Pro",
+    "description": "High-end drone with 20MP Hasselblad camera and 4K video recording.",
+    "img": "./images/drones/drone-12.jpg",
+    "specifications": {
+      "dimensions": "214 x 91 x 84 mm",
+      "weight": "907g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "4K",
+      "flightTime": "31 minutes",
+      "range": "8 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "1499",
+    "warranty": "24 months",
+    "availability": 10
+  },
+  {
+    "id": "dron13",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Yuneec",
+    "name": "Yuneec Mantis Q",
+    "description": "Compact drone with 4K camera and voice control.",
+    "img": "./images/drones/drone-13.jpg",
+    "specifications": {
+      "dimensions": "250 x 195 x 60 mm",
+      "weight": "505g",
+      "cameraResolution": "4K",
+      "videoResolution": "4K",
+      "flightTime": "33 minutes",
+      "range": "1.5 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "499",
+    "warranty": "12 months",
+    "availability": 14
+  },
+  {
+    "id": "dron14",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Autel Robotics",
+    "name": "Autel X-Star Premium",
+    "description": "High-performance drone with 4K camera and 3-axis gimbal.",
+    "img": "./images/drones/drone-14.jpg",
+    "specifications": {
+      "dimensions": "352 x 352 x 198 mm",
+      "weight": "1496g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "flightTime": "25 minutes",
+      "range": "2 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "699",
+    "warranty": "12 months",
+    "availability": 9
+  },
+  {
+    "id": "dron15",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI Spark",
+    "description": "Mini drone with 12MP camera and Full HD video recording.",
+    "img": "./images/drones/drone-15.jpg",
+    "specifications": {
+      "dimensions": "143 x 143 x 55 mm",
+      "weight": "300g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "1080p",
+      "flightTime": "16 minutes",
+      "range": "2 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "399",
+    "warranty": "12 months",
+    "availability": 22
+  },
+  {
+    "id": "dron16",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Ryze Tech",
+    "name": "Ryze Tello",
+    "description": "Affordable drone with 5MP camera and HD video recording.",
+    "img": "./images/drones/drone-16.jpg",
+    "specifications": {
+      "dimensions": "98 x 92.5 x 41 mm",
+      "weight": "80g",
+      "cameraResolution": "5 MP",
+      "videoResolution": "720p",
+      "flightTime": "13 minutes",
+      "range": "100 m",
+      "interface": [
+        "USB",
+        "Wi-Fi"
+      ]
+    },
+    "price": "99",
+    "warranty": "6 months",
+    "availability": 30
+  },
+  {
+    "id": "dron17",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "PowerVision",
+    "name": "PowerVision PowerEgg X",
+    "description": "Versatile drone with 12MP camera and 4K video recording.",
+    "img": "./images/drones/drone-17.jpg",
+    "specifications": {
+      "dimensions": "165 x 100 x 100 mm",
+      "weight": "522g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "flightTime": "30 minutes",
+      "range": "6 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "899",
+    "warranty": "12 months",
+    "availability": 6
+  },
+  {
+    "id": "dron18",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Walkera",
+    "name": "Walkera Voyager 5",
+    "description": "Professional drone with 30x optical zoom and 4K video recording.",
+    "img": "./images/drones/drone-18.jpg",
+    "specifications": {
+      "dimensions": "465 x 465 x 440 mm",
+      "weight": "3500g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "4K",
+      "flightTime": "40 minutes",
+      "range": "5 km",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi"
+      ]
+    },
+    "price": "5499",
+    "warranty": "24 months",
+    "availability": 2
+  },
+  {
+    "id": "dron19",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "DJI",
+    "name": "DJI FPV Combo",
+    "description": "First-person view drone with 12MP camera and 4K video recording.",
+    "img": "./images/drones/drone-19.jpg",
+    "specifications": {
+      "dimensions": "255 x 312 x 127 mm",
+      "weight": "795g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "flightTime": "20 minutes",
+      "range": "6 km",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "1299",
+    "warranty": "12 months",
+    "availability": 8
+  },
+  {
+    "id": "dron20",
+    "category": "Photo, video and drones",
+    "subcategory": "Drones",
+    "brand": "Parrot",
+    "name": "Parrot Disco FPV",
+    "description": "Fixed-wing drone with 14MP camera and Full HD video recording.",
+    "img": "./images/drones/drone-20.jpg",
+    "specifications": {
+      "dimensions": "1150 x 580 x 120 mm",
+      "weight": "750g",
+      "cameraResolution": "14 MP",
+      "videoResolution": "1080p",
+      "flightTime": "45 minutes",
+      "range": "2 km",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ]
+    },
+    "price": "599",
+    "warranty": "12 months",
+    "availability": 12
+  }
+]

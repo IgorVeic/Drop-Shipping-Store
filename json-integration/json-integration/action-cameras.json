@@ -1,0 +1,498 @@
+[
+  {
+    "id": "act1",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "GoPro",
+    "name": "GoPro HERO9 Black",
+    "description": "Waterproof action camera with 20MP photos and 5K video recording.",
+    "img": "./images/action-cameras/act1.jpg",
+    "specifications": {
+      "dimensions": "71 x 55 x 33.6 mm",
+      "weight": "158g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "5K",
+      "batteryLife": "2 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "399",
+    "warranty": "12 months",
+    "availability": 15
+  },
+  {
+    "id": "act2",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "DJI",
+    "name": "DJI Osmo Action",
+    "description": "Action camera with 12MP photos and 4K HDR video recording.",
+    "img": "./images/action-cameras/act2.jpg",
+    "specifications": {
+      "dimensions": "65 x 42 x 35 mm",
+      "weight": "124g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K HDR",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "11 meters"
+    },
+    "price": "329",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "act3",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Sony",
+    "name": "Sony FDR-X3000",
+    "description": "Action camera with 8.2MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act3.jpg",
+    "specifications": {
+      "dimensions": "83 x 47 x 29.4 mm",
+      "weight": "114g",
+      "cameraResolution": "8.2 MP",
+      "videoResolution": "4K",
+      "batteryLife": "2.5 hours",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "60 meters with housing"
+    },
+    "price": "349",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "act4",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Insta360",
+    "name": "Insta360 ONE R",
+    "description": "Modular action camera with 19MP photos and 5.3K video recording.",
+    "img": "./images/action-cameras/act4.jpg",
+    "specifications": {
+      "dimensions": "72 x 48 x 32.4 mm",
+      "weight": "130g",
+      "cameraResolution": "19 MP",
+      "videoResolution": "5.3K",
+      "batteryLife": "1.2 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "5 meters"
+    },
+    "price": "449",
+    "warranty": "12 months",
+    "availability": 8
+  },
+  {
+    "id": "act5",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Akaso",
+    "name": "Akaso V50 Elite",
+    "description": "Budget action camera with 20MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act5.jpg",
+    "specifications": {
+      "dimensions": "60 x 41 x 32 mm",
+      "weight": "81g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB",
+        "Wi-Fi"
+      ],
+      "waterproofDepth": "30 meters with housing"
+    },
+    "price": "139",
+    "warranty": "12 months",
+    "availability": 25
+  },
+  {
+    "id": "act6",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Garmin",
+    "name": "Garmin VIRB Ultra 30",
+    "description": "Action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act6.jpg",
+    "specifications": {
+      "dimensions": "57.5 x 45.9 x 31.3 mm",
+      "weight": "87g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "40 meters with housing"
+    },
+    "price": "399",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "act7",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Yi",
+    "name": "Yi 4K+ Action Camera",
+    "description": "Affordable action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act7.jpg",
+    "specifications": {
+      "dimensions": "65 x 42 x 30 mm",
+      "weight": "95g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "2 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "40 meters with housing"
+    },
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 22
+  },
+  {
+    "id": "act8",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "SJCAM",
+    "name": "SJCAM SJ8 Pro",
+    "description": "4K action camera with 12MP photos and dual screens.",
+    "img": "./images/action-cameras/act8.jpg",
+    "specifications": {
+      "dimensions": "63 x 41 x 30 mm",
+      "weight": "85g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "30 meters with housing"
+    },
+    "price": "239",
+    "warranty": "12 months",
+    "availability": 14
+  },
+  {
+    "id": "act9",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Olympus",
+    "name": "Olympus Tough TG-Tracker",
+    "description": "Rugged action camera with 8MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act9.jpg",
+    "specifications": {
+      "dimensions": "93 x 56.5 x 35 mm",
+      "weight": "180g",
+      "cameraResolution": "8 MP",
+      "videoResolution": "4K",
+      "batteryLife": "2 hours",
+      "interface": [
+        "USB",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "30 meters"
+    },
+    "price": "349",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "act10",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "GoPro",
+    "name": "GoPro HERO8 Black",
+    "description": "Waterproof action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act10.jpg",
+    "specifications": {
+      "dimensions": "66.3 x 48.6 x 28.4 mm",
+      "weight": "126g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 17
+  },
+  {
+    "id": "act11",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "DJI",
+    "name": "DJI Pocket 2",
+    "description": "Compact action camera with 64MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act11.jpg",
+    "specifications": {
+      "dimensions": "124.7 x 38.1 x 30 mm",
+      "weight": "117g",
+      "cameraResolution": "64 MP",
+      "videoResolution": "4K",
+      "batteryLife": "2.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "not waterproof"
+    },
+    "price": "349",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "act12",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "GoPro",
+    "name": "GoPro HERO7 Black",
+    "description": "Waterproof action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act12.jpg",
+    "specifications": {
+      "dimensions": "62.3 x 44.9 x 33 mm",
+      "weight": "116g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "249",
+    "warranty": "12 months",
+    "availability": 18
+  },
+  {
+    "id": "act13",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Sony",
+    "name": "Sony RX0 II",
+    "description": "Ultra-compact action camera with 15.3MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act13.jpg",
+    "specifications": {
+      "dimensions": "59 x 40.5 x 35 mm",
+      "weight": "110g",
+      "cameraResolution": "15.3 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1 hour",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "699",
+    "warranty": "12 months",
+    "availability": 6
+  },
+  {
+    "id": "act14",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Garmin",
+    "name": "Garmin VIRB 360",
+    "description": "360-degree action camera with 15MP photos and 5.7K video recording.",
+    "img": "./images/action-cameras/act14.jpg",
+    "specifications": {
+      "dimensions": "39 x 59.3 x 69.8 mm",
+      "weight": "160g",
+      "cameraResolution": "15 MP",
+      "videoResolution": "5.7K",
+      "batteryLife": "1 hour",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "799",
+    "warranty": "12 months",
+    "availability": 4
+  },
+  {
+    "id": "act15",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Insta360",
+    "name": "Insta360 GO 2",
+    "description": "Tiny action camera with 9MP photos and 2.7K video recording.",
+    "img": "./images/action-cameras/act15.jpg",
+    "specifications": {
+      "dimensions": "52.9 x 23.6 x 20.7 mm",
+      "weight": "27g",
+      "cameraResolution": "9 MP",
+      "videoResolution": "2.7K",
+      "batteryLife": "30 minutes",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "4 meters"
+    },
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 20
+  },
+  {
+    "id": "act16",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Kodak",
+    "name": "Kodak PIXPRO SP360 4K",
+    "description": "360-degree action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act16.jpg",
+    "specifications": {
+      "dimensions": "48 x 52.5 x 50 mm",
+      "weight": "121g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1 hour",
+      "interface": [
+        "USB",
+        "Wi-Fi"
+      ],
+      "waterproofDepth": "30 meters with housing"
+    },
+    "price": "499",
+    "warranty": "12 months",
+    "availability": 10
+  },
+  {
+    "id": "act17",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Akaso",
+    "name": "Akaso Brave 7 LE",
+    "description": "Budget action camera with 20MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act17.jpg",
+    "specifications": {
+      "dimensions": "58 x 45 x 30 mm",
+      "weight": "127g",
+      "cameraResolution": "20 MP",
+      "videoResolution": "4K",
+      "batteryLife": "2 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi"
+      ],
+      "waterproofDepth": "40 meters with housing"
+    },
+    "price": "139",
+    "warranty": "12 months",
+    "availability": 30
+  },
+  {
+    "id": "act18",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "SJCAM",
+    "name": "SJCAM SJ9 Strike",
+    "description": "Waterproof action camera with 12MP photos and 4K video recording.",
+    "img": "./images/action-cameras/act18.jpg",
+    "specifications": {
+      "dimensions": "62.5 x 41 x 28.5 mm",
+      "weight": "85g",
+      "cameraResolution": "12 MP",
+      "videoResolution": "4K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "10 meters"
+    },
+    "price": "229",
+    "warranty": "12 months",
+    "availability": 12
+  },
+  {
+    "id": "act19",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "GoPro",
+    "name": "GoPro MAX",
+    "description": "360-degree action camera with 16.6MP photos and 5.6K video recording.",
+    "img": "./images/action-cameras/act19.jpg",
+    "specifications": {
+      "dimensions": "69 x 64 x 24 mm",
+      "weight": "154g",
+      "cameraResolution": "16.6 MP",
+      "videoResolution": "5.6K",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB-C",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "waterproofDepth": "5 meters"
+    },
+    "price": "499",
+    "warranty": "12 months",
+    "availability": 8
+  },
+  {
+    "id": "act20",
+    "category": "Photo, video and drones",
+    "subcategory": "Action Cameras",
+    "brand": "Polaroid",
+    "name": "Polaroid Cube+",
+    "description": "Mini action camera with 8MP photos and 1440p video recording.",
+    "img": "./images/action-cameras/act20.jpg",
+    "specifications": {
+      "dimensions": "35 x 35 x 35 mm",
+      "weight": "45g",
+      "cameraResolution": "8 MP",
+      "videoResolution": "1440p",
+      "batteryLife": "1.5 hours",
+      "interface": [
+        "USB",
+        "Wi-Fi"
+      ],
+      "waterproofDepth": "10 meters with housing"
+    },
+    "price": "149",
+    "warranty": "12 months",
+    "availability": 20
+  }
+]
