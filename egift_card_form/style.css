@@ -87,7 +87,7 @@ input[type="radio"]:checked:after {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #23b3b6;
+  background-color: #1bd8c4;
   transform: translate(-50%, -50%);
 }
 
@@ -390,7 +390,7 @@ button[type="submit"]:hover {
 
 /* Steps for ordering eGift Card */
 .guide {
-  background-color: #23b3b6;
+  background-color: #1bd8c4;
   padding: 20px;
 }
 
