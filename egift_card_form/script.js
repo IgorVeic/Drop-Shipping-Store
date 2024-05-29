@@ -150,6 +150,6 @@ form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     // Alert the user
-    alert("Please select a card before submitting the form.");
+    alert("Please select a card design before adding it to the cart.");
   }
 });

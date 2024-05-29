@@ -222,7 +222,7 @@ button[type="submit"]:hover {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
+  left: 5%;
   margin-left: -100px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -365,6 +365,12 @@ button[type="submit"]:hover {
   align-items: center;
   cursor: pointer;
   padding: 10px 0; /* Add vertical padding */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.preview:hover {
+  color: #1bd8c4;
+  transform: scale(1.2);
 }
 
 .icon {
