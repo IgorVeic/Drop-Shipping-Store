@@ -34,7 +34,8 @@ form {
   position: relative;
 }
 
-.form-group input {
+.form-group input,
+.form-group select {
   width: 100%;
   box-sizing: border-box;
   padding: 0.5rem;
@@ -43,9 +44,11 @@ form {
   outline: none;
   background: #f9f9f9;
   transition: all 0.3s ease-in-out;
+  appearance: none; /* Remove default arrow for select */
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group select:focus {
   border-color: #1bd8c4;
   box-shadow: 0 0 5px rgb(27, 216, 196, 0.5);
 }
@@ -60,7 +63,9 @@ form {
 }
 
 .form-group input:focus ~ label,
-.form-group input.filled ~ label {
+.form-group input.filled ~ label,
+.form-group select:focus ~ label,
+.form-group select.filled ~ label {
   top: -1rem;
   left: 0;
   font-size: 0.8rem;
