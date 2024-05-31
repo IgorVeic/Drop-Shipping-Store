@@ -8,64 +8,113 @@
   </head>
   <body>
     <form>
-      <h2>Delivery Info</h2>
-      <div class="form-group">
-        <input type="text" id="name" required />
-        <label for="name">Name and surname *</label>
-      </div>
-      <div class="form-group">
-        <input type="text" id="address" required />
-        <label for="address">Address *</label>
-      </div>
-      <div class="form-group">
-        <input type="text" id="city" required />
-        <label for="city">City *</label>
-      </div>
-      <div class="form-group">
-        <input type="text" id="postal" required />
-        <label for="postal">Postal code *</label>
-      </div>
-      <div class="form-group">
-        <input type="email" id="email" required />
-        <label for="email">Email *</label>
-      </div>
-      <div class="form-group">
-        <input type="tel" id="phone" required />
-        <label for="phone">Phone *</label>
+      <h2 class="form-heading">Delivery Info</h2>
+      <div class="input-row">
+        <div class="form-group">
+          <input type="text" id="fullname" required />
+          <label for="fullname">Name and Surname *</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="address" required />
+          <label for="address">Address *</label>
+        </div>
       </div>
 
-      <input type="checkbox" id="news" />
-      <label for="news">I want to receive news and discounts by email</label
+      <div class="input-row">
+        <div class="form-group">
+          <input type="text" id="city" required />
+          <label for="city">City *</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="postal" required />
+          <label for="postal">Postal Code *</label>
+        </div>
+      </div>
+
+      <div class="input-row">
+        <div class="form-group">
+          <input type="email" id="email" required />
+          <label for="email">Email *</label>
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phone" required />
+          <label for="phone">Phone *</label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="news" class="checkbox" />
+      <label for="news" class="checkbox-label"
+        >I want to receive news and discounts by email</label
       ><br />
 
-      <input type="checkbox" id="invoice" onclick="toggleInvoice()" />
-      <label for="invoice">Invoicing information - for companies</label>
+      <input
+        type="checkbox"
+        id="invoice"
+        onclick="toggleInvoice()"
+        class="checkbox"
+      />
+      <label for="invoice" class="checkbox-label"
+        >Invoicing information - for companies</label
+      >
 
       <div id="invoiceForm" class="hidden">
-        <div class="form-group">
-          <input type="text" id="company" required />
-          <label for="company">Company name</label>
+        <div class="input-row">
+          <div class="form-group">
+            <input
+              type="text"
+              id="company"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="company">Company name</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="tax"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="tax">Tax number</label>
+          </div>
         </div>
-        <div class="form-group">
-          <input type="text" id="tax" required />
-          <label for="tax">Tax number</label>
+        <div class="input-row">
+          <div class="form-group">
+            <input
+              type="text"
+              id="cityInvoice"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="cityInvoice">City</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="addressInvoice"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="addressInvoice">Address</label>
+          </div>
         </div>
-        <div class="form-group">
-          <input type="text" id="cityInvoice" required />
-          <label for="cityInvoice">City</label>
-        </div>
-        <div class="form-group">
-          <input type="text" id="addressInvoice" required />
-          <label for="addressInvoice">Address</label>
-        </div>
-        <div class="form-group">
-          <input type="text" id="postalInvoice" required />
-          <label for="postalInvoice">Postal code</label>
+        <div class="input-row">
+          <div class="form-group">
+            <input
+              type="text"
+              id="postalInvoice"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="postalInvoice">Postal code</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="countryInvoice"
+              oninput="this.className = this.value ? 'filled' : ''"
+            />
+            <label for="countryInvoice">Country</label>
+          </div>
         </div>
       </div>
-
       <div class="form-group">
-        <textarea id="comment" required></textarea>
+        <textarea id="comment"></textarea>
         <label for="comment">Order comment</label>
       </div>
 

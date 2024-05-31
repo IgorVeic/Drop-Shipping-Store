@@ -1,8 +1,11 @@
-document.getElementById("invoice").addEventListener("change", function () {
+function toggleInvoice() {
   var invoiceForm = document.getElementById("invoiceForm");
-  if (this.checked) {
+  if (invoiceForm.style.display === "none") {
     invoiceForm.style.display = "block";
   } else {
     invoiceForm.style.display = "none";
   }
-});
+}
+
+// Call toggleInvoice on page load to hide the form
+window.onload = toggleInvoice;

@@ -25,6 +25,12 @@ footer {
       margin-bottom: 20px;
       text-align: center;
     }
+
+    h3:hover {
+      color: #23b3b6;
+      cursor: pointer;
+    }
+
     .lists {
       text-align: center;
       li {
@@ -66,4 +72,26 @@ footer {
     padding: 5% 2%;
     text-align: center;
   }
+}
+
+.address,
+.links {
+  text-align: center;
+  #street-name {
+    margin-top: 25px;
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+  .lists {
+    li {
+      list-style-type: none;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.links li:hover {
+  color: #23b3b6;
+  cursor: pointer;
 }
