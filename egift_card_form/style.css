@@ -97,7 +97,7 @@ button[type="submit"] {
   padding: 10px 20px;
   border: none;
   background-color: #102e62;
-  color: white;
+  color: #fff;
   cursor: pointer;
   border-radius: 2px;
   font-size: 16px;
@@ -210,6 +210,7 @@ button[type="submit"]:hover {
 
 /* Styling for the tooltip text */
 .tooltip-text {
+  box-shadow: 0 0 0 2px #1bd8c4;
   visibility: hidden;
   width: 200px;
   background-color: #555;
@@ -230,10 +231,21 @@ button[type="submit"]:hover {
 }
 
 /* Styling for the tooltip arrow */
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1bd8c4 transparent transparent transparent;
+}
+
 .tooltip-text::after {
   content: "";
   position: absolute;
-  top: 100%; /* Position the arrow at the bottom of the tooltip */
+  top: 100%;
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -332,9 +344,10 @@ button[type="submit"]:hover {
 }
 
 .card.selected {
-  outline: 2px solid #102e62;
-  outline-offset: 10px; /* Adjust this value to change the space around the card */
-  margin: 15px; /* Increase margin when card is selected */
+  box-shadow: 0 0 0 2px #102e62;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
 }
 
 .select-btn {
@@ -403,7 +416,7 @@ button[type="submit"]:hover {
 }
 
 #title {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   color: white;
 }
 

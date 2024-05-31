@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order page</title>
+  </head>
+  <body>
+    <form>
+      <h2>Delivery Info</h2>
+      <div class="form-group">
+        <input type="text" id="name" required />
+        <label for="name">Name and surname *</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="address" required />
+        <label for="address">Address *</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="city" required />
+        <label for="city">City *</label>
+      </div>
+      <div class="form-group">
+        <input type="text" id="postal" required />
+        <label for="postal">Postal code *</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" required />
+        <label for="email">Email *</label>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="phone" required />
+        <label for="phone">Phone *</label>
+      </div>
+
+      <input type="checkbox" id="news" />
+      <label for="news">I want to receive news and discounts by email</label
+      ><br />
+
+      <input type="checkbox" id="invoice" onclick="toggleInvoice()" />
+      <label for="invoice">Invoicing information - for companies</label>
+
+      <div id="invoiceForm" class="hidden">
+        <div class="form-group">
+          <input type="text" id="company" required />
+          <label for="company">Company name</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="tax" required />
+          <label for="tax">Tax number</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="cityInvoice" required />
+          <label for="cityInvoice">City</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="addressInvoice" required />
+          <label for="addressInvoice">Address</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="postalInvoice" required />
+          <label for="postalInvoice">Postal code</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <textarea id="comment" required></textarea>
+        <label for="comment">Order comment</label>
+      </div>
+
+      <input type="checkbox" id="terms" />
+      <label for="terms"
+        >I agree with the Terms of Business and accept the processing of
+        personal data for the purpose of processing this order. *</label
+      >
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

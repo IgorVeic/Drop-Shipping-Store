@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #1a3f6b;
+  color: #f7f7f7;
+  padding: 50px 240px 25px;
+  display: grid;
+  grid-template: repeat(3, max-content) / repeat(4, 1fr);
+  border-top: 2px solid #23b3b6;
+  column-gap: 40px;
+  row-gap: 5px;
+  .address,
+  .links {
+    #street-name {
+      margin-top: 25px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .lists {
+      text-align: center;
+      li {
+        list-style-type: none;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  img {
+    height: 40px;
+  }
+}
+.copyrights,
+.payments {
+  li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  grid-column: span 4;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    text-align: center;
+    padding: 50px 13%;
+    grid-template: repeat(6, max-content) / 1fr;
+  }
+  .copyrights,
+  .payments {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  footer {
+    padding: 5% 2%;
+    text-align: center;
+  }
+}
