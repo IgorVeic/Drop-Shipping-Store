@@ -328,7 +328,7 @@ button[type="submit"]:hover {
   flex-direction: column;
   align-items: center;
   width: 250px;
-  margin: 5px; /* Adjust this value to change the space between the cards */
+  margin: 15px; /* Adjust this value to change the space between the cards */
 }
 
 .card.selected {
@@ -454,4 +454,9 @@ button[type="submit"]:hover {
   top: -25px;
   font-size: 14px;
   opacity: 1;
+}
+
+.step-text {
+  text-align: center;
+  line-height: 1.5;
 }

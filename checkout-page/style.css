@@ -1,0 +1,123 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#payment-info {
+  text-align: center;
+  margin-bottom: 40px; /* Adjust this to create desired space between the title and the card container */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#checkoutForm {
+  width: 400px;
+}
+
+.input-group,
+.input-group-half {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.input-group-half {
+  width: 48%;
+  display: inline-block;
+}
+
+.input-group-half:not(:last-child) {
+  margin-right: 10px;
+}
+
+.input-group input,
+.input-group-half input {
+  width: 100%;
+  padding: 10px 10px 10px 5px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.input-group label,
+.input-group-half label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 16px;
+  color: #999;
+  transition: 0.3s ease;
+}
+
+.input-group input:focus + label,
+.input-group-half input:focus + label,
+.input-group input:valid + label,
+.input-group-half input:valid + label {
+  top: -20px;
+  font-size: 12px;
+  color: black;
+}
+
+.input-group-half {
+  width: 45%; /* Adjust this to your preferred width */
+}
+
+.input-group-half:first-child {
+  margin-right: 8.8%; /* Adjust this to your preferred space */
+}
+
+#checkoutForm button {
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+  width: 30%;
+  margin: 0 0 20px auto;
+  font-size: 10px;
+  display: block;
+}
+
+#checkoutForm button:hover {
+  background-color: lightgray;
+}
+
+.card.visa {
+  background-color: #2855f5;
+  color: #fff;
+}
+
+.card.mastercard {
+  background-color: #ff1f1f;
+  color: #fff;
+}
+
+.card.amex {
+  background-color: #333;
+  color: #fff;
+}

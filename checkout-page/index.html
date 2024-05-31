@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" text="style/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="payment-info">Payment Information</h1>
+    <div class="container">
+      <div id="card" class="card">
+        <div id="cardType"></div>
+        <div id="cardNumber"></div>
+        <div id="cardName"></div>
+        <div id="cardExpiration"></div>
+        <div id="cardCVC"></div>
+      </div>
+
+      <form id="checkoutForm">
+        <div class="input-group">
+          <input type="text" id="name" required />
+          <label for="name">Name</label>
+        </div>
+        <button type="button" id="changeCard">Generate Random Card</button>
+        <div class="input-group">
+          <input type="text" id="number" required />
+          <label for="number">Card Number</label>
+        </div>
+        <span class="input-group-wrapper">
+          <div class="input-group-half">
+            <input type="text" id="expiration" required />
+            <label for="expiration">Expiration (mm/yy)</label>
+          </div>
+          <div class="input-group-half">
+            <input type="text" id="securityCode" required />
+            <label for="securityCode">Security Code</label>
+          </div>
+        </span>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
