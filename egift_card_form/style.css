@@ -3,6 +3,9 @@
 
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Style the h1 elements */
@@ -435,8 +438,8 @@ button[type="submit"]:hover {
 }
 
 .step svg {
-  width: 60px; /* Adjust this value to change the size of the SVG icons */
-  height: 60px; /* Adjust this value to change the size of the SVG icons */
+  width: 60px;
+  height: 60px;
   margin-bottom: 10px;
 }
 
