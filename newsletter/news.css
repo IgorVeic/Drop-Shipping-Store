@@ -10,9 +10,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url("img/elec-1.png"); /* replace with your image path */
-  background-size: cover; /* cover the entire area of the element */
-  background-position: center; /* center the background image */
+  background-image: url("img/elec-1.png");
+  background-size: cover;
+  background-position: center;
   padding: 100px 0;
 }
 
