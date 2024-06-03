@@ -24,7 +24,8 @@
     },
     "price": "349",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "hp2",
@@ -51,7 +52,8 @@
     },
     "price": "299",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "hp3",
@@ -76,7 +78,8 @@
     },
     "price": "499",
     "warranty": "24 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 10
   },
   {
     "id": "hp4",
@@ -101,7 +104,8 @@
     },
     "price": "149",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "hp5",
@@ -128,7 +132,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 50
   },
   {
     "id": "hp6",
@@ -155,7 +160,8 @@
     },
     "price": "249",
     "warranty": "24 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "hp7",
@@ -180,7 +186,8 @@
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 10
   },
   {
     "id": "hp8",
@@ -205,7 +212,8 @@
     },
     "price": "159",
     "warranty": "24 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 0
   },
   {
     "id": "hp9",
@@ -231,7 +239,8 @@
     },
     "price": "249",
     "warranty": "12 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 0
   },
   {
     "id": "hp10",
@@ -258,7 +267,8 @@
     },
     "price": "299",
     "warranty": "24 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "hp11",
@@ -285,7 +295,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 25
   },
   {
     "id": "hp12",
@@ -312,7 +323,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 0
   },
   {
     "id": "hp13",
@@ -339,7 +351,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "hp14",
@@ -366,7 +379,8 @@
     },
     "price": "349",
     "warranty": "24 months",
-    "availability": 14
+    "availability": 14,
+    "discount": 10
   },
   {
     "id": "hp15",
@@ -393,7 +407,8 @@
     },
     "price": "699",
     "warranty": "24 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 25
   },
   {
     "id": "hp16",
@@ -418,7 +433,8 @@
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "hp17",
@@ -445,7 +461,8 @@
     },
     "price": "249",
     "warranty": "12 months",
-    "availability": 16
+    "availability": 16,
+    "discount": 0
   },
   {
     "id": "hp18",
@@ -472,7 +489,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 25
   },
   {
     "id": "hp19",
@@ -499,7 +517,8 @@
     },
     "price": "149",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 50
   },
   {
     "id": "hp20",
@@ -526,6 +545,7 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   }
 ]

@@ -1,382 +1,462 @@
 [
-    {
-        "id": "gamc1",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Secretlab",
-        "name": "Secretlab Titan Evo",
-        "description": "Premium gaming chair with full-metal 4D armrests and multi-tilt mechanism.",
-        "img": "./images/gaming-chairs/gaming-chair-1.jpg",
-        "specifications": {
-            "dimensions": "73 x 80 x 139 cm",
-            "weight": "35kg",
-            "material": "PU Leather",
-            "maxLoad": "130kg",
-            "features": ["Adjustable Lumbar Support", "Memory Foam Head Pillow"]
-        },
-        "price": "449",
-        "warranty": "24 months",
-        "availability": 15
+  {
+    "id": "gamc1",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Secretlab",
+    "name": "Secretlab Titan Evo",
+    "description": "Premium gaming chair with full-metal 4D armrests and multi-tilt mechanism.",
+    "img": "./images/gaming-chairs/gaming-chair-1.jpg",
+    "specifications": {
+      "dimensions": "73 x 80 x 139 cm",
+      "weight": "35kg",
+      "material": "PU Leather",
+      "maxLoad": "130kg",
+      "features": [
+        "Adjustable Lumbar Support",
+        "Memory Foam Head Pillow"
+      ]
     },
-    {
-        "id": "gamc2",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "DXRacer",
-        "name": "DXRacer Formula Series",
-        "description": "Ergonomic gaming chair with high-density foam and adjustable armrests.",
-        "img": "./images/gaming-chairs/gaming-chair-2.jpg",
-        "specifications": {
-            "dimensions": "72 x 52 x 134 cm",
-            "weight": "25kg",
-            "material": "Synthetic Leather",
-            "maxLoad": "100kg",
-            "features": ["Adjustable Seat Height", "Reclining Backrest"]
-        },
-        "price": "299",
-        "warranty": "24 months",
-        "availability": 20
+    "price": "449",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 0
+  },
+  {
+    "id": "gamc2",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "DXRacer",
+    "name": "DXRacer Formula Series",
+    "description": "Ergonomic gaming chair with high-density foam and adjustable armrests.",
+    "img": "./images/gaming-chairs/gaming-chair-2.jpg",
+    "specifications": {
+      "dimensions": "72 x 52 x 134 cm",
+      "weight": "25kg",
+      "material": "Synthetic Leather",
+      "maxLoad": "100kg",
+      "features": [
+        "Adjustable Seat Height",
+        "Reclining Backrest"
+      ]
     },
-    {
-        "id": "gamc3",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Noblechairs",
-        "name": "Noblechairs Hero",
-        "description": "Luxurious gaming chair with 4D armrests and lumbar support adjustment.",
-        "img": "./images/gaming-chairs/gaming-chair-3.jpg",
-        "specifications": {
-            "dimensions": "70 x 56 x 137 cm",
-            "weight": "30kg",
-            "material": "Real Leather",
-            "maxLoad": "150kg",
-            "features": ["Memory Foam Headrest", "Rocking Mechanism"]
-        },
-        "price": "499",
-        "warranty": "24 months",
-        "availability": 10
+    "price": "299",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 0
+  },
+  {
+    "id": "gamc3",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Noblechairs",
+    "name": "Noblechairs Hero",
+    "description": "Luxurious gaming chair with 4D armrests and lumbar support adjustment.",
+    "img": "./images/gaming-chairs/gaming-chair-3.jpg",
+    "specifications": {
+      "dimensions": "70 x 56 x 137 cm",
+      "weight": "30kg",
+      "material": "Real Leather",
+      "maxLoad": "150kg",
+      "features": [
+        "Memory Foam Headrest",
+        "Rocking Mechanism"
+      ]
     },
-    {
-        "id": "gamc4",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Respawn",
-        "name": "Respawn 110",
-        "description": "Comfortable gaming chair with extendable footrest and adjustable headrest.",
-        "img": "./images/gaming-chairs/gaming-chair-4.jpg",
-        "specifications": {
-            "dimensions": "70 x 53 x 135 cm",
-            "weight": "24kg",
-            "material": "Bonded Leather",
-            "maxLoad": "120kg",
-            "features": ["Reclining Backrest", "Padded Armrests"]
-        },
-        "price": "199",
-        "warranty": "12 months",
-        "availability": 25
+    "price": "499",
+    "warranty": "24 months",
+    "availability": 10,
+    "discount": 0
+  },
+  {
+    "id": "gamc4",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Respawn",
+    "name": "Respawn 110",
+    "description": "Comfortable gaming chair with extendable footrest and adjustable headrest.",
+    "img": "./images/gaming-chairs/gaming-chair-4.jpg",
+    "specifications": {
+      "dimensions": "70 x 53 x 135 cm",
+      "weight": "24kg",
+      "material": "Bonded Leather",
+      "maxLoad": "120kg",
+      "features": [
+        "Reclining Backrest",
+        "Padded Armrests"
+      ]
     },
-    {
-        "id": "gamc5",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "AKRacing",
-        "name": "AKRacing Core Series EX",
-        "description": "Durable gaming chair with adjustable armrests and cold-cured foam padding.",
-        "img": "./images/gaming-chairs/gaming-chair-5.jpg",
-        "specifications": {
-            "dimensions": "66 x 50 x 132 cm",
-            "weight": "27kg",
-            "material": "Fabric",
-            "maxLoad": "150kg",
-            "features": ["Adjustable Seat Height", "Rocking Function"]
-        },
-        "price": "329",
-        "warranty": "24 months",
-        "availability": 18
+    "price": "199",
+    "warranty": "12 months",
+    "availability": 25,
+    "discount": 0
+  },
+  {
+    "id": "gamc5",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "AKRacing",
+    "name": "AKRacing Core Series EX",
+    "description": "Durable gaming chair with adjustable armrests and cold-cured foam padding.",
+    "img": "./images/gaming-chairs/gaming-chair-5.jpg",
+    "specifications": {
+      "dimensions": "66 x 50 x 132 cm",
+      "weight": "27kg",
+      "material": "Fabric",
+      "maxLoad": "150kg",
+      "features": [
+        "Adjustable Seat Height",
+        "Rocking Function"
+      ]
     },
-    {
-        "id": "gamc6",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Vertagear",
-        "name": "Vertagear SL5000",
-        "description": "Stylish gaming chair with adjustable lumbar support and 4D armrests.",
-        "img": "./images/gaming-chairs/gaming-chair-6.jpg",
-        "specifications": {
-            "dimensions": "69 x 57 x 140 cm",
-            "weight": "30kg",
-            "material": "PVC Leather",
-            "maxLoad": "130kg",
-            "features": ["Tilt Locking Mechanism", "Memory Foam Neck Pillow"]
-        },
-        "price": "379",
-        "warranty": "24 months",
-        "availability": 12
+    "price": "329",
+    "warranty": "24 months",
+    "availability": 18,
+    "discount": 0
+  },
+  {
+    "id": "gamc6",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Vertagear",
+    "name": "Vertagear SL5000",
+    "description": "Stylish gaming chair with adjustable lumbar support and 4D armrests.",
+    "img": "./images/gaming-chairs/gaming-chair-6.jpg",
+    "specifications": {
+      "dimensions": "69 x 57 x 140 cm",
+      "weight": "30kg",
+      "material": "PVC Leather",
+      "maxLoad": "130kg",
+      "features": [
+        "Tilt Locking Mechanism",
+        "Memory Foam Neck Pillow"
+      ]
     },
-    {
-        "id": "gamc7",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Corsair",
-        "name": "Corsair T3 Rush",
-        "description": "Comfortable gaming chair with breathable soft fabric and adjustable lumbar pillow.",
-        "img": "./images/gaming-chairs/gaming-chair-7.jpg",
-        "specifications": {
-            "dimensions": "70 x 58 x 136 cm",
-            "weight": "22kg",
-            "material": "Fabric",
-            "maxLoad": "120kg",
-            "features": ["4D Armrests", "Reclining Backrest"]
-        },
-        "price": "299",
-        "warranty": "24 months",
-        "availability": 20
+    "price": "379",
+    "warranty": "24 months",
+    "availability": 12,
+    "discount": 10
+  },
+  {
+    "id": "gamc7",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Corsair",
+    "name": "Corsair T3 Rush",
+    "description": "Comfortable gaming chair with breathable soft fabric and adjustable lumbar pillow.",
+    "img": "./images/gaming-chairs/gaming-chair-7.jpg",
+    "specifications": {
+      "dimensions": "70 x 58 x 136 cm",
+      "weight": "22kg",
+      "material": "Fabric",
+      "maxLoad": "120kg",
+      "features": [
+        "4D Armrests",
+        "Reclining Backrest"
+      ]
     },
-    {
-        "id": "gamc8",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "GTRacing",
-        "name": "GTRacing Pro Series",
-        "description": "Affordable gaming chair with adjustable armrests and lumbar cushion.",
-        "img": "./images/gaming-chairs/gaming-chair-8.jpg",
-        "specifications": {
-            "dimensions": "67 x 52 x 134 cm",
-            "weight": "20kg",
-            "material": "PU Leather",
-            "maxLoad": "110kg",
-            "features": ["Reclining Backrest", "Height Adjustable"]
-        },
-        "price": "179",
-        "warranty": "12 months",
-        "availability": 30
+    "price": "299",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 10
+  },
+  {
+    "id": "gamc8",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "GTRacing",
+    "name": "GTRacing Pro Series",
+    "description": "Affordable gaming chair with adjustable armrests and lumbar cushion.",
+    "img": "./images/gaming-chairs/gaming-chair-8.jpg",
+    "specifications": {
+      "dimensions": "67 x 52 x 134 cm",
+      "weight": "20kg",
+      "material": "PU Leather",
+      "maxLoad": "110kg",
+      "features": [
+        "Reclining Backrest",
+        "Height Adjustable"
+      ]
     },
-    {
-        "id": "gamc9",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Homall",
-        "name": "Homall S-Racer",
-        "description": "High-back gaming chair with removable headrest and lumbar support.",
-        "img": "./images/gaming-chairs/gaming-chair-9.jpg",
-        "specifications": {
-            "dimensions": "70 x 55 x 133 cm",
-            "weight": "23kg",
-            "material": "PU Leather",
-            "maxLoad": "120kg",
-            "features": ["360-Degree Swivel", "Reclining Function"]
-        },
-        "price": "139",
-        "warranty": "12 months",
-        "availability": 40
+    "price": "179",
+    "warranty": "12 months",
+    "availability": 30,
+    "discount": 0
+  },
+  {
+    "id": "gamc9",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Homall",
+    "name": "Homall S-Racer",
+    "description": "High-back gaming chair with removable headrest and lumbar support.",
+    "img": "./images/gaming-chairs/gaming-chair-9.jpg",
+    "specifications": {
+      "dimensions": "70 x 55 x 133 cm",
+      "weight": "23kg",
+      "material": "PU Leather",
+      "maxLoad": "120kg",
+      "features": [
+        "360-Degree Swivel",
+        "Reclining Function"
+      ]
     },
-    {
-        "id": "gamc10",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "AutoFull",
-        "name": "AutoFull Gaming Chair",
-        "description": "Ergonomic gaming chair with adjustable armrests and retractable footrest.",
-        "img": "./images/gaming-chairs/gaming-chair-10.jpg",
-        "specifications": {
-            "dimensions": "72 x 60 x 135 cm",
-            "weight": "25kg",
-            "material": "PU Leather",
-            "maxLoad": "125kg",
-            "features": ["Reclining Backrest", "Headrest Pillow"]
-        },
-        "price": "229",
-        "warranty": "24 months",
-        "availability": 22
+    "price": "139",
+    "warranty": "12 months",
+    "availability": 40,
+    "discount": 0
+  },
+  {
+    "id": "gamc10",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "AutoFull",
+    "name": "AutoFull Gaming Chair",
+    "description": "Ergonomic gaming chair with adjustable armrests and retractable footrest.",
+    "img": "./images/gaming-chairs/gaming-chair-10.jpg",
+    "specifications": {
+      "dimensions": "72 x 60 x 135 cm",
+      "weight": "25kg",
+      "material": "PU Leather",
+      "maxLoad": "125kg",
+      "features": [
+        "Reclining Backrest",
+        "Headrest Pillow"
+      ]
     },
-    {
-        "id": "gamc11",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Arozzi",
-        "name": "Arozzi Verona V2",
-        "description": "Sleek gaming chair with ergonomic design and rocking function.",
-        "img": "./images/gaming-chairs/gaming-chair-11.jpg",
-        "specifications": {
-            "dimensions": "68 x 54 x 131 cm",
-            "weight": "24kg",
-            "material": "PU Leather",
-            "maxLoad": "105kg",
-            "features": ["Adjustable Seat Height", "Lumbar Support Cushion"]
-        },
-        "price": "259",
-        "warranty": "24 months",
-        "availability": 17
+    "price": "229",
+    "warranty": "24 months",
+    "availability": 22,
+    "discount": 25
+  },
+  {
+    "id": "gamc11",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Arozzi",
+    "name": "Arozzi Verona V2",
+    "description": "Sleek gaming chair with ergonomic design and rocking function.",
+    "img": "./images/gaming-chairs/gaming-chair-11.jpg",
+    "specifications": {
+      "dimensions": "68 x 54 x 131 cm",
+      "weight": "24kg",
+      "material": "PU Leather",
+      "maxLoad": "105kg",
+      "features": [
+        "Adjustable Seat Height",
+        "Lumbar Support Cushion"
+      ]
     },
-    {
-        "id": "gamc12",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Cougar",
-        "name": "Cougar Armor S",
-        "description": "Sturdy gaming chair with adjustable armrests and high-density foam.",
-        "img": "./images/gaming-chairs/gaming-chair-12.jpg",
-        "specifications": {
-            "dimensions": "70 x 50 x 134 cm",
-            "weight": "26kg",
-            "material": "PVC Leather",
-            "maxLoad": "120kg",
-            "features": ["Reclining Backrest", "4D Armrests"]
-        },
-        "price": "319",
-        "warranty": "24 months",
-        "availability": 15
+    "price": "259",
+    "warranty": "24 months",
+    "availability": 17,
+    "discount": 25
+  },
+  {
+    "id": "gamc12",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Cougar",
+    "name": "Cougar Armor S",
+    "description": "Sturdy gaming chair with adjustable armrests and high-density foam.",
+    "img": "./images/gaming-chairs/gaming-chair-12.jpg",
+    "specifications": {
+      "dimensions": "70 x 50 x 134 cm",
+      "weight": "26kg",
+      "material": "PVC Leather",
+      "maxLoad": "120kg",
+      "features": [
+        "Reclining Backrest",
+        "4D Armrests"
+      ]
     },
-    {
-        "id": "gamc13",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Anda Seat",
-        "name": "Anda Seat Kaiser 2",
-        "description": "High-quality gaming chair with large size and memory foam headrest.",
-        "img": "./images/gaming-chairs/gaming-chair-13.jpg",
-        "specifications": {
-            "dimensions": "72 x 58 x 140 cm",
-            "weight": "32kg",
-            "material": "PVC Leather",
-            "maxLoad": "180kg",
-            "features": ["Adjustable Lumbar Support", "Tilt Mechanism"]
-        },
-        "price": "399",
-        "warranty": "24 months",
-        "availability": 12
+    "price": "319",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 25
+  },
+  {
+    "id": "gamc13",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Anda Seat",
+    "name": "Anda Seat Kaiser 2",
+    "description": "High-quality gaming chair with large size and memory foam headrest.",
+    "img": "./images/gaming-chairs/gaming-chair-13.jpg",
+    "specifications": {
+      "dimensions": "72 x 58 x 140 cm",
+      "weight": "32kg",
+      "material": "PVC Leather",
+      "maxLoad": "180kg",
+      "features": [
+        "Adjustable Lumbar Support",
+        "Tilt Mechanism"
+      ]
     },
-    {
-        "id": "gamc14",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Blue Whale",
-        "name": "Blue Whale Big and Tall",
-        "description": "Robust gaming chair with retractable footrest and adjustable headrest.",
-        "img": "./images/gaming-chairs/gaming-chair-14.jpg",
-        "specifications": {
-            "dimensions": "74 x 60 x 142 cm",
-            "weight": "38kg",
-            "material": "PU Leather",
-            "maxLoad": "160kg",
-            "features": ["Rocking Function", "4D Armrests"]
-        },
-        "price": "379",
-        "warranty": "24 months",
-        "availability": 9
+    "price": "399",
+    "warranty": "24 months",
+    "availability": 12,
+    "discount": 0
+  },
+  {
+    "id": "gamc14",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Blue Whale",
+    "name": "Blue Whale Big and Tall",
+    "description": "Robust gaming chair with retractable footrest and adjustable headrest.",
+    "img": "./images/gaming-chairs/gaming-chair-14.jpg",
+    "specifications": {
+      "dimensions": "74 x 60 x 142 cm",
+      "weight": "38kg",
+      "material": "PU Leather",
+      "maxLoad": "160kg",
+      "features": [
+        "Rocking Function",
+        "4D Armrests"
+      ]
     },
-    {
-        "id": "gamc15",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "KILLABEE",
-        "name": "KILLABEE 9015",
-        "description": "Versatile gaming chair with massage lumbar support and footrest.",
-        "img": "./images/gaming-chairs/gaming-chair-15.jpg",
-        "specifications": {
-            "dimensions": "71 x 56 x 136 cm",
-            "weight": "29kg",
-            "material": "PU Leather",
-            "maxLoad": "130kg",
-            "features": ["Massage Lumbar Cushion", "Reclining Backrest"]
-        },
-        "price": "299",
-        "warranty": "12 months",
-        "availability": 18
+    "price": "379",
+    "warranty": "24 months",
+    "availability": 9,
+    "discount": 0
+  },
+  {
+    "id": "gamc15",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "KILLABEE",
+    "name": "KILLABEE 9015",
+    "description": "Versatile gaming chair with massage lumbar support and footrest.",
+    "img": "./images/gaming-chairs/gaming-chair-15.jpg",
+    "specifications": {
+      "dimensions": "71 x 56 x 136 cm",
+      "weight": "29kg",
+      "material": "PU Leather",
+      "maxLoad": "130kg",
+      "features": [
+        "Massage Lumbar Cushion",
+        "Reclining Backrest"
+      ]
     },
-    {
-        "id": "gamc16",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "VON RACER",
-        "name": "VON RACER Massage Gaming Chair",
-        "description": "Gaming chair with USB-powered massage lumbar support and retractable footrest.",
-        "img": "./images/gaming-chairs/gaming-chair-16.jpg",
-        "specifications": {
-            "dimensions": "70 x 58 x 138 cm",
-            "weight": "30kg",
-            "material": "Bonded Leather",
-            "maxLoad": "140kg",
-            "features": ["USB Massage Lumbar Cushion", "Reclining Function"]
-        },
-        "price": "289",
-        "warranty": "24 months",
-        "availability": 20
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 18,
+    "discount": 10
+  },
+  {
+    "id": "gamc16",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "VON RACER",
+    "name": "VON RACER Massage Gaming Chair",
+    "description": "Gaming chair with USB-powered massage lumbar support and retractable footrest.",
+    "img": "./images/gaming-chairs/gaming-chair-16.jpg",
+    "specifications": {
+      "dimensions": "70 x 58 x 138 cm",
+      "weight": "30kg",
+      "material": "Bonded Leather",
+      "maxLoad": "140kg",
+      "features": [
+        "USB Massage Lumbar Cushion",
+        "Reclining Function"
+      ]
     },
-    {
-        "id": "gamc17",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Hbada",
-        "name": "Hbada Gaming Chair",
-        "description": "Ergonomic gaming chair with adjustable headrest and lumbar support.",
-        "img": "./images/gaming-chairs/gaming-chair-17.jpg",
-        "specifications": {
-            "dimensions": "68 x 52 x 135 cm",
-            "weight": "22kg",
-            "material": "PU Leather",
-            "maxLoad": "125kg",
-            "features": ["Reclining Backrest", "Height Adjustable"]
-        },
-        "price": "239",
-        "warranty": "12 months",
-        "availability": 25
+    "price": "289",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 25
+  },
+  {
+    "id": "gamc17",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Hbada",
+    "name": "Hbada Gaming Chair",
+    "description": "Ergonomic gaming chair with adjustable headrest and lumbar support.",
+    "img": "./images/gaming-chairs/gaming-chair-17.jpg",
+    "specifications": {
+      "dimensions": "68 x 52 x 135 cm",
+      "weight": "22kg",
+      "material": "PU Leather",
+      "maxLoad": "125kg",
+      "features": [
+        "Reclining Backrest",
+        "Height Adjustable"
+      ]
     },
-    {
-        "id": "gamc18",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Dowinx",
-        "name": "Dowinx Gaming Chair",
-        "description": "Comfortable gaming chair with USB-powered massage lumbar support and footrest.",
-        "img": "./images/gaming-chairs/gaming-chair-18.jpg",
-        "specifications": {
-            "dimensions": "71 x 55 x 138 cm",
-            "weight": "27kg",
-            "material": "PU Leather",
-            "maxLoad": "150kg",
-            "features": ["USB Massage Lumbar Cushion", "Reclining Backrest"]
-        },
-        "price": "299",
-        "warranty": "12 months",
-        "availability": 30
+    "price": "239",
+    "warranty": "12 months",
+    "availability": 25,
+    "discount": 50
+  },
+  {
+    "id": "gamc18",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Dowinx",
+    "name": "Dowinx Gaming Chair",
+    "description": "Comfortable gaming chair with USB-powered massage lumbar support and footrest.",
+    "img": "./images/gaming-chairs/gaming-chair-18.jpg",
+    "specifications": {
+      "dimensions": "71 x 55 x 138 cm",
+      "weight": "27kg",
+      "material": "PU Leather",
+      "maxLoad": "150kg",
+      "features": [
+        "USB Massage Lumbar Cushion",
+        "Reclining Backrest"
+      ]
     },
-    {
-        "id": "gamc19",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Nokaxus",
-        "name": "Nokaxus Gaming Chair",
-        "description": "Premium gaming chair with retractable footrest and adjustable armrests.",
-        "img": "./images/gaming-chairs/gaming-chair-19.jpg",
-        "specifications": {
-            "dimensions": "70 x 56 x 137 cm",
-            "weight": "30kg",
-            "material": "PU Leather",
-            "maxLoad": "150kg",
-            "features": ["Adjustable Lumbar Support", "Tilt Mechanism"]
-        },
-        "price": "349",
-        "warranty": "24 months",
-        "availability": 15
+    "price": "299",
+    "warranty": "12 months",
+    "availability": 30,
+    "discount": 0
+  },
+  {
+    "id": "gamc19",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Nokaxus",
+    "name": "Nokaxus Gaming Chair",
+    "description": "Premium gaming chair with retractable footrest and adjustable armrests.",
+    "img": "./images/gaming-chairs/gaming-chair-19.jpg",
+    "specifications": {
+      "dimensions": "70 x 56 x 137 cm",
+      "weight": "30kg",
+      "material": "PU Leather",
+      "maxLoad": "150kg",
+      "features": [
+        "Adjustable Lumbar Support",
+        "Tilt Mechanism"
+      ]
     },
-    {
-        "id": "gamc20",
-        "category": "Accessories",
-        "subcategory": "Gaming Chair",
-        "brand": "Homyl",
-        "name": "Homyl Racing Gaming Chair",
-        "description": "Stylish gaming chair with adjustable headrest and lumbar pillow.",
-        "img": "./images/gaming-chairs/gaming-chair-20.jpg",
-        "specifications": {
-            "dimensions": "67 x 55 x 135 cm",
-            "weight": "25kg",
-            "material": "PU Leather",
-            "maxLoad": "135kg",
-            "features": ["Reclining Function", "Padded Armrests"]
-        },
-        "price": "279",
-        "warranty": "12 months",
-        "availability": 22
-    }
+    "price": "349",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 70
+  },
+  {
+    "id": "gamc20",
+    "category": "Accessories",
+    "subcategory": "Gaming Chair",
+    "brand": "Homyl",
+    "name": "Homyl Racing Gaming Chair",
+    "description": "Stylish gaming chair with adjustable headrest and lumbar pillow.",
+    "img": "./images/gaming-chairs/gaming-chair-20.jpg",
+    "specifications": {
+      "dimensions": "67 x 55 x 135 cm",
+      "weight": "25kg",
+      "material": "PU Leather",
+      "maxLoad": "135kg",
+      "features": [
+        "Reclining Function",
+        "Padded Armrests"
+      ]
+    },
+    "price": "279",
+    "warranty": "12 months",
+    "availability": 22,
+    "discount": 10
+  }
 ]

@@ -21,7 +21,8 @@
     },
     "price": "129",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "key2",
@@ -45,7 +46,8 @@
     },
     "price": "139",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "key3",
@@ -69,7 +71,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 25
   },
   {
     "id": "key4",
@@ -93,7 +96,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 50
   },
   {
     "id": "key5",
@@ -116,7 +120,8 @@
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "key6",
@@ -140,7 +145,8 @@
     },
     "price": "19",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 0
   },
   {
     "id": "key7",
@@ -164,7 +170,8 @@
     },
     "price": "15",
     "warranty": "12 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 0
   },
   {
     "id": "key8",
@@ -188,7 +195,8 @@
     },
     "price": "25",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "key9",
@@ -212,7 +220,8 @@
     },
     "price": "29",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 10
   },
   {
     "id": "key10",
@@ -236,7 +245,8 @@
     },
     "price": "20",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 0
   },
   {
     "id": "key11",
@@ -260,7 +270,8 @@
     },
     "price": "229",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 50
   },
   {
     "id": "key12",
@@ -284,7 +295,8 @@
     },
     "price": "119",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 25
   },
   {
     "id": "key13",
@@ -308,7 +320,8 @@
     },
     "price": "159",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 10
   },
   {
     "id": "key14",
@@ -332,7 +345,8 @@
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "key15",
@@ -356,7 +370,8 @@
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "key16",
@@ -380,7 +395,8 @@
     },
     "price": "179",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "key17",
@@ -404,7 +420,8 @@
     },
     "price": "159",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 10
   },
   {
     "id": "key18",
@@ -428,7 +445,8 @@
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "key19",
@@ -452,7 +470,8 @@
     },
     "price": "139",
     "warranty": "12 months",
-    "availability": 14
+    "availability": 14,
+    "discount": 25
   },
   {
     "id": "key20",
@@ -475,6 +494,7 @@
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 0
   }
 ]

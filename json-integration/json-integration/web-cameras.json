@@ -1,463 +1,544 @@
 [
-    {
-        "id": "wc1",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Logitech",
-        "name": "Logitech C920",
-        "description": "Full HD 1080p video calling and recording web camera.",
-        "img": "./images/web-cameras/web-camera-1.jpg",
-        "specifications": {
-            "dimensions": "94 x 24 x 29 mm",
-            "weight": "162g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "78°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Stereo",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.10 or later", "Chrome OS"]
-        },
-        "price": "79",
-        "warranty": "24 months",
-        "availability": 50
+  {
+    "id": "wc1",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Logitech",
+    "name": "Logitech C920",
+    "description": "Full HD 1080p video calling and recording web camera.",
+    "img": "./images/web-cameras/web-camera-1.jpg",
+    "specifications": {
+      "dimensions": "94 x 24 x 29 mm",
+      "weight": "162g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "78°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Stereo",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.10 or later",
+        "Chrome OS"
+      ]
     },
-    {
-        "id": "wc2",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Razer",
-        "name": "Razer Kiyo",
-        "description": "Streaming webcam with built-in ring light and 1080p resolution.",
-        "img": "./images/web-cameras/web-camera-2.jpg",
-        "specifications": {
-            "dimensions": "69 x 69 x 45 mm",
-            "weight": "200g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "81.6°",
-            "focusType": "Autofocus",
-            "microphone": "Omnidirectional",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.8 or later"]
-        },
-        "price": "99",
-        "warranty": "24 months",
-        "availability": 30
+    "price": "79",
+    "warranty": "24 months",
+    "availability": 50,
+    "discount": 0
+  },
+  {
+    "id": "wc2",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Razer",
+    "name": "Razer Kiyo",
+    "description": "Streaming webcam with built-in ring light and 1080p resolution.",
+    "img": "./images/web-cameras/web-camera-2.jpg",
+    "specifications": {
+      "dimensions": "69 x 69 x 45 mm",
+      "weight": "200g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "81.6°",
+      "focusType": "Autofocus",
+      "microphone": "Omnidirectional",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.8 or later"
+      ]
     },
-    {
-        "id": "wc3",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "LDK",
-        "name": "LDK 1080P Webcam",
-        "description": "HD webcam with 1080p resolution and built-in microphone.",
-        "img": "./images/web-cameras/web-camera-3.jpg",
-        "specifications": {
-            "dimensions": "90 x 60 x 50 mm",
-            "weight": "110g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "75°",
-            "focusType": "Fixed Focus",
-            "microphone": "Built-in",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "45",
-        "warranty": "12 months",
-        "availability": 40
+    "price": "99",
+    "warranty": "24 months",
+    "availability": 30,
+    "discount": 0
+  },
+  {
+    "id": "wc3",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "LDK",
+    "name": "LDK 1080P Webcam",
+    "description": "HD webcam with 1080p resolution and built-in microphone.",
+    "img": "./images/web-cameras/web-camera-3.jpg",
+    "specifications": {
+      "dimensions": "90 x 60 x 50 mm",
+      "weight": "110g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "75°",
+      "focusType": "Fixed Focus",
+      "microphone": "Built-in",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc4",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Microsoft",
-        "name": "Microsoft LifeCam HD-3000",
-        "description": "HD webcam with 720p video recording and built-in noise-reducing microphone.",
-        "img": "./images/web-cameras/web-camera-4.jpg",
-        "specifications": {
-            "dimensions": "44 x 109 x 39 mm",
-            "weight": "90g",
-            "interface": "USB 2.0",
-            "resolution": "720p",
-            "frameRate": "30 fps",
-            "fieldOfView": "68.5°",
-            "focusType": "Fixed Focus",
-            "microphone": "Mono",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.7 or later"]
-        },
-        "price": "39",
-        "warranty": "12 months",
-        "availability": 100
+    "price": "45",
+    "warranty": "12 months",
+    "availability": 40,
+    "discount": 0
+  },
+  {
+    "id": "wc4",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Microsoft",
+    "name": "Microsoft LifeCam HD-3000",
+    "description": "HD webcam with 720p video recording and built-in noise-reducing microphone.",
+    "img": "./images/web-cameras/web-camera-4.jpg",
+    "specifications": {
+      "dimensions": "44 x 109 x 39 mm",
+      "weight": "90g",
+      "interface": "USB 2.0",
+      "resolution": "720p",
+      "frameRate": "30 fps",
+      "fieldOfView": "68.5°",
+      "focusType": "Fixed Focus",
+      "microphone": "Mono",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.7 or later"
+      ]
     },
-    {
-        "id": "wc5",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Platinet",
-        "name": "Platinet Full HD Webcam",
-        "description": "1080p webcam with dual microphones and autofocus.",
-        "img": "./images/web-cameras/web-camera-5.jpg",
-        "specifications": {
-            "dimensions": "95 x 55 x 50 mm",
-            "weight": "120g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "80°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Microphone",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.8 or later"]
-        },
-        "price": "59",
-        "warranty": "12 months",
-        "availability": 45
+    "price": "39",
+    "warranty": "12 months",
+    "availability": 100,
+    "discount": 0
+  },
+  {
+    "id": "wc5",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Platinet",
+    "name": "Platinet Full HD Webcam",
+    "description": "1080p webcam with dual microphones and autofocus.",
+    "img": "./images/web-cameras/web-camera-5.jpg",
+    "specifications": {
+      "dimensions": "95 x 55 x 50 mm",
+      "weight": "120g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "80°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Microphone",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.8 or later"
+      ]
     },
-    {
-        "id": "wc6",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Arozzi",
-        "name": "Arozzi Occhio",
-        "description": "1080p streaming webcam with wide-angle lens and built-in microphone.",
-        "img": "./images/web-cameras/web-camera-6.jpg",
-        "specifications": {
-            "dimensions": "80 x 32 x 25 mm",
-            "weight": "105g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "90°",
-            "focusType": "Fixed Focus",
-            "microphone": "Built-in",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "65",
-        "warranty": "12 months",
-        "availability": 75
+    "price": "59",
+    "warranty": "12 months",
+    "availability": 45,
+    "discount": 10
+  },
+  {
+    "id": "wc6",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Arozzi",
+    "name": "Arozzi Occhio",
+    "description": "1080p streaming webcam with wide-angle lens and built-in microphone.",
+    "img": "./images/web-cameras/web-camera-6.jpg",
+    "specifications": {
+      "dimensions": "80 x 32 x 25 mm",
+      "weight": "105g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "90°",
+      "focusType": "Fixed Focus",
+      "microphone": "Built-in",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc7",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Logitech",
-        "name": "Logitech Brio",
-        "description": "Ultra HD 4K webcam with HDR and Windows Hello support.",
-        "img": "./images/web-cameras/web-camera-7.jpg",
-        "specifications": {
-            "dimensions": "102 x 27 x 27 mm",
-            "weight": "63g",
-            "interface": "USB 3.0",
-            "resolution": "4K",
-            "frameRate": "30 fps (4K), 60 fps (1080p)",
-            "fieldOfView": "90°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Omnidirectional",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.10 or later", "Chrome OS"]
-        },
-        "price": "199",
-        "warranty": "24 months",
-        "availability": 20
+    "price": "65",
+    "warranty": "12 months",
+    "availability": 75,
+    "discount": 10
+  },
+  {
+    "id": "wc7",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Logitech",
+    "name": "Logitech Brio",
+    "description": "Ultra HD 4K webcam with HDR and Windows Hello support.",
+    "img": "./images/web-cameras/web-camera-7.jpg",
+    "specifications": {
+      "dimensions": "102 x 27 x 27 mm",
+      "weight": "63g",
+      "interface": "USB 3.0",
+      "resolution": "4K",
+      "frameRate": "30 fps (4K), 60 fps (1080p)",
+      "fieldOfView": "90°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Omnidirectional",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.10 or later",
+        "Chrome OS"
+      ]
     },
-    {
-        "id": "wc8",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Razer",
-        "name": "Razer Kiyo Pro",
-        "description": "High-performance streaming webcam with adaptive light sensor and 1080p resolution.",
-        "img": "./images/web-cameras/web-camera-8.jpg",
-        "specifications": {
-            "dimensions": "69 x 69 x 45 mm",
-            "weight": "220g",
-            "interface": "USB 3.0",
-            "resolution": "1080p",
-            "frameRate": "60 fps",
-            "fieldOfView": "103°",
-            "focusType": "Autofocus",
-            "microphone": "Omnidirectional",
-            "systemRequirements": ["Windows 8 or later", "macOS 10.11 or later"]
-        },
-        "price": "149",
-        "warranty": "24 months",
-        "availability": 25
+    "price": "199",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 25
+  },
+  {
+    "id": "wc8",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Razer",
+    "name": "Razer Kiyo Pro",
+    "description": "High-performance streaming webcam with adaptive light sensor and 1080p resolution.",
+    "img": "./images/web-cameras/web-camera-8.jpg",
+    "specifications": {
+      "dimensions": "69 x 69 x 45 mm",
+      "weight": "220g",
+      "interface": "USB 3.0",
+      "resolution": "1080p",
+      "frameRate": "60 fps",
+      "fieldOfView": "103°",
+      "focusType": "Autofocus",
+      "microphone": "Omnidirectional",
+      "systemRequirements": [
+        "Windows 8 or later",
+        "macOS 10.11 or later"
+      ]
     },
-    {
-        "id": "wc9",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "LDK",
-        "name": "LDK 720P Webcam",
-        "description": "HD webcam with 720p resolution and built-in microphone.",
-        "img": "./images/web-cameras/web-camera-9.jpg",
-        "specifications": {
-            "dimensions": "85 x 55 x 45 mm",
-            "weight": "100g",
-            "interface": "USB 2.0",
-            "resolution": "720p",
-            "frameRate": "30 fps",
-            "fieldOfView": "70°",
-            "focusType": "Fixed Focus",
-            "microphone": "Built-in",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "35",
-        "warranty": "12 months",
-        "availability": 80
+    "price": "149",
+    "warranty": "24 months",
+    "availability": 25,
+    "discount": 25
+  },
+  {
+    "id": "wc9",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "LDK",
+    "name": "LDK 720P Webcam",
+    "description": "HD webcam with 720p resolution and built-in microphone.",
+    "img": "./images/web-cameras/web-camera-9.jpg",
+    "specifications": {
+      "dimensions": "85 x 55 x 45 mm",
+      "weight": "100g",
+      "interface": "USB 2.0",
+      "resolution": "720p",
+      "frameRate": "30 fps",
+      "fieldOfView": "70°",
+      "focusType": "Fixed Focus",
+      "microphone": "Built-in",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc10",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Microsoft",
-        "name": "Microsoft LifeCam Studio",
-        "description": "Professional HD webcam with 1080p recording and wideband microphone.",
-        "img": "./images/web-cameras/web-camera-10.jpg",
-        "specifications": {
-            "dimensions": "113 x 60 x 60 mm",
-            "weight": "128g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "75°",
-            "focusType": "Autofocus",
-            "microphone": "Mono",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.7 or later"]
-        },
-        "price": "99",
-        "warranty": "12 months",
-        "availability": 60
+    "price": "35",
+    "warranty": "12 months",
+    "availability": 80,
+    "discount": 0
+  },
+  {
+    "id": "wc10",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Microsoft",
+    "name": "Microsoft LifeCam Studio",
+    "description": "Professional HD webcam with 1080p recording and wideband microphone.",
+    "img": "./images/web-cameras/web-camera-10.jpg",
+    "specifications": {
+      "dimensions": "113 x 60 x 60 mm",
+      "weight": "128g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "75°",
+      "focusType": "Autofocus",
+      "microphone": "Mono",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.7 or later"
+      ]
     },
-    {
-        "id": "wc11",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Aukey",
-        "name": "Aukey PC-LM1E",
-        "description": "Full HD webcam with 1080p resolution and stereo microphone.",
-        "img": "./images/web-cameras/web-camera-11.jpg",
-        "specifications": {
-            "dimensions": "93 x 52 x 45 mm",
-            "weight": "200g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "75°",
-            "focusType": "Fixed Focus",
-            "microphone": "Stereo",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "55",
-        "warranty": "12 months",
-        "availability": 50
+    "price": "99",
+    "warranty": "12 months",
+    "availability": 60,
+    "discount": 50
+  },
+  {
+    "id": "wc11",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Aukey",
+    "name": "Aukey PC-LM1E",
+    "description": "Full HD webcam with 1080p resolution and stereo microphone.",
+    "img": "./images/web-cameras/web-camera-11.jpg",
+    "specifications": {
+      "dimensions": "93 x 52 x 45 mm",
+      "weight": "200g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "75°",
+      "focusType": "Fixed Focus",
+      "microphone": "Stereo",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc12",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Creative",
-        "name": "Creative Live! Cam Sync 1080p",
-        "description": "Full HD webcam with 1080p resolution and wide-angle lens.",
-        "img": "./images/web-cameras/web-camera-12.jpg",
-        "specifications": {
-            "dimensions": "102 x 52 x 35 mm",
-            "weight": "110g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "77°",
-            "focusType": "Fixed Focus",
-            "microphone": "Built-in",
-            "systemRequirements": ["Windows 10", "macOS 10.10 or later"]
-        },
-        "price": "49",
-        "warranty": "24 months",
-        "availability": 70
+    "price": "55",
+    "warranty": "12 months",
+    "availability": 50,
+    "discount": 10
+  },
+  {
+    "id": "wc12",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Creative",
+    "name": "Creative Live! Cam Sync 1080p",
+    "description": "Full HD webcam with 1080p resolution and wide-angle lens.",
+    "img": "./images/web-cameras/web-camera-12.jpg",
+    "specifications": {
+      "dimensions": "102 x 52 x 35 mm",
+      "weight": "110g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "77°",
+      "focusType": "Fixed Focus",
+      "microphone": "Built-in",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS 10.10 or later"
+      ]
     },
-    {
-        "id": "wc13",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Anker",
-        "name": "Anker PowerConf C300",
-        "description": "Full HD 1080p webcam with AI-powered framing and autofocus.",
-        "img": "./images/web-cameras/web-camera-13.jpg",
-        "specifications": {
-            "dimensions": "100 x 50 x 40 mm",
-            "weight": "127g",
-            "interface": "USB 3.0",
-            "resolution": "1080p",
-            "frameRate": "60 fps",
-            "fieldOfView": "115°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Stereo",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.11 or later"]
-        },
-        "price": "129",
-        "warranty": "24 months",
-        "availability": 35
+    "price": "49",
+    "warranty": "24 months",
+    "availability": 70,
+    "discount": 0
+  },
+  {
+    "id": "wc13",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Anker",
+    "name": "Anker PowerConf C300",
+    "description": "Full HD 1080p webcam with AI-powered framing and autofocus.",
+    "img": "./images/web-cameras/web-camera-13.jpg",
+    "specifications": {
+      "dimensions": "100 x 50 x 40 mm",
+      "weight": "127g",
+      "interface": "USB 3.0",
+      "resolution": "1080p",
+      "frameRate": "60 fps",
+      "fieldOfView": "115°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Stereo",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.11 or later"
+      ]
     },
-    {
-        "id": "wc14",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "HP",
-        "name": "HP HD 4310",
-        "description": "Full HD 1080p webcam with 360° swivel and built-in microphone.",
-        "img": "./images/web-cameras/web-camera-14.jpg",
-        "specifications": {
-            "dimensions": "114 x 30 x 30 mm",
-            "weight": "133g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "70°",
-            "focusType": "Autofocus",
-            "microphone": "Built-in",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "89",
-        "warranty": "24 months",
-        "availability": 60
+    "price": "129",
+    "warranty": "24 months",
+    "availability": 35,
+    "discount": 25
+  },
+  {
+    "id": "wc14",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "HP",
+    "name": "HP HD 4310",
+    "description": "Full HD 1080p webcam with 360° swivel and built-in microphone.",
+    "img": "./images/web-cameras/web-camera-14.jpg",
+    "specifications": {
+      "dimensions": "114 x 30 x 30 mm",
+      "weight": "133g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "70°",
+      "focusType": "Autofocus",
+      "microphone": "Built-in",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc15",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Ausdom",
-        "name": "Ausdom AF640",
-        "description": "Full HD 1080p webcam with wide-angle lens and dual microphones.",
-        "img": "./images/web-cameras/web-camera-15.jpg",
-        "specifications": {
-            "dimensions": "98 x 26 x 58 mm",
-            "weight": "165g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "90°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Microphones",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "69",
-        "warranty": "12 months",
-        "availability": 45
+    "price": "89",
+    "warranty": "24 months",
+    "availability": 60,
+    "discount": 10
+  },
+  {
+    "id": "wc15",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Ausdom",
+    "name": "Ausdom AF640",
+    "description": "Full HD 1080p webcam with wide-angle lens and dual microphones.",
+    "img": "./images/web-cameras/web-camera-15.jpg",
+    "specifications": {
+      "dimensions": "98 x 26 x 58 mm",
+      "weight": "165g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "90°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Microphones",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc16",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Mevo",
-        "name": "Mevo Start",
-        "description": "1080p live streaming camera with built-in battery and wireless connectivity.",
-        "img": "./images/web-cameras/web-camera-16.jpg",
-        "specifications": {
-            "dimensions": "84 x 34 x 53 mm",
-            "weight": "232g",
-            "interface": "Wi-Fi",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "83.7°",
-            "focusType": "Fixed Focus",
-            "microphone": "Triple MEMS",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.11 or later"]
-        },
-        "price": "299",
-        "warranty": "24 months",
-        "availability": 20
+    "price": "69",
+    "warranty": "12 months",
+    "availability": 45,
+    "discount": 10
+  },
+  {
+    "id": "wc16",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Mevo",
+    "name": "Mevo Start",
+    "description": "1080p live streaming camera with built-in battery and wireless connectivity.",
+    "img": "./images/web-cameras/web-camera-16.jpg",
+    "specifications": {
+      "dimensions": "84 x 34 x 53 mm",
+      "weight": "232g",
+      "interface": "Wi-Fi",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "83.7°",
+      "focusType": "Fixed Focus",
+      "microphone": "Triple MEMS",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.11 or later"
+      ]
     },
-    {
-        "id": "wc17",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Dell",
-        "name": "Dell UltraSharp Webcam",
-        "description": "4K webcam with HDR support and advanced noise reduction.",
-        "img": "./images/web-cameras/web-camera-17.jpg",
-        "specifications": {
-            "dimensions": "100 x 35 x 35 mm",
-            "weight": "215g",
-            "interface": "USB 3.0",
-            "resolution": "4K",
-            "frameRate": "30 fps (4K), 60 fps (1080p)",
-            "fieldOfView": "90°",
-            "focusType": "Autofocus",
-            "microphone": "Dual Microphone",
-            "systemRequirements": ["Windows 10 or later", "macOS 10.13 or later"]
-        },
-        "price": "199",
-        "warranty": "24 months",
-        "availability": 25
+    "price": "299",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 70
+  },
+  {
+    "id": "wc17",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Dell",
+    "name": "Dell UltraSharp Webcam",
+    "description": "4K webcam with HDR support and advanced noise reduction.",
+    "img": "./images/web-cameras/web-camera-17.jpg",
+    "specifications": {
+      "dimensions": "100 x 35 x 35 mm",
+      "weight": "215g",
+      "interface": "USB 3.0",
+      "resolution": "4K",
+      "frameRate": "30 fps (4K), 60 fps (1080p)",
+      "fieldOfView": "90°",
+      "focusType": "Autofocus",
+      "microphone": "Dual Microphone",
+      "systemRequirements": [
+        "Windows 10 or later",
+        "macOS 10.13 or later"
+      ]
     },
-    {
-        "id": "wc18",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "HuddleCamHD",
-        "name": "HuddleCamHD 10X-USB2",
-        "description": "HD 1080p PTZ webcam with 10x optical zoom and remote control.",
-        "img": "./images/web-cameras/web-camera-18.jpg",
-        "specifications": {
-            "dimensions": "154 x 142 x 174 mm",
-            "weight": "700g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "57°",
-            "focusType": "Autofocus",
-            "microphone": "None",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.6 or later"]
-        },
-        "price": "499",
-        "warranty": "24 months",
-        "availability": 15
+    "price": "199",
+    "warranty": "24 months",
+    "availability": 25,
+    "discount": 50
+  },
+  {
+    "id": "wc18",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "HuddleCamHD",
+    "name": "HuddleCamHD 10X-USB2",
+    "description": "HD 1080p PTZ webcam with 10x optical zoom and remote control.",
+    "img": "./images/web-cameras/web-camera-18.jpg",
+    "specifications": {
+      "dimensions": "154 x 142 x 174 mm",
+      "weight": "700g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "57°",
+      "focusType": "Autofocus",
+      "microphone": "None",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.6 or later"
+      ]
     },
-    {
-        "id": "wc19",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Poly",
-        "name": "Poly Studio P5",
-        "description": "Professional webcam with 1080p resolution and directional microphone.",
-        "img": "./images/web-cameras/web-camera-19.jpg",
-        "specifications": {
-            "dimensions": "62 x 37 x 68 mm",
-            "weight": "98g",
-            "interface": "USB 2.0",
-            "resolution": "1080p",
-            "frameRate": "30 fps",
-            "fieldOfView": "80°",
-            "focusType": "Fixed Focus",
-            "microphone": "Directional",
-            "systemRequirements": ["Windows 7 or later", "macOS 10.10 or later"]
-        },
-        "price": "129",
-        "warranty": "24 months",
-        "availability": 30
+    "price": "499",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 50
+  },
+  {
+    "id": "wc19",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Poly",
+    "name": "Poly Studio P5",
+    "description": "Professional webcam with 1080p resolution and directional microphone.",
+    "img": "./images/web-cameras/web-camera-19.jpg",
+    "specifications": {
+      "dimensions": "62 x 37 x 68 mm",
+      "weight": "98g",
+      "interface": "USB 2.0",
+      "resolution": "1080p",
+      "frameRate": "30 fps",
+      "fieldOfView": "80°",
+      "focusType": "Fixed Focus",
+      "microphone": "Directional",
+      "systemRequirements": [
+        "Windows 7 or later",
+        "macOS 10.10 or later"
+      ]
     },
-    {
-        "id": "wc20",
-        "category": "Accessories",
-        "subcategory": "Web Cameras",
-        "brand": "Elgato",
-        "name": "Elgato Facecam",
-        "description": "Premium 1080p webcam with Sony STARVIS sensor and uncompressed video.",
-        "img": "./images/web-cameras/web-camera-20.jpg",
-        "specifications": {
-            "dimensions": "79 x 48 x 58 mm",
-            "weight": "96g",
-            "interface": "USB 3.0",
-            "resolution": "1080p",
-            "frameRate": "60 fps",
-            "fieldOfView": "82°",
-            "focusType": "Fixed Focus",
-            "microphone": "None",
-            "systemRequirements": ["Windows 10 or later", "macOS 10.14 or later"]
-        },
-        "price": "199",
-        "warranty": "24 months",
-        "availability": 25
-    }
-    
+    "price": "129",
+    "warranty": "24 months",
+    "availability": 30,
+    "discount": 25
+  },
+  {
+    "id": "wc20",
+    "category": "Accessories",
+    "subcategory": "Web Cameras",
+    "brand": "Elgato",
+    "name": "Elgato Facecam",
+    "description": "Premium 1080p webcam with Sony STARVIS sensor and uncompressed video.",
+    "img": "./images/web-cameras/web-camera-20.jpg",
+    "specifications": {
+      "dimensions": "79 x 48 x 58 mm",
+      "weight": "96g",
+      "interface": "USB 3.0",
+      "resolution": "1080p",
+      "frameRate": "60 fps",
+      "fieldOfView": "82°",
+      "focusType": "Fixed Focus",
+      "microphone": "None",
+      "systemRequirements": [
+        "Windows 10 or later",
+        "macOS 10.14 or later"
+      ]
+    },
+    "price": "199",
+    "warranty": "24 months",
+    "availability": 25,
+    "discount": 50
+  }
 ]

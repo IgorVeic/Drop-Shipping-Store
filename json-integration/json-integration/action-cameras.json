@@ -22,7 +22,8 @@
     },
     "price": "399",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "act2",
@@ -47,7 +48,8 @@
     },
     "price": "329",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 10
   },
   {
     "id": "act3",
@@ -72,7 +74,8 @@
     },
     "price": "349",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "act4",
@@ -97,7 +100,8 @@
     },
     "price": "449",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "act5",
@@ -121,7 +125,8 @@
     },
     "price": "139",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 50
   },
   {
     "id": "act6",
@@ -146,7 +151,8 @@
     },
     "price": "399",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "act7",
@@ -171,7 +177,8 @@
     },
     "price": "199",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 0
   },
   {
     "id": "act8",
@@ -196,7 +203,8 @@
     },
     "price": "239",
     "warranty": "12 months",
-    "availability": 14
+    "availability": 14,
+    "discount": 25
   },
   {
     "id": "act9",
@@ -221,7 +229,8 @@
     },
     "price": "349",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "act10",
@@ -246,7 +255,8 @@
     },
     "price": "299",
     "warranty": "12 months",
-    "availability": 17
+    "availability": 17,
+    "discount": 10
   },
   {
     "id": "act11",
@@ -271,7 +281,8 @@
     },
     "price": "349",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "act12",
@@ -296,7 +307,8 @@
     },
     "price": "249",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 10
   },
   {
     "id": "act13",
@@ -321,7 +333,8 @@
     },
     "price": "699",
     "warranty": "12 months",
-    "availability": 6
+    "availability": 6,
+    "discount": 70
   },
   {
     "id": "act14",
@@ -346,7 +359,8 @@
     },
     "price": "799",
     "warranty": "12 months",
-    "availability": 4
+    "availability": 4,
+    "discount": 0
   },
   {
     "id": "act15",
@@ -371,7 +385,8 @@
     },
     "price": "299",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 10
   },
   {
     "id": "act16",
@@ -395,7 +410,8 @@
     },
     "price": "499",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 25
   },
   {
     "id": "act17",
@@ -419,7 +435,8 @@
     },
     "price": "139",
     "warranty": "12 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 50
   },
   {
     "id": "act18",
@@ -444,7 +461,8 @@
     },
     "price": "229",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 25
   },
   {
     "id": "act19",
@@ -469,7 +487,8 @@
     },
     "price": "499",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "act20",
@@ -493,6 +512,7 @@
     },
     "price": "149",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   }
 ]

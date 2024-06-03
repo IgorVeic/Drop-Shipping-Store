@@ -22,7 +22,8 @@
     },
     "price": "799",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "dron2",
@@ -47,7 +48,8 @@
     },
     "price": "699",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "dron3",
@@ -72,7 +74,8 @@
     },
     "price": "1499",
     "warranty": "12 months",
-    "availability": 7
+    "availability": 7,
+    "discount": 0
   },
   {
     "id": "dron4",
@@ -97,7 +100,8 @@
     },
     "price": "1599",
     "warranty": "24 months",
-    "availability": 5
+    "availability": 5,
+    "discount": 25
   },
   {
     "id": "dron5",
@@ -122,7 +126,8 @@
     },
     "price": "899",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "dron6",
@@ -147,7 +152,8 @@
     },
     "price": "449",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "dron7",
@@ -172,7 +178,8 @@
     },
     "price": "399",
     "warranty": "6 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 25
   },
   {
     "id": "dron8",
@@ -197,7 +204,8 @@
     },
     "price": "999",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "dron9",
@@ -222,7 +230,8 @@
     },
     "price": "2999",
     "warranty": "24 months",
-    "availability": 3
+    "availability": 3,
+    "discount": 25
   },
   {
     "id": "dron10",
@@ -247,7 +256,8 @@
     },
     "price": "299",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "dron11",
@@ -272,7 +282,8 @@
     },
     "price": "299",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 10
   },
   {
     "id": "dron12",
@@ -297,7 +308,8 @@
     },
     "price": "1499",
     "warranty": "24 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "dron13",
@@ -322,7 +334,8 @@
     },
     "price": "499",
     "warranty": "12 months",
-    "availability": 14
+    "availability": 14,
+    "discount": 0
   },
   {
     "id": "dron14",
@@ -347,7 +360,8 @@
     },
     "price": "699",
     "warranty": "12 months",
-    "availability": 9
+    "availability": 9,
+    "discount": 25
   },
   {
     "id": "dron15",
@@ -372,7 +386,8 @@
     },
     "price": "399",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 10
   },
   {
     "id": "dron16",
@@ -396,7 +411,8 @@
     },
     "price": "99",
     "warranty": "6 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 0
   },
   {
     "id": "dron17",
@@ -421,7 +437,8 @@
     },
     "price": "899",
     "warranty": "12 months",
-    "availability": 6
+    "availability": 6,
+    "discount": 25
   },
   {
     "id": "dron18",
@@ -446,7 +463,8 @@
     },
     "price": "5499",
     "warranty": "24 months",
-    "availability": 2
+    "availability": 2,
+    "discount": 70
   },
   {
     "id": "dron19",
@@ -471,7 +489,8 @@
     },
     "price": "1299",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 50
   },
   {
     "id": "dron20",
@@ -496,6 +515,7 @@
     },
     "price": "599",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   }
 ]

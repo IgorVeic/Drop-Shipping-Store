@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1bd8c4;
+  background-image: url("img/elec-1.png"); /* replace with your image path */
+  background-size: cover; /* cover the entire area of the element */
+  background-position: center; /* center the background image */
+  padding: 100px 0;
+}
+
+.input-group input[type="text"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.input-group input[type="text"]:focus {
+  outline: 2px solid #102e62;
+}
+
+.newsletter input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #102e62;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  margin-left: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #102e62;
+  border: 1px solid #102e62;
+}
+.newsletter h1,
+.newsletter p {
+  color: #ffffff;
+}
+
+.newsletter p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 80%; /* adjust as needed */
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.newsletter h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}

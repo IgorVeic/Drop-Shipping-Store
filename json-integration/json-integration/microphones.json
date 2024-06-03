@@ -14,11 +14,15 @@
       "interface": "USB",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "129",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "mic2",
@@ -35,11 +39,14 @@
       "interface": "XLR",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Audio Interface"]
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "mic3",
@@ -56,11 +63,14 @@
       "interface": "XLR",
       "frequencyResponse": "50 Hz-20 kHz",
       "type": "Dynamic",
-      "systemRequirements": ["Audio Interface"]
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "399",
     "warranty": "24 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 10
   },
   {
     "id": "mic4",
@@ -77,11 +87,14 @@
       "interface": "XLR",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Audio Interface"]
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "229",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "mic5",
@@ -98,11 +111,15 @@
       "interface": "USB",
       "frequencyResponse": "20 Hz-18 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "49",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 25
   },
   {
     "id": "mic6",
@@ -119,11 +136,14 @@
       "interface": "XLR",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Audio Interface"]
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "149",
     "warranty": "24 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "mic7",
@@ -140,11 +160,17 @@
       "interface": "USB",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Windows 10", "macOS", "PS4", "PS5"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "PS4",
+        "PS5"
+      ]
     },
     "price": "139",
     "warranty": "24 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 10
   },
   {
     "id": "mic8",
@@ -161,11 +187,15 @@
       "interface": "USB",
       "frequencyResponse": "40 Hz-18 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 0
   },
   {
     "id": "mic9",
@@ -182,11 +212,15 @@
       "interface": "USB",
       "frequencyResponse": "70 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "159",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 25
   },
   {
     "id": "mic10",
@@ -203,11 +237,14 @@
       "interface": "XLR",
       "frequencyResponse": "20 Hz-20 kHz",
       "type": "Condenser",
-      "systemRequirements": ["Audio Interface"]
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "149",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "mic11",
@@ -218,19 +255,22 @@
     "description": "Professional studio broadcasting condenser microphone kit.",
     "img": "./images/microphones/microphone-11.jpg",
     "specifications": {
-        "dimensions": "150 x 45 x 45 mm",
-        "weight": "280g",
-        "cableLength": "3m",
-        "interface": "XLR",
-        "frequencyResponse": "20 Hz-16 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Audio Interface"]
+      "dimensions": "150 x 45 x 45 mm",
+      "weight": "280g",
+      "cableLength": "3m",
+      "interface": "XLR",
+      "frequencyResponse": "20 Hz-16 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "45",
     "warranty": "12 months",
-    "availability": 30
-},
-{
+    "availability": 30,
+    "discount": 50
+  },
+  {
     "id": "mic12",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -239,19 +279,22 @@
     "description": "Dynamic cardioid vocal microphone for performance and speech.",
     "img": "./images/microphones/microphone-12.jpg",
     "specifications": {
-        "dimensions": "48 x 180 mm",
-        "weight": "330g",
-        "cableLength": "3m",
-        "interface": "XLR",
-        "frequencyResponse": "40 Hz-16 kHz",
-        "type": "Dynamic",
-        "systemRequirements": ["Audio Interface"]
+      "dimensions": "48 x 180 mm",
+      "weight": "330g",
+      "cableLength": "3m",
+      "interface": "XLR",
+      "frequencyResponse": "40 Hz-16 kHz",
+      "type": "Dynamic",
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "99",
     "warranty": "24 months",
-    "availability": 25
-},
-{
+    "availability": 25,
+    "discount": 0
+  },
+  {
     "id": "mic13",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -260,19 +303,23 @@
     "description": "Professional USB studio microphone for recording and streaming.",
     "img": "./images/microphones/microphone-13.jpg",
     "specifications": {
-        "dimensions": "190 x 56 x 56 mm",
-        "weight": "220g",
-        "cableLength": "2m",
-        "interface": "USB",
-        "frequencyResponse": "20 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "190 x 56 x 56 mm",
+      "weight": "220g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "149",
     "warranty": "24 months",
-    "availability": 20
-},
-{
+    "availability": 20,
+    "discount": 0
+  },
+  {
     "id": "mic14",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -281,19 +328,25 @@
     "description": "Universal digital USB microphone for streaming on PC and console.",
     "img": "./images/microphones/microphone-14.jpg",
     "specifications": {
-        "dimensions": "240 x 90 x 50 mm",
-        "weight": "420g",
-        "cableLength": "3m",
-        "interface": "USB",
-        "frequencyResponse": "20 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS", "PS4", "Xbox One"]
+      "dimensions": "240 x 90 x 50 mm",
+      "weight": "420g",
+      "cableLength": "3m",
+      "interface": "USB",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS",
+        "PS4",
+        "Xbox One"
+      ]
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 25
-},
-{
+    "availability": 25,
+    "discount": 70
+  },
+  {
     "id": "mic15",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -302,19 +355,23 @@
     "description": "Compact USB streaming microphone with supercardioid pickup pattern.",
     "img": "./images/microphones/microphone-15.jpg",
     "specifications": {
-        "dimensions": "184 x 50 x 50 mm",
-        "weight": "383g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "frequencyResponse": "20 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "184 x 50 x 50 mm",
+      "weight": "383g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 28
-},
-{
+    "availability": 28,
+    "discount": 10
+  },
+  {
     "id": "mic16",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -323,19 +380,23 @@
     "description": "Affordable USB condenser microphone for recording and streaming.",
     "img": "./images/microphones/microphone-16.jpg",
     "specifications": {
-        "dimensions": "150 x 45 x 45 mm",
-        "weight": "400g",
-        "cableLength": "1.5m",
-        "interface": "USB",
-        "frequencyResponse": "20 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "150 x 45 x 45 mm",
+      "weight": "400g",
+      "cableLength": "1.5m",
+      "interface": "USB",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 35
-},
-{
+    "availability": 35,
+    "discount": 0
+  },
+  {
     "id": "mic17",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -344,19 +405,23 @@
     "description": "USB condenser microphone kit for podcasting and streaming.",
     "img": "./images/microphones/microphone-17.jpg",
     "specifications": {
-        "dimensions": "155 x 50 x 50 mm",
-        "weight": "300g",
-        "cableLength": "1.5m",
-        "interface": "USB",
-        "frequencyResponse": "100 Hz-16 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "155 x 50 x 50 mm",
+      "weight": "300g",
+      "cableLength": "1.5m",
+      "interface": "USB",
+      "frequencyResponse": "100 Hz-16 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "49",
     "warranty": "12 months",
-    "availability": 40
-},
-{
+    "availability": 40,
+    "discount": 0
+  },
+  {
     "id": "mic18",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -365,19 +430,22 @@
     "description": "Condenser microphone with vintage body style and modern performance.",
     "img": "./images/microphones/microphone-18.jpg",
     "specifications": {
-        "dimensions": "60 x 130 mm",
-        "weight": "544g",
-        "cableLength": "3m",
-        "interface": "XLR",
-        "frequencyResponse": "30 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Audio Interface"]
+      "dimensions": "60 x 130 mm",
+      "weight": "544g",
+      "cableLength": "3m",
+      "interface": "XLR",
+      "frequencyResponse": "30 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 22
-},
-{
+    "availability": 22,
+    "discount": 0
+  },
+  {
     "id": "mic19",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -386,19 +454,22 @@
     "description": "Professional dynamic studio recording microphone.",
     "img": "./images/microphones/microphone-19.jpg",
     "specifications": {
-        "dimensions": "54 x 190 mm",
-        "weight": "384g",
-        "cableLength": "3m",
-        "interface": "XLR",
-        "frequencyResponse": "28 Hz-18 kHz",
-        "type": "Dynamic",
-        "systemRequirements": ["Audio Interface"]
+      "dimensions": "54 x 190 mm",
+      "weight": "384g",
+      "cableLength": "3m",
+      "interface": "XLR",
+      "frequencyResponse": "28 Hz-18 kHz",
+      "type": "Dynamic",
+      "systemRequirements": [
+        "Audio Interface"
+      ]
     },
     "price": "329",
     "warranty": "24 months",
-    "availability": 10
-},
-{
+    "availability": 10,
+    "discount": 10
+  },
+  {
     "id": "mic20",
     "category": "Accessories",
     "subcategory": "Microphones",
@@ -407,17 +478,20 @@
     "description": "Portable USB studio microphone for computer-based recording.",
     "img": "./images/microphones/microphone-20.jpg",
     "specifications": {
-        "dimensions": "100 x 49 x 49 mm",
-        "weight": "263g",
-        "cableLength": "1m",
-        "interface": "USB",
-        "frequencyResponse": "20 Hz-20 kHz",
-        "type": "Condenser",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "100 x 49 x 49 mm",
+      "weight": "263g",
+      "cableLength": "1m",
+      "interface": "USB",
+      "frequencyResponse": "20 Hz-20 kHz",
+      "type": "Condenser",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "69",
     "warranty": "12 months",
-    "availability": 30
-}
-
+    "availability": 30,
+    "discount": 25
+  }
 ]

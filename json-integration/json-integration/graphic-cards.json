@@ -23,7 +23,8 @@
     },
     "price": "699",
     "warranty": "24 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "gc2",
@@ -49,7 +50,8 @@
     },
     "price": "649",
     "warranty": "24 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "gc3",
@@ -75,7 +77,8 @@
     },
     "price": "399",
     "warranty": "24 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 0
   },
   {
     "id": "gc4",
@@ -101,7 +104,8 @@
     },
     "price": "479",
     "warranty": "24 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 10
   },
   {
     "id": "gc5",
@@ -127,7 +131,8 @@
     },
     "price": "1499",
     "warranty": "24 months",
-    "availability": 5
+    "availability": 5,
+    "discount": 0
   },
   {
     "id": "gc6",
@@ -153,7 +158,8 @@
     },
     "price": "379",
     "warranty": "24 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 10
   },
   {
     "id": "gc7",
@@ -179,7 +185,8 @@
     },
     "price": "229",
     "warranty": "24 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 0
   },
   {
     "id": "gc8",
@@ -205,7 +212,8 @@
     },
     "price": "199",
     "warranty": "24 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 10
   },
   {
     "id": "gc9",
@@ -231,7 +239,8 @@
     },
     "price": "499",
     "warranty": "24 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "gc10",
@@ -257,7 +266,8 @@
     },
     "price": "999",
     "warranty": "24 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "gc11",
@@ -283,7 +293,8 @@
     },
     "price": "749",
     "warranty": "24 months",
-    "availability": 7
+    "availability": 7,
+    "discount": 25
   },
   {
     "id": "gc12",
@@ -309,7 +320,8 @@
     },
     "price": "1599",
     "warranty": "24 months",
-    "availability": 5
+    "availability": 5,
+    "discount": 10
   },
   {
     "id": "gc13",
@@ -335,7 +347,8 @@
     },
     "price": "699",
     "warranty": "24 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "gc14",
@@ -361,7 +374,8 @@
     },
     "price": "399",
     "warranty": "24 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 25
   },
   {
     "id": "gc15",
@@ -387,7 +401,8 @@
     },
     "price": "499",
     "warranty": "24 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "gc16",
@@ -413,7 +428,8 @@
     },
     "price": "199",
     "warranty": "24 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 50
   },
   {
     "id": "gc17",
@@ -439,7 +455,8 @@
     },
     "price": "479",
     "warranty": "24 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 0
   },
   {
     "id": "gc18",
@@ -465,7 +482,8 @@
     },
     "price": "219",
     "warranty": "24 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 10
   },
   {
     "id": "gc19",
@@ -491,7 +509,8 @@
     },
     "price": "779",
     "warranty": "24 months",
-    "availability": 9
+    "availability": 9,
+    "discount": 0
   },
   {
     "id": "gc20",
@@ -517,6 +536,7 @@
     },
     "price": "399",
     "warranty": "24 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 70
   }
 ]

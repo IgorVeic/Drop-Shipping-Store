@@ -14,11 +14,15 @@
       "interface": "Bluetooth/USB",
       "dpi": "4000",
       "type": "Wireless",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "99",
     "warranty": "12 months",
-    "availability": 10
+    "availability": 10,
+    "discount": 0
   },
   {
     "id": "mo2",
@@ -35,11 +39,15 @@
       "interface": "USB",
       "dpi": "20000",
       "type": "Wired",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "69",
     "warranty": "12 months",
-    "availability": 15
+    "availability": 15,
+    "discount": 10
   },
   {
     "id": "mo3",
@@ -56,11 +64,15 @@
       "interface": "Bluetooth/USB",
       "dpi": "18000",
       "type": "Wireless",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "89",
     "warranty": "12 months",
-    "availability": 8
+    "availability": 8,
+    "discount": 0
   },
   {
     "id": "mo4",
@@ -77,11 +89,15 @@
       "interface": "USB",
       "dpi": "12000",
       "type": "Wired",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 12
+    "availability": 12,
+    "discount": 25
   },
   {
     "id": "mo5",
@@ -98,11 +114,14 @@
       "interface": "Bluetooth",
       "dpi": "1000",
       "type": "Wireless",
-      "systemRequirements": ["Windows 10"]
+      "systemRequirements": [
+        "Windows 10"
+      ]
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "mo6",
@@ -119,11 +138,15 @@
       "interface": "USB",
       "dpi": "1000",
       "type": "Wired",
-      "systemRequirements": ["Windows 10", "Windows 8"]
+      "systemRequirements": [
+        "Windows 10",
+        "Windows 8"
+      ]
     },
     "price": "12",
     "warranty": "12 months",
-    "availability": 25
+    "availability": 25,
+    "discount": 10
   },
   {
     "id": "mo7",
@@ -140,11 +163,15 @@
       "interface": "USB",
       "dpi": "1000",
       "type": "Wireless",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "15",
     "warranty": "12 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 0
   },
   {
     "id": "mo8",
@@ -161,11 +188,15 @@
       "interface": "USB",
       "dpi": "1000",
       "type": "Wireless",
-      "systemRequirements": ["Windows 10", "Linux"]
+      "systemRequirements": [
+        "Windows 10",
+        "Linux"
+      ]
     },
     "price": "25",
     "warranty": "12 months",
-    "availability": 18
+    "availability": 18,
+    "discount": 0
   },
   {
     "id": "mo9",
@@ -182,11 +213,15 @@
       "interface": "USB",
       "dpi": "1600",
       "type": "Wired",
-      "systemRequirements": ["Windows 10", "Linux"]
+      "systemRequirements": [
+        "Windows 10",
+        "Linux"
+      ]
     },
     "price": "9",
     "warranty": "12 months",
-    "availability": 20
+    "availability": 20,
+    "discount": 0
   },
   {
     "id": "mo10",
@@ -203,11 +238,15 @@
       "interface": "USB",
       "dpi": "1200",
       "type": "Wired",
-      "systemRequirements": ["Windows 10", "macOS"]
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "14",
     "warranty": "12 months",
-    "availability": 22
+    "availability": 22,
+    "discount": 10
   },
   {
     "id": "mo11",
@@ -218,19 +257,23 @@
     "description": "Optical gaming mouse with customizable RGB lighting.",
     "img": "./images/mouses/mouse-11.jpg",
     "specifications": {
-        "dimensions": "126 x 67 x 45 mm",
-        "weight": "110g",
-        "cableLength": "2m",
-        "interface": "USB",
-        "dpi": "12000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "126 x 67 x 45 mm",
+      "weight": "110g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "dpi": "12000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "89",
     "warranty": "12 months",
-    "availability": 14
-},
-{
+    "availability": 14,
+    "discount": 25
+  },
+  {
     "id": "mo12",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -239,19 +282,22 @@
     "description": "Customizable gaming mouse with adjustable weight system.",
     "img": "./images/mouses/mouse-12.jpg",
     "specifications": {
-        "dimensions": "128 x 72 x 43 mm",
-        "weight": "160g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10"]
+      "dimensions": "128 x 72 x 43 mm",
+      "weight": "160g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 12
-},
-{
+    "availability": 12,
+    "discount": 0
+  },
+  {
     "id": "mo13",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -260,19 +306,23 @@
     "description": "Ultra-lightweight gaming mouse with honeycomb shell design.",
     "img": "./images/mouses/mouse-13.jpg",
     "specifications": {
-        "dimensions": "116 x 62 x 38 mm",
-        "weight": "53g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "116 x 62 x 38 mm",
+      "weight": "53g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "49",
     "warranty": "12 months",
-    "availability": 25
-},
-{
+    "availability": 25,
+    "discount": 50
+  },
+  {
     "id": "mo14",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -281,19 +331,23 @@
     "description": "Gaming mouse with precision sensor and customizable RGB lighting.",
     "img": "./images/mouses/mouse-14.jpg",
     "specifications": {
-        "dimensions": "127 x 71 x 41 mm",
-        "weight": "95g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "127 x 71 x 41 mm",
+      "weight": "95g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 18
-},
-{
+    "availability": 18,
+    "discount": 0
+  },
+  {
     "id": "mo15",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -302,19 +356,23 @@
     "description": "Wireless gaming mouse with HERO sensor and lightweight design.",
     "img": "./images/mouses/mouse-15.jpg",
     "specifications": {
-        "dimensions": "125 x 63.5 x 40 mm",
-        "weight": "80g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wireless",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "125 x 63.5 x 40 mm",
+      "weight": "80g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wireless",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "129",
     "warranty": "24 months",
-    "availability": 10
-},
-{
+    "availability": 10,
+    "discount": 10
+  },
+  {
     "id": "mo16",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -323,19 +381,23 @@
     "description": "Wireless gaming mouse with Razer HyperSpeed technology.",
     "img": "./images/mouses/mouse-16.jpg",
     "specifications": {
-        "dimensions": "126.7 x 66.2 x 37.8 mm",
-        "weight": "74g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "20000",
-        "type": "Wireless",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "126.7 x 66.2 x 37.8 mm",
+      "weight": "74g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "20000",
+      "type": "Wireless",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "149",
     "warranty": "24 months",
-    "availability": 15
-},
-{
+    "availability": 15,
+    "discount": 0
+  },
+  {
     "id": "mo17",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -344,19 +406,23 @@
     "description": "Ambidextrous gaming mouse with TrueMove Pro sensor.",
     "img": "./images/mouses/mouse-17.jpg",
     "specifications": {
-        "dimensions": "126 x 68 x 39 mm",
-        "weight": "92g",
-        "cableLength": "2m",
-        "interface": "USB",
-        "dpi": "18000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "126 x 68 x 39 mm",
+      "weight": "92g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "dpi": "18000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "69",
     "warranty": "12 months",
-    "availability": 20
-},
-{
+    "availability": 20,
+    "discount": 0
+  },
+  {
     "id": "mo18",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -365,19 +431,23 @@
     "description": "Gaming mouse with optical-mechanical switches and customizable RGB.",
     "img": "./images/mouses/mouse-18.jpg",
     "specifications": {
-        "dimensions": "131 x 71 x 42 mm",
-        "weight": "160g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "131 x 71 x 42 mm",
+      "weight": "160g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 18
-},
-{
+    "availability": 18,
+    "discount": 50
+  },
+  {
     "id": "mo19",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -386,19 +456,23 @@
     "description": "Ergonomic gaming mouse with precise control and adjustable DPI.",
     "img": "./images/mouses/mouse-19.jpg",
     "specifications": {
-        "dimensions": "120 x 64 x 40 mm",
-        "weight": "90g",
-        "cableLength": "2m",
-        "interface": "USB",
-        "dpi": "3200",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "120 x 64 x 40 mm",
+      "weight": "90g",
+      "cableLength": "2m",
+      "interface": "USB",
+      "dpi": "3200",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "69",
     "warranty": "12 months",
-    "availability": 22
-},
-{
+    "availability": 22,
+    "discount": 25
+  },
+  {
     "id": "mo20",
     "category": "Accessories",
     "subcategory": "Mouse",
@@ -407,17 +481,20 @@
     "description": "Wired gaming mouse with intelligent RGB illumination.",
     "img": "./images/mouses/mouse-20.jpg",
     "specifications": {
-        "dimensions": "125 x 85 x 40 mm",
-        "weight": "130g",
-        "cableLength": "1.8m",
-        "interface": "USB",
-        "dpi": "16000",
-        "type": "Wired",
-        "systemRequirements": ["Windows 10", "macOS"]
+      "dimensions": "125 x 85 x 40 mm",
+      "weight": "130g",
+      "cableLength": "1.8m",
+      "interface": "USB",
+      "dpi": "16000",
+      "type": "Wired",
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
     "price": "79",
     "warranty": "12 months",
-    "availability": 20
-}
-
+    "availability": 20,
+    "discount": 0
+  }
 ]

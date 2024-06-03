@@ -1,621 +1,641 @@
 [
-    {
-      "id": "cam1",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Canon",
-      "name": "Canon EOS R5",
-      "description": "Full-frame mirrorless camera with 45MP resolution and 8K video recording.",
-      "img": "./images/cameras/camera-1.jpg",
-      "specifications": {
-        "dimensions": "138 x 97.5 x 88 mm",
-        "weight": "738g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "45 MP",
-        "videoResolution": "8K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "320 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "3899",
-      "warranty": "24 months",
-      "availability": 5
+  {
+    "id": "cam1",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Canon",
+    "name": "Canon EOS R5",
+    "description": "Full-frame mirrorless camera with 45MP resolution and 8K video recording.",
+    "img": "./images/cameras/camera-1.jpg",
+    "specifications": {
+      "dimensions": "138 x 97.5 x 88 mm",
+      "weight": "738g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "45 MP",
+      "videoResolution": "8K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "320 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam2",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Nikon",
-      "name": "Nikon Z6 II",
-      "description": "Full-frame mirrorless camera with 24.5MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-2.jpg",
-      "specifications": {
-        "dimensions": "134 x 100.5 x 69.5 mm",
-        "weight": "705g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "24.5 MP",
-        "videoResolution": "4K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "410 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1999",
-      "warranty": "24 months",
-      "availability": 8
+    "price": "3899",
+    "warranty": "24 months",
+    "availability": 5,
+    "discount": 0
+  },
+  {
+    "id": "cam2",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Nikon",
+    "name": "Nikon Z6 II",
+    "description": "Full-frame mirrorless camera with 24.5MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-2.jpg",
+    "specifications": {
+      "dimensions": "134 x 100.5 x 69.5 mm",
+      "weight": "705g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "24.5 MP",
+      "videoResolution": "4K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "410 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam3",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Sony",
-      "name": "Sony Alpha A7 III",
-      "description": "Full-frame mirrorless camera with 24.2MP resolution and 4K HDR video recording.",
-      "img": "./images/cameras/camera-3.jpg",
-      "specifications": {
-        "dimensions": "126.9 x 95.6 x 73.7 mm",
-        "weight": "650g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "24.2 MP",
-        "videoResolution": "4K HDR",
-        "screenSize": "3 inches",
-        "batteryLife": "610 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1999",
-      "warranty": "24 months",
-      "availability": 12
+    "price": "1999",
+    "warranty": "24 months",
+    "availability": 8,
+    "discount": 0
+  },
+  {
+    "id": "cam3",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Sony",
+    "name": "Sony Alpha A7 III",
+    "description": "Full-frame mirrorless camera with 24.2MP resolution and 4K HDR video recording.",
+    "img": "./images/cameras/camera-3.jpg",
+    "specifications": {
+      "dimensions": "126.9 x 95.6 x 73.7 mm",
+      "weight": "650g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "24.2 MP",
+      "videoResolution": "4K HDR",
+      "screenSize": "3 inches",
+      "batteryLife": "610 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam4",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Fujifilm",
-      "name": "Fujifilm X-T4",
-      "description": "APS-C mirrorless camera with 26.1MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-4.jpg",
-      "specifications": {
-        "dimensions": "134.6 x 92.8 x 63.8 mm",
-        "weight": "607g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "26.1 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "500 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1699",
-      "warranty": "24 months",
-      "availability": 10
+    "price": "1999",
+    "warranty": "24 months",
+    "availability": 12,
+    "discount": 0
+  },
+  {
+    "id": "cam4",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Fujifilm",
+    "name": "Fujifilm X-T4",
+    "description": "APS-C mirrorless camera with 26.1MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-4.jpg",
+    "specifications": {
+      "dimensions": "134.6 x 92.8 x 63.8 mm",
+      "weight": "607g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "26.1 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "500 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam5",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Panasonic",
-      "name": "Panasonic Lumix GH5",
-      "description": "Micro Four Thirds mirrorless camera with 20.3MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-5.jpg",
-      "specifications": {
-        "dimensions": "138.5 x 98.1 x 87.4 mm",
-        "weight": "725g",
-        "sensorType": "Micro Four Thirds",
-        "resolution": "20.3 MP",
-        "videoResolution": "4K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "410 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1499",
-      "warranty": "24 months",
-      "availability": 15
+    "price": "1699",
+    "warranty": "24 months",
+    "availability": 10,
+    "discount": 0
+  },
+  {
+    "id": "cam5",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Panasonic",
+    "name": "Panasonic Lumix GH5",
+    "description": "Micro Four Thirds mirrorless camera with 20.3MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-5.jpg",
+    "specifications": {
+      "dimensions": "138.5 x 98.1 x 87.4 mm",
+      "weight": "725g",
+      "sensorType": "Micro Four Thirds",
+      "resolution": "20.3 MP",
+      "videoResolution": "4K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "410 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam6",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Olympus",
-      "name": "Olympus OM-D E-M10 Mark IV",
-      "description": "Micro Four Thirds mirrorless camera with 20MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-6.jpg",
-      "specifications": {
-        "dimensions": "121.7 x 84.6 x 49 mm",
-        "weight": "383g",
-        "sensorType": "Micro Four Thirds",
-        "resolution": "20 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "360 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "699",
-      "warranty": "24 months",
-      "availability": 20
+    "price": "1499",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 25
+  },
+  {
+    "id": "cam6",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Olympus",
+    "name": "Olympus OM-D E-M10 Mark IV",
+    "description": "Micro Four Thirds mirrorless camera with 20MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-6.jpg",
+    "specifications": {
+      "dimensions": "121.7 x 84.6 x 49 mm",
+      "weight": "383g",
+      "sensorType": "Micro Four Thirds",
+      "resolution": "20 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "360 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam7",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Canon",
-      "name": "Canon EOS Rebel T7i",
-      "description": "APS-C DSLR camera with 24.2MP resolution and Full HD video recording.",
-      "img": "./images/cameras/camera-7.jpg",
-      "specifications": {
-        "dimensions": "131 x 99.9 x 76.2 mm",
-        "weight": "532g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "24.2 MP",
-        "videoResolution": "1080p",
-        "screenSize": "3 inches",
-        "batteryLife": "600 shots",
-        "interface": [
-          "USB",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "799",
-      "warranty": "24 months",
-      "availability": 18
+    "price": "699",
+    "warranty": "24 months",
+    "availability": 20,
+    "discount": 10
+  },
+  {
+    "id": "cam7",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Canon",
+    "name": "Canon EOS Rebel T7i",
+    "description": "APS-C DSLR camera with 24.2MP resolution and Full HD video recording.",
+    "img": "./images/cameras/camera-7.jpg",
+    "specifications": {
+      "dimensions": "131 x 99.9 x 76.2 mm",
+      "weight": "532g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "24.2 MP",
+      "videoResolution": "1080p",
+      "screenSize": "3 inches",
+      "batteryLife": "600 shots",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam8",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Nikon",
-      "name": "Nikon D850",
-      "description": "Full-frame DSLR camera with 45.7MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-8.jpg",
-      "specifications": {
-        "dimensions": "146 x 124 x 78.5 mm",
-        "weight": "1005g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "45.7 MP",
-        "videoResolution": "4K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "1840 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "2999",
-      "warranty": "24 months",
-      "availability": 7
+    "price": "799",
+    "warranty": "24 months",
+    "availability": 18,
+    "discount": 10
+  },
+  {
+    "id": "cam8",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Nikon",
+    "name": "Nikon D850",
+    "description": "Full-frame DSLR camera with 45.7MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-8.jpg",
+    "specifications": {
+      "dimensions": "146 x 124 x 78.5 mm",
+      "weight": "1005g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "45.7 MP",
+      "videoResolution": "4K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "1840 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam9",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Sony",
-      "name": "Sony Alpha A6600",
-      "description": "APS-C mirrorless camera with 24.2MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-9.jpg",
-      "specifications": {
-        "dimensions": "120 x 66.9 x 69.3 mm",
-        "weight": "503g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "24.2 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "810 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1399",
-      "warranty": "24 months",
-      "availability": 14
+    "price": "2999",
+    "warranty": "24 months",
+    "availability": 7,
+    "discount": 0
+  },
+  {
+    "id": "cam9",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Sony",
+    "name": "Sony Alpha A6600",
+    "description": "APS-C mirrorless camera with 24.2MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-9.jpg",
+    "specifications": {
+      "dimensions": "120 x 66.9 x 69.3 mm",
+      "weight": "503g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "24.2 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "810 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam10",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Leica",
-      "name": "Leica Q2",
-      "description": "Full-frame compact camera with 47.3MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-10.jpg",
-      "specifications": {
-        "dimensions": "130 x 80 x 91.9 mm",
-        "weight": "734g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "47.3 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "370 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "4999",
-      "warranty": "24 months",
-      "availability": 5
+    "price": "1399",
+    "warranty": "24 months",
+    "availability": 14,
+    "discount": 0
+  },
+  {
+    "id": "cam10",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Leica",
+    "name": "Leica Q2",
+    "description": "Full-frame compact camera with 47.3MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-10.jpg",
+    "specifications": {
+      "dimensions": "130 x 80 x 91.9 mm",
+      "weight": "734g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "47.3 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "370 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam11",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Canon",
-      "name": "Canon EOS M50 Mark II",
-      "description": "APS-C mirrorless camera with 24.1MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-11.jpg",
-      "specifications": {
-        "dimensions": "116.3 x 88.1 x 58.7 mm",
-        "weight": "387g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "24.1 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "305 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "599",
-      "warranty": "24 months",
-      "availability": 12
+    "price": "4999",
+    "warranty": "24 months",
+    "availability": 5,
+    "discount": 0
+  },
+  {
+    "id": "cam11",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Canon",
+    "name": "Canon EOS M50 Mark II",
+    "description": "APS-C mirrorless camera with 24.1MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-11.jpg",
+    "specifications": {
+      "dimensions": "116.3 x 88.1 x 58.7 mm",
+      "weight": "387g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "24.1 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "305 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam12",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Nikon",
-      "name": "Nikon Z50",
-      "description": "APS-C mirrorless camera with 20.9MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-12.jpg",
-      "specifications": {
-        "dimensions": "126.5 x 93.5 x 60 mm",
-        "weight": "450g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "20.9 MP",
-        "videoResolution": "4K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "320 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "859",
-      "warranty": "24 months",
-      "availability": 15
+    "price": "599",
+    "warranty": "24 months",
+    "availability": 12,
+    "discount": 0
+  },
+  {
+    "id": "cam12",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Nikon",
+    "name": "Nikon Z50",
+    "description": "APS-C mirrorless camera with 20.9MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-12.jpg",
+    "specifications": {
+      "dimensions": "126.5 x 93.5 x 60 mm",
+      "weight": "450g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "20.9 MP",
+      "videoResolution": "4K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "320 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam13",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Sony",
-      "name": "Sony Alpha A6400",
-      "description": "APS-C mirrorless camera with 24.2MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-13.jpg",
-      "specifications": {
-        "dimensions": "120 x 66.9 x 59.7 mm",
-        "weight": "403g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "24.2 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "410 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "998",
-      "warranty": "24 months",
-      "availability": 17
+    "price": "859",
+    "warranty": "24 months",
+    "availability": 15,
+    "discount": 25
+  },
+  {
+    "id": "cam13",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Sony",
+    "name": "Sony Alpha A6400",
+    "description": "APS-C mirrorless camera with 24.2MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-13.jpg",
+    "specifications": {
+      "dimensions": "120 x 66.9 x 59.7 mm",
+      "weight": "403g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "24.2 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "410 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam14",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Fujifilm",
-      "name": "Fujifilm X-S10",
-      "description": "APS-C mirrorless camera with 26.1MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-14.jpg",
-      "specifications": {
-        "dimensions": "126 x 85.1 x 65.4 mm",
-        "weight": "465g",
-        "sensorType": "APS-C CMOS",
-        "resolution": "26.1 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "325 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "999",
-      "warranty": "24 months",
-      "availability": 13
+    "price": "998",
+    "warranty": "24 months",
+    "availability": 17,
+    "discount": 0
+  },
+  {
+    "id": "cam14",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Fujifilm",
+    "name": "Fujifilm X-S10",
+    "description": "APS-C mirrorless camera with 26.1MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-14.jpg",
+    "specifications": {
+      "dimensions": "126 x 85.1 x 65.4 mm",
+      "weight": "465g",
+      "sensorType": "APS-C CMOS",
+      "resolution": "26.1 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "325 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam15",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Panasonic",
-      "name": "Panasonic Lumix G95",
-      "description": "Micro Four Thirds mirrorless camera with 20.3MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-15.jpg",
-      "specifications": {
-        "dimensions": "130.4 x 93.5 x 77.4 mm",
-        "weight": "533g",
-        "sensorType": "Micro Four Thirds",
-        "resolution": "20.3 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "290 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1199",
-      "warranty": "24 months",
-      "availability": 10
+    "price": "999",
+    "warranty": "24 months",
+    "availability": 13,
+    "discount": 0
+  },
+  {
+    "id": "cam15",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Panasonic",
+    "name": "Panasonic Lumix G95",
+    "description": "Micro Four Thirds mirrorless camera with 20.3MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-15.jpg",
+    "specifications": {
+      "dimensions": "130.4 x 93.5 x 77.4 mm",
+      "weight": "533g",
+      "sensorType": "Micro Four Thirds",
+      "resolution": "20.3 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "290 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam16",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Olympus",
-      "name": "Olympus PEN-F",
-      "description": "Micro Four Thirds mirrorless camera with 20MP resolution and Full HD video recording.",
-      "img": "./images/cameras/camera-16.jpg",
-      "specifications": {
-        "dimensions": "124.8 x 72.1 x 37.3 mm",
-        "weight": "427g",
-        "sensorType": "Micro Four Thirds",
-        "resolution": "20 MP",
-        "videoResolution": "1080p",
-        "screenSize": "3 inches",
-        "batteryLife": "330 shots",
-        "interface": [
-          "USB",
-          "HDMI",
-          "Wi-Fi"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1199",
-      "warranty": "24 months",
-      "availability": 14
+    "price": "1199",
+    "warranty": "24 months",
+    "availability": 10,
+    "discount": 25
+  },
+  {
+    "id": "cam16",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Olympus",
+    "name": "Olympus PEN-F",
+    "description": "Micro Four Thirds mirrorless camera with 20MP resolution and Full HD video recording.",
+    "img": "./images/cameras/camera-16.jpg",
+    "specifications": {
+      "dimensions": "124.8 x 72.1 x 37.3 mm",
+      "weight": "427g",
+      "sensorType": "Micro Four Thirds",
+      "resolution": "20 MP",
+      "videoResolution": "1080p",
+      "screenSize": "3 inches",
+      "batteryLife": "330 shots",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam17",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Canon",
-      "name": "Canon PowerShot G7 X Mark III",
-      "description": "Compact camera with 20.1MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-17.jpg",
-      "specifications": {
-        "dimensions": "105.5 x 60.9 x 41.4 mm",
-        "weight": "304g",
-        "sensorType": "1-inch CMOS",
-        "resolution": "20.1 MP",
-        "videoResolution": "4K",
-        "screenSize": "3 inches",
-        "batteryLife": "235 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "749",
-      "warranty": "24 months",
-      "availability": 9
+    "price": "1199",
+    "warranty": "24 months",
+    "availability": 14,
+    "discount": 0
+  },
+  {
+    "id": "cam17",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Canon",
+    "name": "Canon PowerShot G7 X Mark III",
+    "description": "Compact camera with 20.1MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-17.jpg",
+    "specifications": {
+      "dimensions": "105.5 x 60.9 x 41.4 mm",
+      "weight": "304g",
+      "sensorType": "1-inch CMOS",
+      "resolution": "20.1 MP",
+      "videoResolution": "4K",
+      "screenSize": "3 inches",
+      "batteryLife": "235 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam18",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Nikon",
-      "name": "Nikon Coolpix P1000",
-      "description": "Compact camera with 16MP resolution and 4K video recording.",
-      "img": "./images/cameras/camera-18.jpg",
-      "specifications": {
-        "dimensions": "146.3 x 118.8 x 181.3 mm",
-        "weight": "1415g",
-        "sensorType": "1/2.3-inch CMOS",
-        "resolution": "16 MP",
-        "videoResolution": "4K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "250 shots",
-        "interface": [
-          "USB",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "999",
-      "warranty": "24 months",
-      "availability": 8
+    "price": "749",
+    "warranty": "24 months",
+    "availability": 9,
+    "discount": 25
+  },
+  {
+    "id": "cam18",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Nikon",
+    "name": "Nikon Coolpix P1000",
+    "description": "Compact camera with 16MP resolution and 4K video recording.",
+    "img": "./images/cameras/camera-18.jpg",
+    "specifications": {
+      "dimensions": "146.3 x 118.8 x 181.3 mm",
+      "weight": "1415g",
+      "sensorType": "1/2.3-inch CMOS",
+      "resolution": "16 MP",
+      "videoResolution": "4K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "250 shots",
+      "interface": [
+        "USB",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam19",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Sony",
-      "name": "Sony Cyber-shot RX100 VII",
-      "description": "Compact camera with 20.1MP resolution and 4K HDR video recording.",
-      "img": "./images/cameras/camera-19.jpg",
-      "specifications": {
-        "dimensions": "102 x 58 x 43 mm",
-        "weight": "302g",
-        "sensorType": "1-inch CMOS",
-        "resolution": "20.1 MP",
-        "videoResolution": "4K HDR",
-        "screenSize": "3 inches",
-        "batteryLife": "260 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "1299",
-      "warranty": "24 months",
-      "availability": 11
+    "price": "999",
+    "warranty": "24 months",
+    "availability": 8,
+    "discount": 0
+  },
+  {
+    "id": "cam19",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Sony",
+    "name": "Sony Cyber-shot RX100 VII",
+    "description": "Compact camera with 20.1MP resolution and 4K HDR video recording.",
+    "img": "./images/cameras/camera-19.jpg",
+    "specifications": {
+      "dimensions": "102 x 58 x 43 mm",
+      "weight": "302g",
+      "sensorType": "1-inch CMOS",
+      "resolution": "20.1 MP",
+      "videoResolution": "4K HDR",
+      "screenSize": "3 inches",
+      "batteryLife": "260 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
     },
-    {
-      "id": "cam20",
-      "category": "Photo, video and drones",
-      "subcategory": "Cameras",
-      "brand": "Leica",
-      "name": "Leica SL2",
-      "description": "Full-frame mirrorless camera with 47.3MP resolution and 5K video recording.",
-      "img": "./images/cameras/camera-20.jpg",
-      "specifications": {
-        "dimensions": "146 x 107 x 42 mm",
-        "weight": "835g",
-        "sensorType": "Full-frame CMOS",
-        "resolution": "47.3 MP",
-        "videoResolution": "5K",
-        "screenSize": "3.2 inches",
-        "batteryLife": "370 shots",
-        "interface": [
-          "USB-C",
-          "HDMI",
-          "Wi-Fi",
-          "Bluetooth"
-        ],
-        "systemRequirements": [
-          "Windows 10",
-          "macOS"
-        ]
-      },
-      "price": "5999",
-      "warranty": "24 months",
-      "availability": 4
-    }
+    "price": "1299",
+    "warranty": "24 months",
+    "availability": 11,
+    "discount": 10
+  },
+  {
+    "id": "cam20",
+    "category": "Photo, video and drones",
+    "subcategory": "Cameras",
+    "brand": "Leica",
+    "name": "Leica SL2",
+    "description": "Full-frame mirrorless camera with 47.3MP resolution and 5K video recording.",
+    "img": "./images/cameras/camera-20.jpg",
+    "specifications": {
+      "dimensions": "146 x 107 x 42 mm",
+      "weight": "835g",
+      "sensorType": "Full-frame CMOS",
+      "resolution": "47.3 MP",
+      "videoResolution": "5K",
+      "screenSize": "3.2 inches",
+      "batteryLife": "370 shots",
+      "interface": [
+        "USB-C",
+        "HDMI",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "systemRequirements": [
+        "Windows 10",
+        "macOS"
+      ]
+    },
+    "price": "5999",
+    "warranty": "24 months",
+    "availability": 4,
+    "discount": 50
+  }
 ]

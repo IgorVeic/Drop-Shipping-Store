@@ -18,7 +18,8 @@
     },
     "price": "19",
     "warranty": "12 months",
-    "availability": 100
+    "availability": 100,
+    "discount": 0
   },
   {
     "id": "mp2",
@@ -39,7 +40,8 @@
     },
     "price": "39",
     "warranty": "24 months",
-    "availability": 75
+    "availability": 75,
+    "discount": 10
   },
   {
     "id": "mp3",
@@ -60,7 +62,8 @@
     },
     "price": "29",
     "warranty": "12 months",
-    "availability": 50
+    "availability": 50,
+    "discount": 0
   },
   {
     "id": "mp4",
@@ -81,7 +84,8 @@
     },
     "price": "25",
     "warranty": "24 months",
-    "availability": 80
+    "availability": 80,
+    "discount": 25
   },
   {
     "id": "mp5",
@@ -102,7 +106,8 @@
     },
     "price": "15",
     "warranty": "12 months",
-    "availability": 100
+    "availability": 100,
+    "discount": 0
   },
   {
     "id": "mp6",
@@ -123,7 +128,8 @@
     },
     "price": "18",
     "warranty": "12 months",
-    "availability": 90
+    "availability": 90,
+    "discount": 0
   },
   {
     "id": "mp7",
@@ -144,7 +150,8 @@
     },
     "price": "15",
     "warranty": "24 months",
-    "availability": 60
+    "availability": 60,
+    "discount": 0
   },
   {
     "id": "mp8",
@@ -165,7 +172,8 @@
     },
     "price": "22",
     "warranty": "12 months",
-    "availability": 70
+    "availability": 70,
+    "discount": 10
   },
   {
     "id": "mp9",
@@ -186,7 +194,8 @@
     },
     "price": "35",
     "warranty": "24 months",
-    "availability": 40
+    "availability": 40,
+    "discount": 50
   },
   {
     "id": "mp10",
@@ -208,7 +217,8 @@
     },
     "price": "59",
     "warranty": "12 months",
-    "availability": 55
+    "availability": 55,
+    "discount": 0
   },
   {
     "id": "mp11",
@@ -229,7 +239,8 @@
     },
     "price": "29",
     "warranty": "24 months",
-    "availability": 80
+    "availability": 80,
+    "discount": 0
   },
   {
     "id": "mp12",
@@ -250,7 +261,8 @@
     },
     "price": "35",
     "warranty": "24 months",
-    "availability": 65
+    "availability": 65,
+    "discount": 25
   },
   {
     "id": "mp13",
@@ -271,7 +283,8 @@
     },
     "price": "27",
     "warranty": "24 months",
-    "availability": 90
+    "availability": 90,
+    "discount": 10
   },
   {
     "id": "mp14",
@@ -292,7 +305,8 @@
     },
     "price": "45",
     "warranty": "12 months",
-    "availability": 40
+    "availability": 40,
+    "discount": 50
   },
   {
     "id": "mp15",
@@ -313,7 +327,8 @@
     },
     "price": "49",
     "warranty": "24 months",
-    "availability": 50
+    "availability": 50,
+    "discount": 0
   },
   {
     "id": "mp16",
@@ -334,7 +349,8 @@
     },
     "price": "24",
     "warranty": "12 months",
-    "availability": 60
+    "availability": 60,
+    "discount": 10
   },
   {
     "id": "mp17",
@@ -355,7 +371,8 @@
     },
     "price": "30",
     "warranty": "12 months",
-    "availability": 70
+    "availability": 70,
+    "discount": 25
   },
   {
     "id": "mp18",
@@ -376,7 +393,8 @@
     },
     "price": "35",
     "warranty": "24 months",
-    "availability": 45
+    "availability": 45,
+    "discount": 0
   },
   {
     "id": "mp19",
@@ -397,7 +415,8 @@
     },
     "price": "32",
     "warranty": "24 months",
-    "availability": 55
+    "availability": 55,
+    "discount": 25
   },
   {
     "id": "mp20",
@@ -418,6 +437,7 @@
     },
     "price": "50",
     "warranty": "24 months",
-    "availability": 30
+    "availability": 30,
+    "discount": 50
   }
 ]
