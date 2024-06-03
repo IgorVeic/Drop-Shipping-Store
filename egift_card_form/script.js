@@ -149,7 +149,100 @@ form.addEventListener("submit", function (e) {
     // Prevent form from submitting
     e.preventDefault();
 
-    // Alert the user
-    alert("Please select a card design before adding it to the cart.");
+    // Create a modal
+    const modal = document.createElement("div");
+    modal.style.position = "fixed";
+    modal.style.zIndex = "1";
+    modal.style.left = "0";
+    modal.style.top = "0";
+    modal.style.width = "100%";
+    modal.style.height = "100%";
+    modal.style.overflow = "auto";
+    modal.style.backgroundColor = "rgba(0,0,0,0.4)";
+    modal.style.display = "flex"; // Add this
+    modal.style.justifyContent = "center"; // Add this
+    modal.style.alignItems = "center"; // Add this
+
+    // Create a modal content
+    const modalContent = document.createElement("div");
+    modalContent.style.backgroundColor = "#fefefe";
+    modalContent.style.padding = "20px";
+    modalContent.style.border = "1px solid #888";
+    modalContent.style.width = "30%"; // Adjust the width of the modal content
+    modalContent.style.textAlign = "center"; // Center the text
+
+    // Create a text node for the error message
+    const text = document.createTextNode(
+      "Please select a card design before adding it to the cart."
+    );
+    modalContent.appendChild(text);
+    modalContent.style.color = "red"; // Change the color of the text to red
+
+    // Append the modal content to the modal
+    modal.appendChild(modalContent);
+
+    // Append the modal to the body
+    document.body.appendChild(modal);
+
+    // Remove the modal when clicked anywhere outside the modal content
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  }
+});
+
+// Get the email input fields and error message elements
+const emailInput = document.getElementById("email");
+const confirmEmailInput = document.getElementById("confirmEmail");
+const emailError = document.getElementById("emailError");
+const confirmEmailError = document.getElementById("confirmEmailError");
+
+// Regular expression for email validation
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Add an input event listener to the email input field
+emailInput.addEventListener("input", function () {
+  if (!emailRegex.test(this.value)) {
+    emailError.textContent = "Please enter a valid email.";
+  } else {
+    emailError.textContent = "";
+  }
+});
+
+// Add an input event listener to the confirm email input field
+confirmEmailInput.addEventListener("input", function () {
+  if (!emailRegex.test(this.value)) {
+    confirmEmailError.textContent = "Please enter a valid email.";
+  } else {
+    confirmEmailError.textContent = "";
+  }
+});
+
+// CONFIRM EMAILS MATCH
+let addToCartButton;
+buttons.forEach((button) => {
+  if (button.textContent === "Add to cart") {
+    addToCartButton = button;
+  }
+});
+
+// Add an input event listener to the confirm email input field
+confirmEmailInput.addEventListener("input", function () {
+  if (!emailRegex.test(this.value)) {
+    confirmEmailError.textContent = "Please enter a valid email.";
+  } else if (this.value !== emailInput.value) {
+    confirmEmailError.textContent = "Emails do not match.";
+  } else {
+    confirmEmailError.textContent = "";
+  }
+});
+
+// Add a click event listener to the "Add to cart" button
+addToCartButton.addEventListener("click", function (event) {
+  if (emailInput.value !== confirmEmailInput.value) {
+    event.preventDefault(); // Prevent button click action
+    confirmEmailError.textContent = "Emails do not match.";
   }
 });
