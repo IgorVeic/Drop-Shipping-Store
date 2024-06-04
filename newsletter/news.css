@@ -46,13 +46,14 @@ main {
 }
 
 .input-group input[type="text"],
-.input-group button {
+.input-group button[type="submit"] {
   padding: 10px;
   font-size: 16px;
   border-radius: 2px;
   margin: 10px 0;
   width: 100%;
   max-width: 300px;
+  box-sizing: border-box; /* Add this line */
 }
 
 .input-group input[type="text"] {
@@ -64,7 +65,7 @@ main {
 }
 
 button[type="submit"] {
-  border: none;
+  border: 1px solid transparent;
   background-color: #1bd8c4;
   color: #fff;
   cursor: pointer;

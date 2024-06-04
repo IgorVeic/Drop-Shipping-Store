@@ -159,9 +159,9 @@ form.addEventListener("submit", function (e) {
     modal.style.height = "100%";
     modal.style.overflow = "auto";
     modal.style.backgroundColor = "rgba(0,0,0,0.4)";
-    modal.style.display = "flex"; // Add this
-    modal.style.justifyContent = "center"; // Add this
-    modal.style.alignItems = "center"; // Add this
+    modal.style.display = "flex";
+    modal.style.justifyContent = "center";
+    modal.style.alignItems = "center";
 
     // Create a modal content
     const modalContent = document.createElement("div");
@@ -193,56 +193,82 @@ form.addEventListener("submit", function (e) {
   }
 });
 
-// Get the email input fields and error message elements
-const emailInput = document.getElementById("email");
-const confirmEmailInput = document.getElementById("confirmEmail");
-const emailError = document.getElementById("emailError");
-const confirmEmailError = document.getElementById("confirmEmailError");
+// VALIDATE EMAILS
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the email input fields, error message elements, and the form
+  const emailInput = document.getElementById("email");
+  const confirmEmailInput = document.getElementById("confirmEmail");
+  const emailError = document.getElementById("emailError");
+  const confirmEmailError = document.getElementById("confirmEmailError");
+  const form = document.querySelector("form");
 
-// Regular expression for email validation
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  // Regular expression for email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// Add an input event listener to the email input field
-emailInput.addEventListener("input", function () {
-  if (!emailRegex.test(this.value)) {
-    emailError.textContent = "Please enter a valid email.";
-  } else {
-    emailError.textContent = "";
-  }
+  // Add an input event listener to the email input field
+  emailInput.addEventListener("input", function () {
+    if (!emailRegex.test(this.value)) {
+      emailError.textContent = "Please enter a valid email.";
+    } else {
+      emailError.textContent = "";
+    }
+  });
+
+  // Add an input event listener to the confirm email input field
+  confirmEmailInput.addEventListener("input", function () {
+    if (!emailRegex.test(this.value)) {
+      confirmEmailError.textContent = "Please enter a valid email.";
+    } else if (this.value !== emailInput.value) {
+      confirmEmailError.textContent = "Emails do not match.";
+    } else {
+      confirmEmailError.textContent = "";
+    }
+  });
+
+  // Add a submit event listener to the form
+  form.addEventListener("submit", function (event) {
+    if (emailInput.value !== confirmEmailInput.value) {
+      event.preventDefault(); // Prevent form submission
+      confirmEmailError.textContent = "Emails do not match.";
+    }
+  });
 });
 
-// Add an input event listener to the confirm email input field
-confirmEmailInput.addEventListener("input", function () {
-  if (!emailRegex.test(this.value)) {
-    confirmEmailError.textContent = "Please enter a valid email.";
-  } else {
-    confirmEmailError.textContent = "";
-  }
-});
+document.addEventListener("DOMContentLoaded", function () {
+  const amountRadios = document.querySelectorAll('input[name="amount"]');
+  const customAmountInput = document.getElementById("customAmount");
+  const addToCartButton = document.querySelector('button[type="submit"]');
+  const form = document.querySelector("form");
+  const amountError = document.createElement("p");
+  amountError.style.color = "red";
+  form.insertBefore(amountError, addToCartButton);
 
-// CONFIRM EMAILS MATCH
-let addToCartButton;
-buttons.forEach((button) => {
-  if (button.textContent === "Add to cart") {
-    addToCartButton = button;
-  }
-});
+  // Function to check if an amount is selected or entered
+  function checkAmount() {
+    let amountSelected = [...amountRadios].some((radio) => radio.checked);
+    let customAmountEntered = customAmountInput.value !== "";
 
-// Add an input event listener to the confirm email input field
-confirmEmailInput.addEventListener("input", function () {
-  if (!emailRegex.test(this.value)) {
-    confirmEmailError.textContent = "Please enter a valid email.";
-  } else if (this.value !== emailInput.value) {
-    confirmEmailError.textContent = "Emails do not match.";
-  } else {
-    confirmEmailError.textContent = "";
+    if (amountSelected || customAmountEntered) {
+      amountError.textContent = ""; // Clear the error message
+      return true;
+    } else {
+      return false;
+    }
   }
-});
 
-// Add a click event listener to the "Add to cart" button
-addToCartButton.addEventListener("click", function (event) {
-  if (emailInput.value !== confirmEmailInput.value) {
-    event.preventDefault(); // Prevent button click action
-    confirmEmailError.textContent = "Emails do not match.";
-  }
+  // Add an input event listener to each radio button
+  amountRadios.forEach((radio) => {
+    radio.addEventListener("input", checkAmount);
+  });
+
+  // Add an input event listener to the custom amount input field
+  customAmountInput.addEventListener("input", checkAmount);
+
+  // Add a click event listener to the "Add to Cart" button
+  addToCartButton.addEventListener("click", function (event) {
+    if (!checkAmount()) {
+      event.preventDefault(); // Prevent form submission
+      amountError.textContent = "Please select or choose an amount."; // Display the error message
+    }
+  });
 });
