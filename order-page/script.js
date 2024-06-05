@@ -1,5 +1,5 @@
 function toggleInvoice() {
-  var invoiceForm = document.getElementById("invoiceForm");
+  let invoiceForm = document.getElementById("invoiceForm");
   if (invoiceForm.style.display === "none") {
     invoiceForm.style.display = "block";
   } else {
