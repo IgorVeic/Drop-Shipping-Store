@@ -8,7 +8,7 @@
     <meta name="keywords" content="eGift card, gift card, online gift, Qintronics, send gift card">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="logo/qintronics-favicon-color.png" type="image/x-icon">
-    <title>eGift Card</title>
+    <title>E-Gift Card</title>
   </head>
   <body>
     <!-- Steps for ordering eGift Card -->
@@ -208,51 +208,51 @@
           required
           checked
         />
-
-        <label for="sendToRecipient"
-          >Send it to the recipient
-          <span class="tooltip-icon"
-            >?
-            <span class="tooltip-text"
-              >“Send it to the recipient” will email the eGift Card directly to
-              the lucky recipient for them to redeem on
-              https://qintronics.com</span
-            >
+        <label for="sendToRecipient">
+          Send it to the recipient
+          <span class="tooltip-icon">?
+            <span class="tooltip-text">
+              “Send it to the recipient” will email the eGift Card directly to the lucky recipient for them to redeem on https://qintronics.com
+            </span>
           </span>
         </label>
+        <br>
         <input type="radio" id="sendToMe" name="delivery" value="me" />
-        <label for="sendToMe"
-          >Send it to me
-          <span class="tooltip-icon"
-            >?
-            <span class="tooltip-text"
-              >“Send it to me” will email the eGift Card directly to your inbox
-              so you can print it. The recipient can redeem their eGift Card on
-              https://qintronics.com</span
-            >
+        <label for="sendToMe">
+          Send it to me
+          <span class="tooltip-icon">?
+            <span class="tooltip-text">
+              “Send it to me” will email the eGift Card directly to your inbox so you can print it. The recipient can redeem their eGift Card on https://qintronics.com
+            </span>
           </span>
         </label>
       </div>
       <br />
-
       <div class="email-inputs">
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Recipient's email *"
-          required
-        />
-        <span id="emailError" style="color: red;"></span>
-        <input
-          type="email"
-          id="confirmEmail"
-          name="confirmEmail"
-          placeholder="Confirm recipient's email *"
-          required
-        />
-        <span id="confirmEmailError" style="color: red;"></span>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Recipient's email *"
+            required
+          />
+          <label for="email" class="floating-label">Recipient's email *</label>
+          <span id="emailError" style="color: red;"></span>
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="confirmEmail"
+            name="confirmEmail"
+            placeholder="Confirm recipient's email *"
+            required
+          />
+          <label for="confirmEmail" class="floating-label">Confirm recipient's email *</label>
+          <span id="confirmEmailError" style="color: red;"></span>
+        </div>
       </div>
+      
 
       <label>Select Amount:</label>
       <div class="radio-group">
@@ -280,7 +280,7 @@
           placeholder=" "
         />
         <label for="customAmount">Amount *</label>
-        
+        <p id="amountError" style="color: red; display: none;">Please select or choose an amount.</p>
       </div>
       <h6>This eGift card can only be redeemed on https://qintronics.com/</h6>
 

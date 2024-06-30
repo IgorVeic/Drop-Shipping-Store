@@ -1,274 +1,254 @@
-// Add an event listener to the radio group. When a radio button is selected,
-// the value of the selected radio button is assigned to the customAmount input field.
-document.querySelector(".radio-group").addEventListener("change", function (e) {
-  document.querySelector("#customAmount").value = e.target.value;
+document.addEventListener("DOMContentLoaded", function () {
+  setupRadioGroupListeners();
+  setupCustomAmountListener();
+  setupDeliveryOptionListeners();
+  setupCardSelection();
+  setupInputFieldFocus();
+  setupFormValidation();
+  setupEmailValidation();
+  setupAmountValidation();
+  initializeEmailInputs();
 });
 
-// Add an event listener to the customAmount input field. When a value is entered,
-// all radio buttons in the radio group are deselected.
-document.querySelector("#customAmount").addEventListener("input", function () {
-  let radios = document.querySelectorAll('.radio-group input[type="radio"]');
-  radios.forEach((radio) => (radio.checked = false));
-});
+// Setup listeners for the radio group
+function setupRadioGroupListeners() {
+  const radioGroup = document.querySelector(".radio-group");
+  if (radioGroup) {
+    radioGroup.addEventListener("change", function (e) {
+      document.querySelector("#customAmount").value = e.target.value;
+    });
+  }
+}
 
-// Get the radio buttons and the email input fields
-let sendToRecipient = document.getElementById("sendToRecipient");
-let sendToMe = document.getElementById("sendToMe");
-let emailInputs = document.querySelector(".email-inputs");
+// Setup listener for the custom amount input
+function setupCustomAmountListener() {
+  const customAmountInput = document.querySelector("#customAmount");
+  if (customAmountInput) {
+    customAmountInput.addEventListener("input", function () {
+      let radios = document.querySelectorAll(
+        '.radio-group input[type="radio"]'
+      );
+      radios.forEach((radio) => (radio.checked = false));
+    });
+  }
+}
 
-// Add event listeners to the radio buttons. When a radio button is selected,
-// the toggleEmailInputs function is called.
-sendToRecipient.addEventListener("change", toggleEmailInputs);
-sendToMe.addEventListener("change", toggleEmailInputs);
+// Setup listeners for delivery options
+function setupDeliveryOptionListeners() {
+  const sendToRecipient = document.getElementById("sendToRecipient");
+  const sendToMe = document.getElementById("sendToMe");
 
-// Function to enable or disable the email input fields based on the selected radio button.
-// If sendToRecipient is selected, the email input fields are visible and enabled.
-// If sendToMe is selected, the email input fields are hidden and disabled.
+  if (sendToRecipient && sendToMe) {
+    sendToRecipient.addEventListener("change", toggleEmailInputs);
+    sendToMe.addEventListener("change", toggleEmailInputs);
+  }
+}
+
+// Toggle email inputs based on delivery option
 function toggleEmailInputs() {
-  if (sendToRecipient.checked) {
+  const emailInputs = document.querySelector(".email-inputs");
+
+  if (!emailInputs) return;
+
+  const inputs = emailInputs.querySelectorAll("input");
+  if (document.getElementById("sendToRecipient").checked) {
     emailInputs.style.visibility = "visible";
     emailInputs.style.height = "auto";
-    let inputs = emailInputs.querySelectorAll("input");
     inputs.forEach((input) => (input.disabled = false));
-  } else if (sendToMe.checked) {
+  } else {
     emailInputs.style.visibility = "hidden";
     emailInputs.style.height = "0";
-    let inputs = emailInputs.querySelectorAll("input");
     inputs.forEach((input) => (input.disabled = true));
   }
 }
 
-// Call the function once to set the initial state of the email input fields
-toggleEmailInputs();
+// Initialize email inputs state
+function initializeEmailInputs() {
+  toggleEmailInputs();
+}
 
-// CARDS
-const buttons = document.querySelectorAll(".select-btn");
-const selectedCardInput = document.querySelector("#selectedCard");
+// Setup card selection functionality
+function setupCardSelection() {
+  const buttons = document.querySelectorAll(".select-btn");
+  const selectedCardInput = document.querySelector("#selectedCard");
 
-buttons.forEach((button) => {
-  button.addEventListener("click", function () {
-    // Reset all buttons to "Select" and remove selected class from cards
-    buttons.forEach((btn) => {
-      btn.textContent = "Select";
-      btn.parentElement.classList.remove("selected");
+  buttons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const parentCard = this.parentElement;
+      const isSelected = parentCard.classList.contains("selected");
+
+      // Reset all buttons to "Select" and remove selected class from cards
+      buttons.forEach((btn) => {
+        btn.textContent = "Select";
+        btn.parentElement.classList.remove("selected");
+      });
+
+      if (!isSelected) {
+        // Set the clicked button to "Selected" and add selected class to card
+        this.textContent = "Selected";
+        parentCard.classList.add("selected");
+        // Set the value of the hidden input field to the src of the selected card's image
+        selectedCardInput.value = this.previousElementSibling.src;
+      } else {
+        // Deselect the card if it was already selected
+        selectedCardInput.value = "";
+      }
     });
-
-    // Set the clicked button to "Selected" and add selected class to card
-    this.textContent = "Selected";
-    this.parentElement.classList.add("selected");
-
-    // Set the value of the hidden input field to the src of the selected card's image
-    // When the form is submitted, the selected card's image source URL will be included in the form data.
-    selectedCardInput.value = this.previousElementSibling.src;
-  });
-});
-
-// Get all the input fields
-const inputs = document.querySelectorAll(".input-group input");
-
-inputs.forEach((input) => {
-  // Add event listener for focus event
-  input.addEventListener("focus", function () {
-    // Set the label text to the placeholder text
-    this.nextElementSibling.textContent = this.placeholder;
-    // Clear the placeholder text
-    this.placeholder = "";
-  });
-
-  // Add event listener for blur event
-  input.addEventListener("blur", function () {
-    // If the input field is not filled, reset the placeholder and label text
-    if (this.value === "") {
-      this.placeholder = this.nextElementSibling.textContent;
-      this.nextElementSibling.textContent = "";
-    }
-  });
-});
-
-// PREVIEW IMAGES
-function openPreview(previewDiv) {
-  let imageSrc = previewDiv.getAttribute("data-preview-src");
-
-  // Create a new div for the preview
-  let previewPopup = document.createElement("div");
-  previewPopup.className = "preview-popup";
-
-  // Create an img element for the preview image
-  let previewImg = document.createElement("img");
-  previewImg.src = imageSrc;
-  previewPopup.appendChild(previewImg);
-
-  // Add the preview div to the body
-  document.body.appendChild(previewPopup);
-
-  // Add a click event to the preview div to close the preview
-  previewPopup.addEventListener("click", function () {
-    document.body.removeChild(previewPopup);
   });
 }
 
-// SELECT BUTTONS
-document.querySelectorAll(".select-btn").forEach(function (button) {
-  button.addEventListener("click", function () {
-    // Reset all buttons
-    document.querySelectorAll(".select-btn").forEach(function (btn) {
-      btn.classList.remove("selected");
+// Setup focus and blur effects for input fields
+function setupInputFieldFocus() {
+  const inputs = document.querySelectorAll(".form-group input");
+
+  inputs.forEach((input) => {
+    input.addEventListener("focus", function () {
+      this.nextElementSibling.textContent = this.placeholder;
+      this.placeholder = "";
     });
 
-    // Style the clicked button
-    this.classList.add("selected");
+    input.addEventListener("blur", function () {
+      if (this.value === "") {
+        this.placeholder = this.nextElementSibling.textContent;
+        this.nextElementSibling.textContent = "";
+      }
+    });
   });
-});
+}
 
-// INPUT FIELDS NAME AND RECIPIENT NAME
-document.querySelectorAll(".form-group input").forEach(function (input) {
-  input.addEventListener("focus", function () {
-    this.nextElementSibling.textContent = this.placeholder;
-    this.placeholder =
-      this.id === "from"
-        ? "Please enter your name"
-        : "Please enter the recipient's name";
-  });
+// Setup form validation for card selection
+function setupFormValidation() {
+  const form = document.querySelector("form");
 
-  input.addEventListener("blur", function () {
-    if (!this.value) {
-      this.placeholder = this.nextElementSibling.textContent;
-      this.nextElementSibling.textContent = "";
+  if (!form) return;
+
+  form.addEventListener("submit", function (e) {
+    const selectedCard = document.querySelector(".selected");
+
+    if (!selectedCard) {
+      e.preventDefault();
+      showModal("Please select a card design before adding it to the cart.");
     }
   });
-});
+}
 
-// SELECT A CARD BEFORE YOU SUBMIT THE FORM
-const form = document.querySelector("form");
+// Show modal with error message
+function showModal(message) {
+  const modal = document.createElement("div");
+  modal.className = "modal";
 
-form.addEventListener("submit", function (e) {
-  // Check if a card is selected
-  const selectedCard = document.querySelector(".selected");
+  const modalContent = document.createElement("div");
+  modalContent.className = "modal-content";
 
-  if (!selectedCard) {
-    // Prevent form from submitting
-    e.preventDefault();
+  const text = document.createTextNode(message);
+  modalContent.appendChild(text);
 
-    // Create a modal
-    const modal = document.createElement("div");
-    modal.style.position = "fixed";
-    modal.style.zIndex = "1";
-    modal.style.left = "0";
-    modal.style.top = "0";
-    modal.style.width = "100%";
-    modal.style.height = "100%";
-    modal.style.overflow = "auto";
-    modal.style.backgroundColor = "rgba(0,0,0,0.4)";
-    modal.style.display = "flex";
-    modal.style.justifyContent = "center";
-    modal.style.alignItems = "center";
+  modal.appendChild(modalContent);
+  document.body.appendChild(modal);
 
-    // Create a modal content
-    const modalContent = document.createElement("div");
-    modalContent.style.backgroundColor = "#fefefe";
-    modalContent.style.padding = "20px";
-    modalContent.style.border = "1px solid #888";
-    modalContent.style.width = "30%"; // Adjust the width of the modal content
-    modalContent.style.textAlign = "center"; // Center the text
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      document.body.removeChild(modal);
+    }
+  };
+}
 
-    // Create a text node for the error message
-    const text = document.createTextNode(
-      "Please select a card design before adding it to the cart."
-    );
-    modalContent.appendChild(text);
-    modalContent.style.color = "red"; // Change the color of the text to red
-
-    // Append the modal content to the modal
-    modal.appendChild(modalContent);
-
-    // Append the modal to the body
-    document.body.appendChild(modal);
-
-    // Remove the modal when clicked anywhere outside the modal content
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    };
-  }
-});
-
-// VALIDATE EMAILS
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the email input fields, error message elements, and the form
+// Setup email validation
+function setupEmailValidation() {
   const emailInput = document.getElementById("email");
   const confirmEmailInput = document.getElementById("confirmEmail");
   const emailError = document.getElementById("emailError");
   const confirmEmailError = document.getElementById("confirmEmailError");
-  const form = document.querySelector("form");
 
-  // Regular expression for email validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  // Add an input event listener to the email input field
-  emailInput.addEventListener("input", function () {
-    if (!emailRegex.test(this.value)) {
-      emailError.textContent = "Please enter a valid email.";
-    } else {
-      emailError.textContent = "";
-    }
-  });
+  if (emailInput && confirmEmailInput && emailError && confirmEmailError) {
+    emailInput.addEventListener("input", function () {
+      validateEmail(emailInput, emailError, emailRegex);
+    });
 
-  // Add an input event listener to the confirm email input field
-  confirmEmailInput.addEventListener("input", function () {
-    if (!emailRegex.test(this.value)) {
-      confirmEmailError.textContent = "Please enter a valid email.";
-    } else if (this.value !== emailInput.value) {
-      confirmEmailError.textContent = "Emails do not match.";
-    } else {
-      confirmEmailError.textContent = "";
-    }
-  });
+    confirmEmailInput.addEventListener("input", function () {
+      validateEmail(confirmEmailInput, confirmEmailError, emailRegex);
+      validateMatchingEmails(emailInput, confirmEmailInput, confirmEmailError);
+    });
 
-  // Add a submit event listener to the form
-  form.addEventListener("submit", function (event) {
-    if (emailInput.value !== confirmEmailInput.value) {
-      event.preventDefault(); // Prevent form submission
-      confirmEmailError.textContent = "Emails do not match.";
-    }
-  });
-});
+    document.querySelector("form").addEventListener("submit", function (event) {
+      if (emailInput.value !== confirmEmailInput.value) {
+        event.preventDefault();
+        confirmEmailError.textContent = "Emails do not match.";
+      }
+    });
+  }
+}
 
-document.addEventListener("DOMContentLoaded", function () {
+// Validate email format
+function validateEmail(input, errorElement, regex) {
+  if (!regex.test(input.value)) {
+    errorElement.textContent = "Please enter a valid email.";
+  } else {
+    errorElement.textContent = "";
+  }
+}
+
+// Validate matching emails
+function validateMatchingEmails(emailInput, confirmEmailInput, errorElement) {
+  if (confirmEmailInput.value !== emailInput.value) {
+    errorElement.textContent = "Emails do not match.";
+  } else {
+    errorElement.textContent = "";
+  }
+}
+
+// Setup amount validation
+function setupAmountValidation() {
   const amountRadios = document.querySelectorAll('input[name="amount"]');
   const customAmountInput = document.getElementById("customAmount");
   const addToCartButton = document.querySelector('button[type="submit"]');
-  const form = document.querySelector("form");
   const amountError = document.createElement("p");
+  amountError.id = "amountError";
   amountError.style.color = "red";
-  form.insertBefore(amountError, addToCartButton);
+  customAmountInput.parentElement.appendChild(amountError);
 
-  // Function to check if an amount is selected or entered
   function checkAmount() {
     let amountSelected = [...amountRadios].some((radio) => radio.checked);
     let customAmountEntered = customAmountInput.value !== "";
 
     if (amountSelected || customAmountEntered) {
-      amountError.textContent = ""; // Clear the error message
+      amountError.textContent = "";
       return true;
     } else {
       return false;
     }
   }
 
-  // Add an input event listener to each radio button
   amountRadios.forEach((radio) => {
     radio.addEventListener("input", checkAmount);
   });
 
-  // Add an input event listener to the custom amount input field
   customAmountInput.addEventListener("input", checkAmount);
 
-  // Add a click event listener to the "Add to Cart" button
   addToCartButton.addEventListener("click", function (event) {
     if (!checkAmount()) {
-      event.preventDefault(); // Prevent form submission
-      amountError.textContent = "Please select or choose an amount."; // Display the error message
+      event.preventDefault();
+      amountError.textContent = "Please select or choose an amount.";
     }
   });
-});
+}
+
+// Setup preview functionality
+function openPreview(previewDiv) {
+  let imageSrc = previewDiv.getAttribute("data-preview-src");
+
+  let previewPopup = document.createElement("div");
+  previewPopup.className = "preview-popup";
+
+  let previewImg = document.createElement("img");
+  previewImg.src = imageSrc;
+  previewPopup.appendChild(previewImg);
+
+  document.body.appendChild(previewPopup);
+
+  previewPopup.addEventListener("click", function () {
+    document.body.removeChild(previewPopup);
+  });
+}
