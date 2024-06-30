@@ -103,7 +103,13 @@ function setupInputFieldFocus() {
 
   inputs.forEach((input) => {
     input.addEventListener("focus", function () {
-      this.nextElementSibling.textContent = this.placeholder;
+      this.dataset.placeholder = this.placeholder;
+      if (this.id === "from") {
+        this.placeholder = "Please enter your name";
+      } else if (this.id === "to") {
+        this.placeholder = "Please enter the recipient's name";
+      }
+      this.nextElementSibling.textContent = this.dataset.placeholder;
       this.placeholder = "";
     });
 
@@ -111,6 +117,8 @@ function setupInputFieldFocus() {
       if (this.value === "") {
         this.placeholder = this.nextElementSibling.textContent;
         this.nextElementSibling.textContent = "";
+      } else {
+        this.placeholder = this.dataset.placeholder;
       }
     });
   });

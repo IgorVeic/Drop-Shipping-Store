@@ -189,13 +189,29 @@
     <h1>Enter your details</h1>
     <form>
       <div class="form-group">
-        <input type="text" id="from" name="from" minlength="3" maxlength="50" placeholder="From *" required />
-        <label for="from" class="floating-label"></label>
+        <input
+          type="text"
+          id="from"
+          name="from"
+          minlength="3"
+          maxlength="50"
+          placeholder="From *"
+          required
+        />
+        <label for="from" class="floating-label">From *</label>
       </div>
       
       <div class="form-group">
-        <input type="text" id="to" name="to" minlength="3" maxlength="50" placeholder="To *" required />
-        <label for="to" class="floating-label"></label>
+        <input
+          type="text"
+          id="to"
+          name="to"
+          minlength="3"
+          maxlength="50"
+          placeholder="To *"
+          required
+        />
+        <label for="to" class="floating-label">To *</label>
       </div>
       
       <label>How do you want to receive this eGift Card?</label>
@@ -236,6 +252,8 @@
             name="email"
             placeholder="Recipient's email *"
             required
+            onfocus="setEmailPlaceholder(this, 'Please enter the recipient\'s email')"
+            onblur="resetEmailPlaceholder(this, 'Recipient\'s email *')"
           />
           <span id="emailError" style="color: red;"></span>
         </div>
@@ -246,6 +264,8 @@
             name="confirmEmail"
             placeholder="Confirm recipient's email *"
             required
+            onfocus="setEmailPlaceholder(this, 'Please confirm the recipient\'s email')"
+            onblur="resetEmailPlaceholder(this, 'Confirm recipient\'s email *')"
           />
           <span id="confirmEmailError" style="color: red;"></span>
         </div>
