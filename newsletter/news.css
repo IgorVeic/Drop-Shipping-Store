@@ -7,24 +7,6 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  background-color: #06255b;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-main {
-  padding: 20px;
-}
-
-.guide,
-.newsletter,
-.card-group,
-.form-container {
-  margin-bottom: 40px;
-}
-
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -53,7 +35,7 @@ main {
   margin: 10px 0;
   width: 100%;
   max-width: 300px;
-  box-sizing: border-box; /* Add this line */
+  box-sizing: border-box;
 }
 
 .input-group input[type="text"] {
@@ -78,114 +60,6 @@ button[type="submit"]:hover {
   border: 1px solid #1bd8c4;
 }
 
-.steps {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.step {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.card {
-  flex: 1 1 100%;
-  max-width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #f7f7f7;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-}
-
-.preview {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.preview svg {
-  margin-right: 5px;
-}
-
-button.select-btn {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #1bd8c4;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 2px;
-  width: 100%;
-}
-
-button.select-btn:hover {
-  background-color: #ffffff;
-  color: #1bd8c4;
-  border: 1px solid #1bd8c4;
-}
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-group,
-.form-group-amount,
-.email-inputs,
-.radio-group {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px 0;
-}
-
-.form-group input,
-.form-group-amount input,
-.email-inputs input,
-.radio-group input {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 2px;
-  border: 1px solid #ccc;
-}
-
-.floating-label {
-  position: absolute;
-  pointer-events: none;
-  left: 15px;
-  top: 15px;
-  transition: 0.2s ease all;
-}
-
-.form-group input:focus ~ .floating-label,
-.form-group input:not(:placeholder-shown) ~ .floating-label,
-.form-group textarea:focus ~ .floating-label,
-.form-group textarea:not(:placeholder-shown) ~ .floating-label {
-  top: -15px;
-  font-size: 12px;
-  color: #1bd8c4;
-}
-
 /* Mobile styles */
 @media (max-width: 600px) {
   .newsletter {
@@ -199,20 +73,6 @@ button.select-btn:hover {
   .newsletter p {
     font-size: 16px;
     width: 100%;
-  }
-
-  .steps {
-    flex-direction: column;
-  }
-
-  .card-group {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 100%;
-    max-width: 300px;
   }
 }
 
@@ -229,20 +89,6 @@ button.select-btn:hover {
   .newsletter p {
     font-size: 18px;
   }
-
-  .steps {
-    flex-direction: column;
-  }
-
-  .card-group {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .card {
-    width: 45%;
-    max-width: none;
-  }
 }
 
 /* Desktop styles */
@@ -257,21 +103,5 @@ button.select-btn:hover {
 
   .newsletter p {
     font-size: 20px;
-  }
-
-  .steps {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .card-group {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  .card {
-    width: 22%;
-    max-width: none;
   }
 }
