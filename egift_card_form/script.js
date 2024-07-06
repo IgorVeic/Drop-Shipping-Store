@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Gift card template
 const giftCardTemplate = {
-  id: "GIFT",
+  id: "GIFT", // This will be replaced with a unique ID for each card
   category: "eGift Cards",
   brand: "Qintronics",
   name: "Qintronics eGift Card",
@@ -31,6 +31,13 @@ const giftCardTemplate = {
   warranty: "N/A",
   availability: 100,
 };
+
+// Function to generate a unique ID
+function generateUniqueId() {
+  return "xxxx-xxxx-xxxx-xxxx".replace(/[x]/g, function () {
+    return ((Math.random() * 9) | 0).toString();
+  });
+}
 
 // Setup listeners for the radio group
 function setupRadioGroupListeners() {
@@ -283,14 +290,33 @@ function setupCartFunctionality() {
     const to = document.querySelector("#to").value;
     const message = document.querySelector("#message").value;
     const selectedCard = document.querySelector("#selectedCard").value;
+    const emailInput = document.getElementById("email");
+    const confirmEmailInput = document.getElementById("confirmEmail");
+    const confirmEmailError = document.getElementById("confirmEmailError");
 
-    if (!amount || !from || !to || !selectedCard) {
+    if (
+      !amount ||
+      !from ||
+      !to ||
+      !selectedCard ||
+      !emailInput.value ||
+      !confirmEmailInput.value
+    ) {
       showModal("Please fill in all required fields and select a card.");
       return;
     }
 
+    // Ensure emails match before adding to cart
+    if (emailInput.value !== confirmEmailInput.value) {
+      confirmEmailError.textContent = "Emails do not match.";
+      return;
+    } else {
+      confirmEmailError.textContent = "";
+    }
+
     const giftCard = {
       ...giftCardTemplate,
+      id: generateUniqueId(), // Assign a unique ID to each gift card
       message,
       img: selectedCard,
       specifications: {
