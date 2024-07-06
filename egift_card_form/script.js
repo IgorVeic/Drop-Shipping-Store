@@ -20,7 +20,7 @@ const giftCardTemplate = {
   description:
     "Qintronics eGift Card that can be used to purchase millions of items.",
   message: "",
-  img: "/gift-card-image-for-cart/istockphoto-1179439557-612x612.jpg",
+  img: "../egift_card_form/images/gift-card/istockphoto-1179439557-612x612.jpg",
   specifications: {
     amount: "",
     currency: "Euro",
@@ -310,7 +310,13 @@ function setupCartFunctionality() {
       JSON.parse(localStorage.getItem("cartItems"))
     );
     updateCartDisplay(cartItems);
-    showModal("Gift card added to cart!");
+
+    // Display SweetAlert2 notification
+    Swal.fire({
+      title: "Thank you!",
+      text: "The gift card is added successfully in the cart!",
+      icon: "success",
+    });
   };
 }
 
