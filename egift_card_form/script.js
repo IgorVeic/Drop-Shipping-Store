@@ -20,7 +20,7 @@ const giftCardTemplate = {
   description:
     "Qintronics eGift Card that can be used to purchase millions of items.",
   message: "",
-  img: "../egift_card_form/images/gift-card/istockphoto-1179439557-612x612.jpg",
+  img: "/gift-card-image-for-cart/istockphoto-1179439557-612x612.jpg",
   specifications: {
     amount: "",
     currency: "Euro",
