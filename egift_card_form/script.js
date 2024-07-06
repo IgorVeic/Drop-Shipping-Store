@@ -8,7 +8,29 @@ document.addEventListener("DOMContentLoaded", function () {
   setupEmailValidation();
   setupAmountValidation();
   initializeEmailInputs();
+  setupCartFunctionality();
 });
+
+// Gift card template
+const giftCardTemplate = {
+  id: "GIFT",
+  category: "eGift Cards",
+  brand: "Qintronics",
+  name: "Qintronics eGift Card",
+  description:
+    "Qintronics eGift Card that can be used to purchase millions of items.",
+  message: "",
+  img: "../egift_card_form/images/gift-card/istockphoto-1179439557-612x612.jpg",
+  specifications: {
+    amount: "",
+    currency: "Euro",
+    expiryDate: "2026-01-01",
+    redeemableAt: "Qintronics.com",
+  },
+  price: "",
+  warranty: "N/A",
+  availability: 100,
+};
 
 // Setup listeners for the radio group
 function setupRadioGroupListeners() {
@@ -136,6 +158,10 @@ function setupFormValidation() {
     if (!selectedCard) {
       e.preventDefault();
       showModal("Please select a card design before adding it to the cart.");
+    } else {
+      // Prevent default form submission to handle custom cart functionality
+      e.preventDefault();
+      addToCart();
     }
   });
 }
@@ -240,6 +266,84 @@ function setupAmountValidation() {
       event.preventDefault();
       amountError.textContent = "Please select or choose an amount.";
     }
+  });
+}
+
+// Setup cart functionality
+function setupCartFunctionality() {
+  const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  updateCartDisplay(cartItems);
+
+  // Add to cart function
+  window.addToCart = function () {
+    const amount =
+      document.querySelector('input[name="amount"]:checked')?.value ||
+      document.querySelector("#customAmount").value;
+    const from = document.querySelector("#from").value;
+    const to = document.querySelector("#to").value;
+    const message = document.querySelector("#message").value;
+    const selectedCard = document.querySelector("#selectedCard").value;
+
+    if (!amount || !from || !to || !selectedCard) {
+      showModal("Please fill in all required fields and select a card.");
+      return;
+    }
+
+    const giftCard = {
+      ...giftCardTemplate,
+      message,
+      img: selectedCard,
+      specifications: {
+        ...giftCardTemplate.specifications,
+        amount: `${amount} Euro`,
+      },
+      price: amount,
+      quantity: 1, // Add default quantity
+    };
+
+    console.log("Gift card to add:", giftCard);
+
+    cartItems.push(giftCard);
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    console.log(
+      "Cart items after addition:",
+      JSON.parse(localStorage.getItem("cartItems"))
+    );
+    updateCartDisplay(cartItems);
+    showModal("Gift card added to cart!");
+  };
+}
+
+// Update cart display
+function updateCartDisplay(cartItems) {
+  const cartContainer = document.querySelector("#cart");
+  if (!cartContainer) return;
+
+  cartContainer.innerHTML = "";
+  cartItems.forEach((item, index) => {
+    const cartItem = document.createElement("div");
+    cartItem.className = "cart-item";
+    cartItem.innerHTML = `
+      <img src="${item.img}" alt="Card Image">
+      <p>Id: ${item.id}</p>
+      <p>Name: ${item.name}</p>
+      <p>Description: ${item.description}</p>
+      <p>Quantity: ${item.quantity}</p>
+      <p>Price: ${item.price} Euro</p>
+      <button class="remove-btn" data-index="${index}">Remove</button>
+    `;
+    cartContainer.appendChild(cartItem);
+  });
+
+  // Add event listeners to remove buttons
+  const removeButtons = cartContainer.querySelectorAll(".remove-btn");
+  removeButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const index = this.getAttribute("data-index");
+      cartItems.splice(index, 1);
+      localStorage.setItem("cartItems", JSON.stringify(cartItems));
+      updateCartDisplay(cartItems);
+    });
   });
 }
 
