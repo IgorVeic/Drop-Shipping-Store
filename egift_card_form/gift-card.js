@@ -166,6 +166,23 @@ function setupFormValidation() {
       e.preventDefault();
       showModal("Please select a card design before adding it to the cart.");
     } else {
+      // Check if "Send to Recipient" is selected
+      const sendToRecipient =
+        document.getElementById("sendToRecipient").checked;
+      const emailInput = document.getElementById("email").value;
+      const confirmEmailInput = document.getElementById("confirmEmail").value;
+
+      // If "Send to Recipient" is selected, validate emails
+      if (
+        sendToRecipient &&
+        (!emailInput || !confirmEmailInput || emailInput !== confirmEmailInput)
+      ) {
+        e.preventDefault();
+        const confirmEmailError = document.getElementById("confirmEmailError");
+        confirmEmailError.textContent = "Emails do not match or are empty.";
+        return;
+      }
+
       // Prevent default form submission to handle custom cart functionality
       e.preventDefault();
       addToCart();
@@ -214,7 +231,10 @@ function setupEmailValidation() {
     });
 
     document.querySelector("form").addEventListener("submit", function (event) {
-      if (emailInput.value !== confirmEmailInput.value) {
+      const sendToRecipient =
+        document.getElementById("sendToRecipient").checked;
+
+      if (sendToRecipient && emailInput.value !== confirmEmailInput.value) {
         event.preventDefault();
         confirmEmailError.textContent = "Emails do not match.";
       }
@@ -290,28 +310,20 @@ function setupCartFunctionality() {
     const to = document.querySelector("#to").value;
     const message = document.querySelector("#message").value;
     const selectedCard = document.querySelector("#selectedCard").value;
-    const emailInput = document.getElementById("email");
-    const confirmEmailInput = document.getElementById("confirmEmail");
-    const confirmEmailError = document.getElementById("confirmEmailError");
+    const emailInput = document.getElementById("email").value;
+    const confirmEmailInput = document.getElementById("confirmEmail").value;
+    const sendToRecipient = document.getElementById("sendToRecipient").checked;
 
     if (
       !amount ||
       !from ||
       !to ||
       !selectedCard ||
-      !emailInput.value ||
-      !confirmEmailInput.value
+      (sendToRecipient &&
+        (!emailInput || !confirmEmailInput || emailInput !== confirmEmailInput))
     ) {
       showModal("Please fill in all required fields and select a card.");
       return;
-    }
-
-    // Ensure emails match before adding to cart
-    if (emailInput.value !== confirmEmailInput.value) {
-      confirmEmailError.textContent = "Emails do not match.";
-      return;
-    } else {
-      confirmEmailError.textContent = "";
     }
 
     const giftCard = {
