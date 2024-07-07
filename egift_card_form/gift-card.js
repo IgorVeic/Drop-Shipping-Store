@@ -164,7 +164,10 @@ function setupFormValidation() {
 
     if (!selectedCard) {
       e.preventDefault();
-      showModal("Please select a card design before adding it to the cart.");
+      Swal.fire({
+        icon: "warning",
+        text: "Please select a card design before adding it to the cart.",
+      });
     } else {
       // Check if "Send to Recipient" is selected
       const sendToRecipient =
@@ -188,27 +191,6 @@ function setupFormValidation() {
       addToCart();
     }
   });
-}
-
-// Show modal with error message
-function showModal(message) {
-  const modal = document.createElement("div");
-  modal.className = "modal";
-
-  const modalContent = document.createElement("div");
-  modalContent.className = "modal-content";
-
-  const text = document.createTextNode(message);
-  modalContent.appendChild(text);
-
-  modal.appendChild(modalContent);
-  document.body.appendChild(modal);
-
-  window.onclick = function (event) {
-    if (event.target == modal) {
-      document.body.removeChild(modal);
-    }
-  };
 }
 
 // Setup email validation
